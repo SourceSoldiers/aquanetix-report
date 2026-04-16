@@ -6,7 +6,7 @@
 </h1>
 <h2 align = "center">
   Ingeniería de Software - 5° Ciclo<br>
-  1ASI0730 - Aplicaciones Web<br>
+  1ASI0730 - Desarrollo de Aplicaciones Open Source<br>
   NRC: 12242<br>
   Profesor: Iván Robles Fernández<br>
   "Informe del Trabajo Final"<br>
