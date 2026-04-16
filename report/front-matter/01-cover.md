@@ -23,7 +23,7 @@
   | U202411402 | Bojórquez Bustinza | Renzo Alejandro |
   | U202414345 | Pinedo Sánchez | Sebastián Martin |
   | U20241D428 | Castro Solorza | Nicolás Eduardo |
-  | U20XXXXXXX | Correa Rodriguez | Andrea Khristina Esther |
+  | U202412041 | Correa Rodriguez | Andrea Khristina Esther |
   | U202416320 | Cochachi Chagua | Sebastian Josue |
   
 </div>
