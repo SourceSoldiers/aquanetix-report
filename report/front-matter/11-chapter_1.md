@@ -1,3 +1,4 @@
+
 # CAPÍTULO 1: INTRODUCCIÓN
 
 ## 1.1. Startup Profile
@@ -17,6 +18,7 @@ Nuestra visión es convertirnos en el referente nacional de economía circular h
 | <img src="/report/assets/team_members/Foto_NicoPrincipal.jpeg" width ="300" height="300"> | Nicolas Eduardo Castro Solorza | Hola queridos lectores, mi nombre es Nicolas Castro y actualmente soy un estudiante de la carrera de Ingenieria de Software que cursa su quinto ciclo. Me considero como una persona perseverante, bondadoso y dispuesto a cumplir cualquier objetivo que se me proponga. Como líder de grupo, procuraré en motivar de forma positiva a mis demas compañeros para cumplir con las expectativas del curso y progresar como futuros ingenieros de Software. |
 |  | |  |
 | <img src="/report/assets/team_members/foto_SebastianC.png" width ="300" height="300"> | Sebastian Josué Cochachi Chagua | Hola soy Sebastián, estudiante de 5to ciclo de Ingeniería de Software. Disfruto trabajar en equipo porque creo firmemente que el buen ambiente es clave para el éxito de cualquier proyecto. Estoy comprometido a aportar con mis conocimientos técnicos y manteniendo siempre una actitud abierta para aprender de los demás. Busco sumar valor a través del intercambio de ideas y el apoyo mutuo con mis compañeros.|
+| <img src="/report/assets/team_members/foto_Andrea.png" width ="300" height="300"> | Andrea Khristina Correa Rodriguez | Hola, soy Andrea, estudiante de Ingeniería de Software en la UPC y actualmente curso el quinto ciclo. Me considero una persona amable, paciente y dispuesta a ayudar y contribuir en todo momento. Me gusta trabajar en equipo y cumplir con responsabilidad los objetivos propuestos. En este proyecto, aportaré con mis conocimientos y una actitud colaborativa para lograr un buen resultado junto a mi equipo. |
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
