@@ -2,7 +2,7 @@
 > * Bojórquez Bustinza	Renzo Alejandro - U202411402	
 > * Pinedo Sánchez	Sebastián Martin - U202414345
 > * Castro Solorza	Nicolás Eduardo - U20241D428
-> * Cabrera Novoa	Leonardo Moises - U202415820
+> * Correa Rodriguez, Andrea Khristina Esther - U202412041
 > * Cochachi Chagua	Sebastian Josue - U202416320
 
 # ¿En qué consiste el proyecto?
