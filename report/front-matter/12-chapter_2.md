@@ -106,8 +106,51 @@ Para que Aquanetix logre tener éxito como la aplicación que permitirá reutili
 
 ### 2.2.2. Registro de entrevistas
 
-#### Segmento 1: Empresas prestadoras de servicios de agua y alcantarillado
-**Entrevista 1**<br>
+**Entrevista 1**
+
+
+
+**Entrevista 2**
+
+Nombres y Apellidos: Jorge Luis Castro Rojas
+
+Evidencia:
+<p align = "left">
+  <img src="/report/assets/interviews/Entrevista_Jorge_Castro.png" width ="300" height="300">
+</p>
+
+Enlace:
+Duración de la entrevista:
+
+Resumen:
+La entrevista inicia con la presentación de Jorge Luis Castro Rojas, un ingeniero sanitario de 48 años residente en Santiago de Surco. En su labor profesional, Jorge combina herramientas tradicionales con soluciones digitales modernas; utiliza Google Earth para la geolocalización de coordenadas, la plataforma Yorgos para el seguimiento de normativas y aplicaciones móviles como Timestamp Camera, que permite registrar evidencias fotográficas con datos precisos de tiempo y ubicación para sus reportes técnicos. 
+
+En lo referente a la gestión operativa, Jorge destaca el uso del sistema SAP y la inteligencia artificial a través de Copilot para optimizar sus tareas diarias. El control de la calidad del agua es un proceso riguroso que incluye auditorías mensuales de laboratorios acreditados por INACAL y monitoreos diarios de parámetros críticos como el pH, la turbidez y el cloro residual. Sin embargo, el ingeniero señala que la falta de sensores de flujo e IoT en toda la red limita la capacidad de obtener datos en tiempo real.
+
+Uno de los mayores desafíos técnicos mencionados por Jorge es la dificultad para localizar anomalías exactas en la red, como fugas o roturas de tuberías, debido a la carencia de planos digitalizados y mediciones de presión constantes. Actualmente, el mantenimiento preventivo se basa principalmente en la antigüedad de la infraestructura, una estrategia cuyo objetivo es anticiparse al deterioro natural de los materiales antes de que ocurran fallas críticas que comprometan el servicio.
+
+Finalmente, Jorge nos revela que la empresa atiende entre 3 a 5 emergencias mensuales, las cuales representan un reto economico superior al mantenimiento programado especialmente cuando ocurren en días festivos o madrugadas. Él resalta que la integración de nuevas aplicaciones y tecnologías de monitoreo en línea sería fundamental para transformar la respuesta reactiva en una gestión proactiva, mejorando significativamente la eficiencia del servicio de agua y alcantarillado.
+
+**Entrevista 3**
+
+Nombres y Apellidos: Liliana del Pilar Sanchez Fajardo
+
+Evidencia:
+<p align = "left">
+   <img src="/report/assets/interviews/Entrevista_Liliana_Sanchez.png" width ="300" height="600">
+</p>
+Enlace:
+Duración de la entrevista:
+
+Resumen:
+Nos reunimos con Liliana de Pilar Sánchez Bajardo, residente del distrito de Comas, de 57 años, quien se desempeña como ingeniera ambiental y consultora en temas vinculados a la gestión del recurso hídrico. En su labor diaria utiliza principalmente la laptop y el teléfono celular para la coordinación de actividades. Entre sus principales cualidades destacó la responsabilidad, la puntualidad y el trabajo en equipo, mientras que señaló como debilidades su tendencia al perfeccionismo y su baja tolerancia frente a la impuntualidad y la falta de compromiso del personal.
+
+En relación con el monitoreo de la calidad del agua, indicó que este se realiza mayormente mediante muestreos en puntos específicos de la red, complementados con sensores básicos en planta para medir parámetros como pH y turbidez. No obstante, señaló que el monitoreo en tiempo real a lo largo de toda la red de tuberías es limitado, lo que dificulta una supervisión continua. Asimismo, explicó que identificar el origen exacto de una anomalía resulta complejo, ya que muchas veces los problemas se detectan cuando disminuye la presión del agua o a partir de reportes de los usuarios.
+
+Respecto a la operación del sistema, mencionó que se atienden aproximadamente entre 15 y 20 emergencias mensuales por obstrucciones de flujo no detectadas a tiempo, muchas de las cuales podrían prevenirse con una mayor incorporación de tecnología. También señaló que las reparaciones de emergencia implican costos considerablemente más altos que las programadas, debido a la urgencia, el uso de recursos adicionales y los posibles daños colaterales.
+
+Finalmente, indicó que el mantenimiento preventivo se planifica principalmente en función de la antigüedad de las tuberías y el historial de fallas reportadas. Señaló que el uso de sensores inteligentes es aún limitado debido al alto costo de implementación y a los problemas de conectividad en redes subterráneas. Si bien se emplean sistemas como GIS y herramientas básicas de gestión, la comunicación con las cuadrillas se realiza mayormente por radio o aplicaciones de mensajería, lo que evidencia la necesidad de soluciones tecnológicas más integradas para mejorar la eficiencia operativa y reducir el impacto en la comunidad.
+
 
 #### Segmento 2: Empresas gestoras de residuos sólidos
 **Entrevista 1**
@@ -116,7 +159,7 @@ Edward Fernando Bojórquez Gonzales
 
 Evidencia:
 <p align = "left">
-  <img src="/report/assets/interviews/Entrevista_Fernando_Foto.png" width ="300" height="300">
+ <img src="/report/assets/interviews/Entrevista_Fernando_Foto.png" width ="300" height="300">
 </p>
 
 Enlace:
@@ -156,6 +199,101 @@ En cuanto a recursos tecnológicos, comentó que realizaron un plan piloto de mo
 
 Por último, José Ignacio destacó que el mayor desafío que enfrentan en su trabajo es el factor tiempo, pues la logística de lavado puede retrasar los servicios, por lo que buscan eficiencia en este proceso. Por ello, considerarían exitoso un sistema de reutilización de agua si este lograra un ahorro mínimo de 20,000 soles mensuales, lo cual justificaría la inversión tecnológica.
 
+**Entrevista 3**
+
+Cristian Qquecano De la Sota
+
+Evidencia:
+<p align = "left">
+   <img src="/report/assets/interviews/Entrevista_Cristian_foto.jfif" width ="300" height="600">
+</p>
+
+Enlace:
+
+Duración de la entrevista:
+
+Resumen: 
+
+Nos reunimos con Cristian Qquecano de la Sota. Él es un ingeniero ambiental de 38 años, reside en Jesús María, actualmente está soltero. Trabaja como supervisor de operaciones. Para sus labores diarias prefiere usar su celular Android, además de una laptop. Se considera una persona bastante organizada; sin embargo, confiesa estresarse mucho ante cambios repentinos de planes.
+
+Durante nuestra conversación, explicó lo complicado de conseguir agua para el lavado de flota. La red pública resulta ineficiente. Por tal motivo, dependen de comprar camiones cisterna constantemente. Este gasto, sumado al canon por vertimientos, representa entre el 8% hasta el 12% del presupuesto operativo mensual.
+
+Sobre el manejo de lixiviados, indicó que los almacenan en pozas de sedimentación. Tratar esos líquidos cuesta demasiado; por ello, prefieren pagar a plantas externas especializadas. Al consultarle sobre tecnologías de monitoreo inteligente, nos contó sobre algunas evaluaciones previas con sensores de ultrasonido. Lamentablemente, dichas iniciativas fueron incipientes, quedando relegadas a simples proyectos piloto. Su mayor dolor de cabeza diario es el tiempo de inactividad vehicular. Lavar 50 camiones pesados sin afectar las rutas nocturnas de recolección resulta un verdadero caos logístico. Respecto a la huella hídrica, admitió una falta total de estandarización. Apenas utilizan indicadores muy básicos basados en dividir los litros consumidos entre las toneladas de basura.
+
+Finalmente, Cristian concluyó que cualquier sistema tecnológico de reutilización hídrica debe demostrar resultados contundentes. Para convencer a la gerencia, dicha inversión necesitaría garantizar un ahorro del 25% al 30% mensual, reduciendo facturas de consumo junto con los costos logísticos de cisternas.
+
+### Análisis de entrevistas
+
+#### Segmento 1: Empresas prestadoras de servicios de agua y alcantarillado.
+
+#### Segmento 2: Empresas gestoras de residuos sólidos
+
+Este análisis consolida los hallazgos de los entrevistados pertenecientes a este segmento, representados mediante porcentajes, empezando por las características objetivas:
+
+> * El 100% de los participantes utiliza de forma mandatoria laptops y smartphones para la supervisión de operaciones. Un 67% muestra una adopción activa de herramientas de software avanzado o IA para optimizar su flujo de trabajo.
+> * Los tres entrevistados ha reconocido el impacto financiero que posee el agua en sus trabajos. Combinando red pública, cisternas y vertimientos, el gasto en agua y limpieza es una carga crítica, representando en promedio entre el 14% y el 19% de los costos operativos mensuales.
+> * El 100% de los entrevistados ha operado bajo sistemas convencionales o ha tenido experiencias fallidas con proyectos piloto (sensores de llenado o ultrasonido), lo cual genera una brecha tecnológica latente.
+> * El 67% de los casos depende de proveedores externos para el tratamiento de lixiviados o el suministro de agua (cisternas), evidenciando una falta de autonomía hídrica.
+> * Existe una brecha significativa en la medición de la huella hídrica, pues el 67% utiliza indicadores técnicos (estándares internacionales o ratios litros/tonelada), mientras que el 33% reconoce una falta total de estandarización en sus reportes de la misma.
+> * Por último, para que la gerencia apruebe la implementación de Aquanetix, los expertos coinciden en que se debe garantizar un ahorro mínimo de entre el 25% y 40%.
+
+Pasando a las características subjetivas, analizaremos los Pain Points de nuestros usuarios.
+> * El 100% de los entrevistados manifiesta una preocupación crítica por el factor tiempo. El miedo a los retrasos operativos o al "caos logístico" por el lavado de flota es el principal movilizador emocional.
+> * El 67% de los sujetos presenta un sesgo de escepticismo hacia nuevas implementaciones IoT. Este sentimiento nace de frustraciones pasadas con sensores que brindaron lecturas incorrectas o proyectos que quedaron en "pilotos incipientes".
+> * El 33% expresa una frustración directa por la ineficiencia de los servicios públicos, lo que les genera una sensación de falta de control sobre sus propios procesos.
+
+Respecto a los Gains de nuestros usuarios:
+> * El 100% condiciona su satisfacción con el sistema a un ahorro económico tangible. La motivación subjetiva aquí es la "validación ante la gerencia"; necesitan que la tecnología sea una victoria financiera demostrable.
+> * El 67% de los entrevistados muestra un compromiso intrínseco con la economía circular y la reducción de la huella hídrica, viendo en la tecnología una forma de alinear sus valores personales con los objetivos de la empresa.
+> * El 66% valora la organización y la puntualidad por encima de otras cualidades. Su expectativa subjetiva frente a una aplicación que los ayude es que los ayude a reducir los cambios repentinos de planes causados por falta de agua o fallos logísticos.
+
+## 2.3. Needfinding
+### 2.3.1. User Personas
+
+#### Segmento 1: Empresas prestadoras de servicios de agua y alcantarillado
+
+#### Segmento 2: Empresas gestoras de residuos sólidos
+<p align = "left">
+  <img src="/report/assets/ux_pressia/Ricardo Sánchez's User Persona.png">
+</p>
+
+### 2.3.2. Task Matrix
+
+#### User Persona 2: Ricardo Sánchez
+
+| Tasks | Nombre: | Ricardo Sánchez |
+| :--- | :--- | :--- |
+|| Frecuencia: | Importancia: |
+| Monitoreo de niveles de agua en tiempo real | Muy alta | Muy alta |
+| Revisión de alertas de calidad de agua | Muy alta | Muy alta |
+| Generación de reportes de ahorro (Return Of Investment) | Media | Alta |
+| Consulta de indicadores de Huella Hídrica | Baja | Media |
+| Verificación de estado de sensores | Alta | Muy alta |
+| Ajuste de parámetros de reutilización | Baja | Media |
+
+Las tareas más críticas para Ricardo son aquellas relacionadas con el monitoreo operativo y la fiabilidad del sistema, como la supervisión de niveles de agua en tiempo real y la verificación de alertas de calidad para evitar daños en la flota. Estas actividades son de frecuencia muy alta.
+
+Su motivación central es la validación profesional y la paz mental, buscando garantizar un ahorro económico contundente que justifique la inversión ante la gerencia y le permita cumplir con sus cronogramas sin imprevistos.
+
+En general, sus tareas reflejan un compromiso con la eficiencia y la sostenibilidad rentable, buscando transformar la gestión hídrica de la empresa a través de la automatización y el ejemplo de resultados medibles.
+
+### 2.3.3. Journey Mapping
+
+#### User Persona 1: 
+
+#### User Persona 2: Ricardo Sánchez
+<p align = "left">
+  <img src="/report/assets/ux_pressia/Ricardo Sanchez's Journey Map.png">
+</p>
+
+### 2.3.4. Empathy Mapping
+
+#### User Persona 1:
+
+#### User Persona 2: Ricardo Sánchez
+<p align = "left">
+  <img src="/report/assets/ux_pressia/Ricardo Sánchez's Empathy Map.png">
+</p>
 
 ## Referencias bibliográficas
 - Autoridad Nacional del Agua (ANA). (2025). Plan estratégico 2025–2030. https://www.ana.gob.pe/sites/default/files/file_content/PLAN%20ESTRATEGICO%202025-2030.pdf 
