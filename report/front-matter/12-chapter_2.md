@@ -295,6 +295,10 @@ En general, sus tareas reflejan un compromiso con la eficiencia y la sostenibili
   <img src="/report/assets/ux_pressia/Ricardo Sánchez's Empathy Map.png">
 </p>
 
+### 2.4. Big Picture EventStorming
+
+### 2.5. Ubiquitous Language
+
 ## Referencias bibliográficas
 - Autoridad Nacional del Agua (ANA). (2025). Plan estratégico 2025–2030. https://www.ana.gob.pe/sites/default/files/file_content/PLAN%20ESTRATEGICO%202025-2030.pdf 
 
