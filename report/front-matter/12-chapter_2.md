@@ -108,6 +108,23 @@ Para que Aquanetix logre tener éxito como la aplicación que permitirá reutili
 
 **Entrevista 1**
 
+Nombres y Apellidos: Jorge Orellana
+
+Evidencia:
+
+<p align = "left"> <img src="/report/assets/interviews/Entrevista_Jorge_Orellana.png" width ="300" height="300"> </p>
+
+Enlace:
+Duración de la entrevista:
+
+Resumen:
+La entrevista inicia con la presentación de Jorge Orellana, un trabajador de SEDAPAL de 40 años, quien se encarga de la gestión y mantenimiento de redes de agua potable. En su labor utiliza herramientas como sistemas GIS y ERP básicos para organizar órdenes de trabajo, aunque la comunicación con las cuadrillas aún depende de radios y mensajería.
+
+En cuanto al monitoreo del agua, señala que se realiza mediante muestreos manuales y sensores básicos en plantas, principalmente de pH y turbidez. Sin embargo, el monitoreo en tiempo real dentro de la red es limitado, lo que dificulta detectar anomalías a tiempo.
+
+Uno de los principales desafíos es ubicar el punto exacto de fallas, ya que dependen de indicadores indirectos como cambios de presión o reportes de usuarios. Esto genera retrasos en la atención de problemas.
+
+Finalmente, menciona que atienden entre 15 y 20 emergencias al mes, las cuales pueden costar hasta cuatro veces más que un mantenimiento programado. Destaca que el uso de IoT es aún limitado por costos y falta de infraestructura, pero sería clave para mejorar la eficiencia y anticiparse a fallas.
 
 
 **Entrevista 2**
