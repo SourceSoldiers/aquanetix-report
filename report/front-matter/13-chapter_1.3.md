@@ -11,4 +11,13 @@ Estadísticas de sustento:
 Oportunidad:
 Estas empresas necesitan herramientas de monitoreo en tiempo real, reactivas y predictivas, para mejorar el tratamiento de aguas residuales y avanzar hacia metas de reutilización de agua, alineadas con el Plan Estratégico 2025–2030 de la ANA (ANA, 2025).
 
-
+**2. Empresas operadoras de residuos sólidos** <br>
+Perfil demográfico y operativo:
+Empresas privadas o consorcios de tamaño mediano (100–1,000 empleados), con operaciones en municipios urbanos e industriales. Concentran el 70% de sus actividades en Lima y Callao, gestionando recolección, transporte y disposición final. Ejemplos: Urbaser, FCC Ambiente o empresas locales como Residuos Perú.
+Estadísticas de sustento:
+- En Perú se generan alrededor de 7,5 millones de toneladas de residuos sólidos urbanos anuales, según informes de gestión de residuos de la Comisión Europea–Acceso a Mercados (European Commission–Access to Markets, s. f.).
+- La provincia de Lima genera cerca de 3,6 millones de toneladas de residuos sólidos domiciliarios al año, según la Encuesta Nacional de Residuos Sólidos Urbanos del INEI (INEI, 2023).
+- Un quinto de la basura de Lima (20%) termina en vertederos no autorizados, cuya escorrentía contamina ríos como el Rímac, Chillón y Lurín (Woima Corporation, 2024).
+- Solo una fracción muy baja del reciclaje formal se realiza en Perú, lo que refuerza la baja tasa de material reciclado declarada en estudios sectoriales (Molpack, 2025; Mastercard Center, 2018).
+Oportunidad:
+Estas empresas requieren detección temprana de sólidos/desechos, optimización de rutas y reducción de vertimientos que contaminan fuentes de agua, en línea con la necesidad de mejorar la gestión de residuos y la protección de cuencas (Woima Corporation, 2024; European Commission, s. f.).
