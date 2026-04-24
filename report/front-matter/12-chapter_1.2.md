@@ -21,3 +21,17 @@ Este problema persiste principalmente debido a la limitada adopción de tecnolog
 La ausencia de sensores que permitan medir variables como pH, flujo y condiciones peligrosas en puntos críticos de la infraestructura impide detectar de manera temprana desviaciones en la calidad del agua o situaciones de riesgo. Como consecuencia, las empresas suelen actuar de forma reactiva, cuando el problema ya se ha producido, lo que incrementa los costos de mantenimiento, expone al personal operativo y desaprovecha oportunidades para recuperar y reutilizar el agua residual.
 #### How Much (¿Cuánto impacta?)
 El impacto de esta problemática es económico, ambiental y social. Desde el punto de vista financiero, las empresas enfrentan elevados costos operativos y el riesgo de sanciones por incumplimiento de la normativa ambiental. El Organismo de Evaluación y Fiscalización Ambiental (OEFA, 2024) indica que las multas por infracciones ambientales pueden superar los S/ 128 millones. Asimismo, la pérdida diaria de grandes volúmenes de agua reutilizable limita los esfuerzos por reducir el déficit hídrico y frena el avance hacia una gestión sostenible del recurso (ANA, 2026).
+
+#### 1.2.2.2. Lean UX Assumptions
+User Assumptions:<br>
+•	Creemos que nuestros clientes necesitan reducir sus multas por vertimientos fuera de norma (PH).<br>
+•	Creemos que los operadores de campo prefieren recibir alertas en dispositivos móviles que realizar inspecciones manuales programadas.<br>
+Business Assumptions:<br>
+•	Creemos que las empresas están dispuestas a pagar una suscripción si el ahorro en mantenimiento preventivo supera el costo del servicio.<br>
+•	Creemos que el mayor valor agregado es el módulo de logística para la redistribución (economía circular).<br>
+
+
+#### 1.2.2.3. Lean UX Hypothesis Statements:
+Creemos que al proporcionar sensores de PH y flujo a las empresas de alcantarillado, lograremos que se reduzcan los costos de mantenimiento. Sabremos que estaremos en lo correcto cuando veamos una disminución del 20% en el número de cuadrillas enviadas por emergencias de obstrucción.
+Creemos que integrar detectores de gases tóxicos en el plan base lograremos aumentar la seguridad percibida por los trabajadores. Sabremos que tenemos razón cuando el 80% de los usuarios califiquen la plataforma como "esencial para la seguridad".
+Creemos que automatizar la logística de redistribución de agua recuperada lograremos que las empresas operadoras generen una nueva línea de impacto social. Sabremos que tenemos razón cuando al menos 2 sectores necesitados reciban agua monitoreada por nuestra plataforma en los primeros 6 meses.
