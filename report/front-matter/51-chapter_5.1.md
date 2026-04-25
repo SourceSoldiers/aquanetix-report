@@ -14,7 +14,7 @@ Utilizado como repositorio principal para la gestión del código fuente, contro
 [GitHub](https://github.com/)
 
 <p align="center">
-<img src=""/>
+<img src="../assets/development_environment/Github.png"/>
 </p>
 
 ### Uxpressia
@@ -142,7 +142,7 @@ chore: update repository structure
 El uso de estas convenciones permitió identificar fácilmente el tipo de cambio realizado en cada commit y mejorar la colaboración entre los integrantes del equipo.
 
 <p align="center">
-  <img src="" width="700"/>
+  <img src="../assets/development_environment/GitFlow.png" width="700"/>
 </p>
 
 <p align="center">
@@ -212,17 +212,17 @@ En esta sección se especifica la configuración y los pasos necesarios para el 
 1. Se creo el repositorio en Github en la organizacion del equipo WebWarriors, coloco que sea de manera publica
 
 <p align="center">
-  <img src="" width="700"/>
+  <img src="../assets/development_environment/repoLanding.png" width="700"/>
 </p>
 
 2. Publicación Directa: El código fuente desarrollado en VS Code fue sincronizado directamente con la rama main mediante comandos de Git.
 
 <p align="center">
-  <img src="" width="700"/>
+  <img src="../assets/development_environment/commitLanding.png" width="700"/>
 </p>
 
 3. Hosting: La visualización del producto se gestiona a través de la infraestructura de GitHub, asegurando que el HTML y los estilos de Tailwind CSS sean accesibles de forma pública una vez realizado el push de los archivos.
 
 <p align="center">
-  <img src="" width="700"/>
+  <img src="../assets/development_environment/structureLanding.png" width="700"/>
 </p>
