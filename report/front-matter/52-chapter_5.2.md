@@ -15,7 +15,7 @@ Para este sprint, la reunión de Sprint Planning nos permite evaluar nuestra vel
 | Time | 9:00 PM |
 | Location | Google meet |
 | Prepared By | Castro Solorza, Nicolas Eduardo |
-| Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Cabrera Novoa, Leonardo Moisés |
+| Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Correa Rodríguez, Andrea Khristina Esther |
 | Sprint 1  Review Summary | Al ser el primer sprint del proyecto (Fase de Inicio), no hay un Review de entregables previos. Se revisaron los requisitos del Primer Entregable (TB1), estableciendo como prioridad el diseño de la arquitectura base, diseño de base de datos, además de los flujos de registro de empresas. |
 | Sprint 1  Retrospective Summary | De igual manera al ser el inicio del proyecto, se establecieron las normas de trabajo del equipo: reuniones de seguimiento (Daily Stand-ups) mediante Meet, uso de herramientas ágiles para el control de tareas, sumado a la necesidad de mantener una comunicación constante para evitar bloqueos técnicos en el desarrollo del backend. |
 | Sprint 1 Goal | Para este sprint se requiere el cumplimiento de los siguientes objetivos: Establecer la arquitectura base del backend, desplegar el esquema de la base de datos relacional, configurar el registro de clientes (Enterprise) junto con la seguridad (Login). La métrica de cumplimiento se basará en el proceso de cómo nuestro "Board de Jira" luzca con el paso del tiempo, nuestro resultado final debe de mostrar todas las tareas en el lado derecho de la herramienta, ubicándolos en la columna "Terminado". |
@@ -31,7 +31,7 @@ Los aspectos seleccionados corresponden a las principales áreas del proyecto Aq
 | Team Member (Last Name, First Name) | GitHub Username | UX/UI Design | Landing Page | Documentation | Modeling |
 |------------------------------------|----------------|-------------|-------------|--------------|----------|
 | Bojórquez Bustinza, Renzo Alejandro | DeterminedSoul7 | C | C | C | L |
-| Cabrera Novoa, Leonardo Moisés | u202415820 | C | C | C | C |
+| Correa Rodriguez, Andrea Khristina Esther | Daiko-07 | C | C | C | C |
 | Castro Solorza, Nicolás Eduardo | NicoCSE | C | L | L | C |
 | Cochachi Chagua, Sebastian Josue | sebastiancochachi02-cmd | L | C | C | C |
 | Pinedo Sanchez, Sebastián Martín | smp1107 | L | C | C | C |
@@ -49,7 +49,7 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | US-35 | Product value visualization | T-01 | Landing page structure | Diseño e implementación de la estructura general y sección principal (hero) de la landing page | 6 | Sebastián Pinedo | Done |
 | US-36 | System features visualization | T-02 | Features section development | Diseño y desarrollo de la sección de funcionalidades destacando las capacidades del sistema | 5 | Sebastián Cochachi | Done |
 | US-37 | Contact information access | T-03 | Contact and CTA section | Implementación de sección de contacto y botones de llamada a la acción | 4 | Nicolás Castro | Done |
-| US-35 | Product value visualization | T-04 | Content definition and UX writing | Definición del contenido textual y estructura comunicativa de la landing | 4 | Leonardo Cabrera | Done |
+| US-35 | Product value visualization | T-04 | Content definition and UX writing | Definición del contenido textual y estructura comunicativa de la landing | 4 | Andrea Correa | Done |
 | US-36 | System features visualization | T-05 | Visual design elements | Diseño de elementos visuales y apoyo gráfico para mejorar la experiencia de usuario | 4 | Renzo Bojórquez | In-Process |
 
 #### 5.2.1.4 Development Evidence for Sprint Review
