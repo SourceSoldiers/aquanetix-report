@@ -39,8 +39,9 @@ Evidencia:
 
 <p align = "left"> <img src="/report/assets/interviews/Entrevista_Jorge_Orellana.png" width ="300" height="300"> </p>
 
-Enlace:
-Duración de la entrevista:
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
+
+Duración de la entrevista: **00:00 - 14:33 min**
 
 Resumen:
 La entrevista inicia con la presentación de Jorge Orellana, un trabajador de SEDAPAL de 40 años, quien se encarga de la gestión y mantenimiento de redes de agua potable. En su labor utiliza herramientas como sistemas GIS y ERP básicos para organizar órdenes de trabajo, aunque la comunicación con las cuadrillas aún depende de radios y mensajería.
@@ -61,8 +62,9 @@ Evidencia:
   <img src="/report/assets/interviews/Entrevista_Jorge_Castro.png" width ="300" height="300">
 </p>
 
-Enlace:
-Duración de la entrevista:
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
+
+Duración de la entrevista: **14:34 - 20:51 min**
 
 Resumen:
 La entrevista inicia con la presentación de Jorge Luis Castro Rojas, un ingeniero sanitario de 48 años residente en Santiago de Surco. En su labor profesional, Jorge combina herramientas tradicionales con soluciones digitales modernas; utiliza Google Earth para la geolocalización de coordenadas, la plataforma Yorgos para el seguimiento de normativas y aplicaciones móviles como Timestamp Camera, que permite registrar evidencias fotográficas con datos precisos de tiempo y ubicación para sus reportes técnicos. 
@@ -81,8 +83,9 @@ Evidencia:
 <p align = "left">
    <img src="/report/assets/interviews/Entrevista_Liliana_Sanchez.png" width ="300" height="600">
 </p>
-Enlace:
-Duración de la entrevista:
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
+
+Duración de la entrevista: **20:52 -- 28:24 min**
 
 Resumen:
 Nos reunimos con Liliana de Pilar Sánchez Bajardo, residente del distrito de Comas, de 57 años, quien se desempeña como ingeniera ambiental y consultora en temas vinculados a la gestión del recurso hídrico. En su labor diaria utiliza principalmente la laptop y el teléfono celular para la coordinación de actividades. Entre sus principales cualidades destacó la responsabilidad, la puntualidad y el trabajo en equipo, mientras que señaló como debilidades su tendencia al perfeccionismo y su baja tolerancia frente a la impuntualidad y la falta de compromiso del personal.
@@ -104,9 +107,9 @@ Evidencia:
  <img src="/report/assets/interviews/Entrevista_Fernando_Foto.png" width ="300" height="300">
 </p>
 
-Enlace:
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
 
-Duración de la entrevista:
+Duración de la entrevista: **28:25 - 35:42 min**
 
 Resumen:
 
@@ -127,9 +130,9 @@ Evidencia:
   <img src="/report/assets/interviews/Entrevista_Jose_Ignacio_Foto.png" width ="300" height="300">
 </p>
 
-Enlace:
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
 
-Duración de la entrevista:
+Duración de la entrevista: **35:43 - 48:13 min**
 
 Resumen:
 
@@ -150,9 +153,9 @@ Evidencia:
    <img src="/report/assets/interviews/Entrevista_Cristian_foto.jfif" width ="300" height="600">
 </p>
 
-Enlace:
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
 
-Duración de la entrevista:
+Duración de la entrevista: **48:14 - 53:20 min**
 
 Resumen: 
 
