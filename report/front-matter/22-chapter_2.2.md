@@ -171,6 +171,29 @@ Finalmente, Cristian concluyó que cualquier sistema tecnológico de reutilizaci
 
 #### Segmento 1: Empresas prestadoras de servicios de agua y alcantarillado.
 
+Este análisis sintetiza los principales patrones identificados en las entrevistas realizadas a representantes de este segmento, expresados mediante porcentajes, iniciando con las características objetivas observadas:
+
+> - El 100% de los entrevistados emplea laptops y teléfonos inteligentes como herramientas fundamentales para la gestión operativa, el seguimiento de actividades y la comunicación con equipos de trabajo.  
+> - El 67% hace uso de plataformas digitales especializadas, como sistemas GIS, software técnico o sistemas de gestión básica, mientras que el 33% complementa su labor con aplicaciones móviles o soluciones digitales de apoyo para el trabajo en campo.  
+> - En relación con el control de la calidad del agua, el 100% indicó que este se realiza principalmente mediante muestreos periódicos y sensores básicos instalados en planta, reconociendo que el monitoreo continuo en toda la red de distribución es aún insuficiente.  
+> - El 100% de los participantes manifestó que localizar con precisión el origen de fallas o anomalías en la red resulta complejo, ya que muchas de estas se detectan tardíamente a través de indicadores indirectos como variaciones de presión o reportes ciudadanos.  
+> - En términos de incidencias operativas, el 67% señaló atender un volumen medio de emergencias mensuales, mientras que el 33% reportó una frecuencia menor; sin embargo, todos coincidieron en que una parte considerable de estos eventos podría evitarse con sistemas de detección temprana.  
+> - El 100% destacó que las intervenciones de emergencia generan un impacto económico significativamente mayor frente al mantenimiento planificado, debido a la urgencia, el uso intensivo de recursos y los daños asociados.  
+> - La planificación del mantenimiento preventivo, según el 100% de los entrevistados, se apoya principalmente en la antigüedad de la infraestructura y el historial de fallas, lo que refleja un enfoque orientado más a la corrección que a la anticipación.  
+> - Finalmente, el 100% afirmó que la implementación de sensores inteligentes o soluciones IoT es limitada, siendo los principales obstáculos el costo de adopción y las dificultades técnicas para asegurar conectividad en entornos subterráneos.
+
+#### Pain Points
+
+> - El 100% de los entrevistados expresó preocupación por la detección tardía de problemas en la red, debido a las consecuencias operativas, económicas y sociales que estas generan.  
+> - El 67% manifestó frustración ante la falta de herramientas tecnológicas que permitan una supervisión continua y predictiva del sistema.  
+> - El 33% señaló dificultades en la toma de decisiones oportunas, asociadas a la carencia de información integrada y datos en tiempo real.
+
+#### Gains
+
+> - El 100% considera prioritario que cualquier solución tecnológica contribuya a la reducción de emergencias, costos operativos y afectaciones al servicio.  
+> - El 67% valora especialmente la posibilidad de migrar hacia un modelo de gestión preventiva, apoyado en alertas tempranas y monitoreo en línea.  
+> - El 33% destaca como beneficio clave el acceso a información confiable y centralizada que facilite la planificación, el control operativo y la rendición de cuentas.
+
 #### Segmento 2: Empresas gestoras de residuos sólidos
 
 Este análisis consolida los hallazgos de los entrevistados pertenecientes a este segmento, representados mediante porcentajes, empezando por las características objetivas:
