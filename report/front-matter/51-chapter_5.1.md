@@ -14,7 +14,7 @@ Utilizado como repositorio principal para la gestión del código fuente, contro
 [GitHub](https://github.com/)
 
 <p align="center">
-<img src="../assets/development_environment/Github.png"/>
+<img src=""/>
 </p>
 
 ### Uxpressia
@@ -74,8 +74,8 @@ La gestión del código fuente del proyecto se realizó mediante la plataforma G
 
 El proyecto cuenta con dos repositorios principales:
 
-- Repositorio del informe (documentación): https://github.com/NicoCSE/Aquanetix-report  
-- Repositorio de la Landing Page: https://github.com/NicoCSE/Landing-Page-Aquanetix
+- Repositorio del informe (documentación): https://github.com/DeterminedSoul7/aquanetix-report.git
+- Repositorio de la Landing Page: https://github.com/NicoCSE/SourceSoldiers-Landing-Page.git
 
 En el repositorio del informe se gestionaron todos los avances relacionados a la documentación del proyecto, mientras que en el repositorio de la Landing Page se desarrolló la parte visual y funcional del producto.
 
