@@ -51,3 +51,67 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | US-37 | Contact information access | T-03 | Contact and CTA section | Implementación de sección de contacto y botones de llamada a la acción | 4 | Nicolás Castro | Done |
 | US-35 | Product value visualization | T-04 | Content definition and UX writing | Definición del contenido textual y estructura comunicativa de la landing | 4 | Leonardo Cabrera | Done |
 | US-36 | System features visualization | T-05 | Visual design elements | Diseño de elementos visuales y apoyo gráfico para mejorar la experiencia de usuario | 4 | Renzo Bojórquez | In-Process |
+
+#### 5.2.1.4 Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Ids | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| aquanetix-repo | develop | 4f01889ae5953aba422050a86048518fc2e68577 | docs: add epics for requirements |  | 18/04/2026 |
+| aquanetix-repo | develop | 80782311c16b14e26ad36489823096a0602afeb2 | docs: add landing page UI design |  | 20/04/2026 |
+| aquanetix-repo | develop | 056333d1b065eda419cb3e109ebf525a4c3749cc | docs: add C4 model diagrams |  | 21/04/2026 |
+| aquanetix-repo | develop | 73157436b4d739e7e78aa21fb0a791de3101dc81 | fix: update repository links |  | 21/04/2026 |
+| aquanetix-repo | develop | 68a41d56032b2c50eb7a681cc9581219c6923cd7 | docs: add web app mockups |  | 22/04/2026 |
+
+#### 5.2.1.5 Execution Evidence for Sprint Review
+
+En esta sección se presentan evidencias de la ejecución de la landing page desarrollada durante el Sprint.
+
+Las siguientes capturas muestran la interacción del usuario con las diferentes secciones de la landing page, permitiendo validar la estructura de información, la propuesta de valor y la navegación definida para el sistema Aquanetix.
+
+**Figura 1. Sección principal de la landing page**
+
+<div align="center">
+  <img src="/report/assets/LandingPage/Landing1.png">
+</div>
+La figura muestra la sección principal de la landing page, donde se presenta la propuesta de valor del sistema Aquanetix junto con un llamado a la acción dirigido al usuario.
+
+
+**Figura 2. Sección informativa de la landing page**
+
+<div align="center">
+  <img src="/report/assets/LandingPage/Landing2.png">
+</div>
+
+En esta sección se describe el problema abordado y la solución propuesta por el sistema, permitiendo al usuario comprender el propósito y beneficios del servicio.
+
+**Figura 3. Sección de funcionalidades**
+
+<div align="center">
+  <img src="/report/assets/LandingPage/Landing3.png">
+</div>
+
+La figura muestra las principales funcionalidades del sistema, destacando las capacidades de monitoreo, gestión de alertas y análisis de datos.
+
+**Figura 4. Sección final y llamado a la acción**
+
+<div align="center">
+  <img src="/report/assets/LandingPage/Landing4.png">
+</div>
+
+En esta sección final se incluye un llamado a la acción que invita al usuario a interactuar con el sistema, junto con información adicional relevante.
+
+#### 5.2.1.6 Services Documentation Evidence for Sprint Review
+
+En el alcance del presente Sprint, no se han implementado servicios web ni endpoints documentados con OpenAPI, debido a que el desarrollo del proyecto se ha centrado principalmente en la construcción de la landing page estática y en el diseño del prototipo de la aplicación.
+Por lo tanto, en esta fase no se cuenta con documentación de Web Services, ya que estos serán considerados en Sprints posteriores, donde se abordará la implementación técnica del sistema y la integración de servicios backend.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Esta seccion se ha decidido omitir debido que, para este avance, solamente se ha enfocado en el diseño de Landing Page. En futuros entregables se procedera a brindar una informacion mas detallada de la aplicacion.
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Para el desarrollo de este primer sprint, todos los miembros del equipo desarrollaron y colaboraron de manera activa ycontinua. De tal modo, se muestra como evidencia los insights de cada miembro del equipo.
+<p align = "left">
+   <img src="/report/assets/insights/Team Collaboration Insights.jpg">
+</p>
