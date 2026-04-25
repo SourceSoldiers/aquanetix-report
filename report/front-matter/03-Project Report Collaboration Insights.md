@@ -12,3 +12,7 @@ Evidencias de commits realizados:
 <p align="center">
   <img src="../assets/github/extra commits.png" width="700"/>
 </p>
+
+<p align="center">
+  <img src="../assets/github/commits.png" width="700"/>
+</p>
