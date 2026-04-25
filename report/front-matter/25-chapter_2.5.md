@@ -1,4 +1,4 @@
-2.5. Ubiquitous Language 
+### 2.5. Ubiquitous Language 
 
 | Término | Definición | Términos relacionados |
 |--------|-----------|----------------------|
