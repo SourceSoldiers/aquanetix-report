@@ -51,11 +51,6 @@
       <td>Landing Page informativa</td>
       <td>Permite presentar información del producto, beneficios y propuesta de valor a potenciales clientes.</td>
     </tr>
-    <tr>
-      <td>EP009</td>
-      <td>Integración con sensores IoT</td>
-      <td>Permite la conexión y recepción de datos desde dispositivos IoT instalados en la red hidráulica.</td>
-    </tr>
   </tbody>
 </table>
 
@@ -124,10 +119,10 @@
     </tr>
     <tr>
       <td>US08</td>
-      <td>Consulta del estado de la red</td>
-      <td>Como supervisor, quiero consultar el estado general de la red para tomar decisiones operativas oportunas.</td>
-      <td>Given el sistema consolida información de múltiples sensores. When el supervisor accede al estado general de la red. Then el sistema muestra el comportamiento actual de los puntos monitoreados</td>
-      <td>EP02</td>
+      <td>---</td>
+      <td>---</td>
+      <td>---</td>
+      <td>EP--</td>
     </tr>
     <tr>
       <td>US09</td>
@@ -353,6 +348,27 @@
       <td>Como operador técnico, quiero definir la concentración máxima permitida de gases (como $H_2S$ o $CH_4$) para prevenir explosiones o intoxicaciones en la red.</td>
       <td>Given el operador está en el módulo de "Seguridad Atmosférica". When define el umbral de Pre-alarma y Alarma Crítica. Then el sistema guarda la configuración y asegura que estos valores no puedan ser desactivados sin una clave de supervisor. And al superar el umbral crítico, el sistema debe habilitar automáticamente el protocolo de ventilación (si está integrado).</td>
       <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US41</td>
+      <td>Monitoreo en tiempo real mediante mapa interactivo.</td>
+      <td>Como supervisor, quiero visualizar la ubicación geográfica de todos los nodos de la red en un mapa para identificar rápidamente qué zonas presentan estados críticos (alerta/alarma).</td>
+      <td>Given el supervisor registrado accede al mapa. When el sistema carga las coordenadas de los sensores IoT. Then se muestran marcadores con código de colores: verde (normal), amarillo (advertencia) y rojo (crítico).</td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US42</td>
+      <td>Consulta de gráficas de comportamiento temporal.</td>
+      <td>Como supervisor, quiero consultar gráficas de tendencias de los sensores en rangos de tiempo específicos para detectar patrones de degradación en la calidad del agua.</td>
+      <td>Given el supervisor selecciona un nodo o sector específico. When el supervisor filtra por un rango de fechas y un tipo de sensor. Then el sistema renderiza un gráfico de líneas que muestra la evolución del parámetro frente a los umbrales configurados.</td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US43</td>
+      <td>Consolidado de alertas operativas pendientes.</td>
+      <td>Como supervisor, quiero ver un listado priorizado de todas las anomalías activas en la red para asignar equipos de mantenimiento de manera eficiente.</td>
+      <td>Given que existen condiciones de sensores que superan los umbrales definidos en la configuración. When el supervisor accede al panel de alertas. Then el sistema muestra una tabla con: ID del sensor, ubicación, tipo de anomalía, y severidad.</td>
+      <td>EP02</td>
     </tr>
   </tbody>
 </table>
