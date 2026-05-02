@@ -12,44 +12,49 @@
   </thead>
   <tbody>
     <tr>
-      <td>EP001</td>
+      <td>EP01</td>
       <td>Configuración del sistema de monitoreo</td>
       <td>Permite definir parámetros, condiciones y configuraciones necesarias para el funcionamiento del monitoreo y la detección de anomalías en la red.</td>
     </tr>
     <tr>
-      <td>EP002</td>
+      <td>EP02</td>
       <td>Monitoreo en tiempo real</td>
       <td>Permite visualizar datos de sensores IoT (pH, flujo y gases) en tiempo real para la supervisión de la red.</td>
     </tr>
     <tr>
-      <td>EP003</td>
+      <td>EP03</td>
       <td>Gestión de alertas</td>
       <td>Permite detectar anomalías en los parámetros del agua y generar alertas automáticas para prevenir riesgos.</td>
     </tr>
     <tr>
-      <td>EP004</td>
+      <td>EP04</td>
       <td>Mantenimiento preventivo</td>
       <td>Permite identificar patrones de fallas y zonas críticas para optimizar la planificación del mantenimiento.</td>
     </tr>
     <tr>
-      <td>EP005</td>
+      <td>EP05</td>
       <td>Dashboard y visualización</td>
       <td>Permite visualizar información consolidada mediante gráficos e indicadores para la toma de decisiones.</td>
     </tr>
     <tr>
-      <td>EP006</td>
+      <td>EP06</td>
       <td>Gestión de reutilización de agua</td>
       <td>Permite identificar, validar y gestionar el uso de agua tratada para su reutilización en procesos operativos.</td>
     </tr>
     <tr>
-      <td>EP007</td>
+      <td>EP07</td>
       <td>Reportes y análisis</td>
       <td>Permite generar reportes históricos y métricas que apoyen la evaluación del desempeño del sistema.</td>
     </tr>
     <tr>
-      <td>EP008</td>
+      <td>EP08</td>
       <td>Landing Page informativa</td>
       <td>Permite presentar información del producto, beneficios y propuesta de valor a potenciales clientes.</td>
+    </tr>
+    <tr>
+      <td>EP09</td>
+      <td>Control de acceso por suscripción</td>
+      <td>Permite manejar el acceso a los usuarios a la aplicación mediante una suscripción.</td>
     </tr>
   </tbody>
 </table>
@@ -70,10 +75,10 @@
   <tbody>
     <tr>
       <td>US01</td>
-      <td>---</td>
-      <td>---</td>
-      <td>---</td>
-      <td>EP--</td>
+      <td>Suscripción Automatizada y Control de Acceso</td>
+      <td>Como operador técnico, quiero realizar el pago de mi suscripción mensual a través de una pasarela segura, para obtener acceso inmediato a los tableros de control y reportes de calidad del agua.</td>
+      <td>Given que el operador registrado ha elegido una suscripción mensual. When el usuario ingresa una tarjeta válida y confirma la transacción a través de la pasarela de Stripe. Then el sistema debe recibir la confirmación de pago y actualizar el estado del usuario a "Activo" en la base de datos.</td>
+      <td>EP09</td>
     </tr>
     <tr>
       <td>US02</td>
@@ -122,7 +127,7 @@
       <td>---</td>
       <td>---</td>
       <td>---</td>
-      <td>EP--</td>
+      <td>EP09</td>
     </tr>
     <tr>
       <td>US09</td>
