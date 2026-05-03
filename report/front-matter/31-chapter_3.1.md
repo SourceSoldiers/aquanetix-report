@@ -124,9 +124,9 @@
     </tr>
     <tr>
       <td>US08</td>
-      <td>---</td>
-      <td>---</td>
-      <td>---</td>
+      <td>Renovación automática de suscripción</td>
+      <td>Como usuario, quiero que el sistema gestione la renovación automática de mi suscripción, para evitar interrupciones en el monitoreo de mis sensores y en la programación de mis pedidos de agua.</td>
+      <td>Given que el cliente tiene una suscripción activa con la opción de renovación automática habilitada. When el sistema detecta que faltan 24 horas para el vencimiento del periodo contratado. Then el sistema debe realizar el cobro automático a través de Stripe y extender la vigencia del servicio.</td>
       <td>EP09</td>
     </tr>
     <tr>
