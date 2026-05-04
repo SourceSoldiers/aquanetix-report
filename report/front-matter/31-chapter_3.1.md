@@ -77,7 +77,7 @@
       <td>US01</td>
       <td>Suscripción Automatizada y Control de Acceso</td>
       <td>Como operador técnico, quiero realizar el pago de mi suscripción mensual a través de una pasarela segura, para obtener acceso inmediato a los tableros de control y reportes de calidad del agua.</td>
-      <td>Given que el operador registrado ha elegido una suscripción mensual. When el usuario ingresa una tarjeta válida y confirma la transacción a través de la pasarela de Stripe. Then el sistema debe recibir la confirmación de pago y actualizar el estado del usuario a "Activo" en la base de datos.</td>
+      <td>Given que el operador registrado ha elegido una suscripción mensual. When el usuario ingresa una tarjeta válida y confirma la transacción a través de la pasarela de Stripe. Then el sistema debe recibir la confirmación de pago y actualizar el estado del usuario a activo en la base de datos.</td>
       <td>EP09</td>
     </tr>
     <tr>
