@@ -331,4 +331,4 @@
 <div align="center"><img src="/report/assets/Jira/ProductBacklog_2.png" width ="100%"></div>
 
 
-**URL del Product Backlog:** https://webwarriors-aquanetix-202610.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiMzk4MGQ2MGI1ODZmNGYzMWI2ODU2ZTg3N2Q0MTJjZjYiLCJwIjoiaiJ9  
+**URL del Product Backlog:** https://webwarriors-aquanetix-202610.atlassian.net/jira/software/projects/SA/boards/34/backlog
