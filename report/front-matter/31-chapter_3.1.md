@@ -98,21 +98,54 @@ Entonces el sistema debe mostrar un mensaje de error y mantener el estado del us
       <td>US02</td>
       <td>Configuración de reglas de alerta</td>
       <td>Como operador técnico, quiero establecer condiciones de alerta para recibir notificaciones ante eventos críticos.</td>
-      <td>Dado que existen umbrales definidos en el sistema. Cuando el operador configura una regla de alerta. Entonces el sistema genera alertas cuando se cumplen las condiciones establecidas</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que existen umbrales definidos en el sistema.
+Cuando el operador configura una regla de alerta.
+Entonces el sistema genera alertas cuando se cumplen las condiciones establecidas.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el operador intenta registrar una regla de alerta con valores inválidos o incompletos.
+Cuando guarda la configuración.
+Entonces el sistema debe mostrar un mensaje de error y evitar el registro de la regla.
+</td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US03</td>
       <td>Ajuste de frecuencia de monitoreo</td>
       <td>Como operador técnico, quiero definir la frecuencia de captura de datos de los sensores para optimizar el monitoreo.</td>
-      <td>Dado que el sistema cuenta con sensores activos. Cuando el operador establece la frecuencia de monitoreo. Entonces el sistema aplica la periodicidad configurada para la recolección de datos</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el sistema cuenta con sensores activos.
+Cuando el operador establece la frecuencia de monitoreo.
+Entonces el sistema aplica la periodicidad configurada para la recolección de datos.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el operador modifica la frecuencia de monitoreo.
+Cuando la configuración es guardada correctamente.
+Entonces el sistema actualiza automáticamente la periodicidad para los sensores asociados.
+</td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US04</td>
       <td>Configuración de visualización del monitoreo</td>
       <td>Como usuario, quiero configurar la visualización de los datos para facilitar el análisis de la información.</td>
-      <td>Dado que el usuario accede a la configuración de visualización. Cuando selecciona los datos que desea visualizar. Entonces el sistema muestra la información según la configuración definida</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el usuario accede a la configuración de visualización.
+Cuando selecciona los datos que desea visualizar.
+Entonces el sistema muestra la información según la configuración definida.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el usuario visualiza información de monitoreo.
+Cuando selecciona distintos tipos de datos o parámetros.
+Entonces el sistema permite alternar entre las diferentes vistas de información disponibles.
+</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -350,43 +383,108 @@ Entonces el sistema debe mostrar un mensaje de error y mantener el estado del us
       <td>US38</td>
       <td>Configuración de rangos de seguridad para pH</td>
       <td>Como operador técnico, quiero definir los límites superior e inferior de pH para detectar niveles de acidez o alcalinidad que puedan corroer la tubería o violar normativas ambientales.</td>
-      <td>Dado que el operador se encuentra en el panel de "Configuración de Sensores Químicos", Cuando el operador ingresa un valor mínimo y un valor máximo. Entonces el sistema valida que el valor mínimo sea menor al máximo y guarda los umbrales.<br>
-      Dado que el operador se encuentra en el panel de "Configuración de Sensores Químicos", Cuando el operador ingresa un valor mínimo y un valor máximo. Entonces se activa una alerta visual si el sensor reporta valores fuera de ese rango.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el operador se encuentra en el panel de "Configuración de Sensores Químicos".
+Cuando el operador ingresa un valor mínimo y un valor máximo.
+Entonces el sistema valida que el valor mínimo sea menor al máximo y guarda los umbrales.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el operador se encuentra en el panel de "Configuración de Sensores Químicos".
+Cuando el operador ingresa un valor mínimo y un valor máximo.
+Entonces se activa una alerta visual si el sensor reporta valores fuera de ese rango.
+</td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US39</td>
       <td>Configuración de límites de caudal para detección de fugas u obstrucciones.</td>
       <td>Como operador técnico, quiero establecer el flujo nominal y los márgenes de tolerancia para identificar fugas (caída de presión) o taponamientos (sobrepresión).</td>
-      <td>Dado que el operador accede a la sección de "Parámetros Hidráulicos", Cuando el operador define el umbral de "Flujo Crítico Bajo" (posible fuga) y "Flujo Crítico Alto" (obstrucción o sobrecarga). Entonces el sistema registra los valores en $L/s$ (litros por segundo).</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el operador accede a la sección de "Parámetros Hidráulicos".
+Cuando el operador define el umbral de "Flujo Crítico Bajo" (posible fuga) y "Flujo Crítico Alto" (obstrucción o sobrecarga).
+Entonces el sistema registra los valores en L/s (litros por segundo).
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que existen límites de caudal configurados en el sistema.
+Cuando los sensores detectan valores fuera de los márgenes establecidos.
+Entonces el sistema genera una alerta indicando una posible fuga u obstrucción.
+</td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US40</td>
       <td>Configuración de niveles de alerta para gases inflamables/tóxicos.</td>
       <td>Como operador técnico, quiero definir la concentración máxima permitida de gases (como $H_2S$ o $CH_4$) para prevenir explosiones o intoxicaciones en la red.</td>
-      <td>Dado que el operador está en el módulo de "Seguridad Atmosférica". Cuando define el umbral de Pre-alarma y Alarma Crítica. Entonces el sistema guarda la configuración y asegura que estos valores no puedan ser desactivados sin una clave de supervisor. And al superar el umbral crítico, el sistema debe habilitar automáticamente el protocolo de ventilación (si está integrado).</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el operador está en el módulo de "Seguridad Atmosférica".
+Cuando define el umbral de Pre-alarma y Alarma Crítica.
+Entonces el sistema guarda la configuración y asegura que estos valores no puedan ser desactivados sin una clave de supervisor.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que los sensores detectan concentraciones de gases superiores al umbral crítico configurado.
+Cuando el sistema procesa los valores registrados.
+Entonces se activa automáticamente el protocolo de ventilación, si este se encuentra integrado.
+</td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US41</td>
       <td>Monitoreo en tiempo real mediante mapa interactivo.</td>
       <td>Como supervisor, quiero visualizar la ubicación geográfica de todos los nodos de la red en un mapa para identificar rápidamente qué zonas presentan estados críticos (alerta/alarma).</td>
-      <td>Dado que el supervisor registrado accede al mapa. Cuando el sistema carga las coordenadas de los sensores IoT. Entonces se muestran marcadores con código de colores: verde (normal), amarillo (advertencia) y rojo (crítico).</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el supervisor registrado accede al mapa.
+Cuando el sistema carga las coordenadas de los sensores IoT.
+Entonces se muestran marcadores con código de colores: verde (normal), amarillo (advertencia) y rojo (crítico).
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el supervisor visualiza el mapa interactivo.
+Cuando selecciona un marcador correspondiente a un sensor.
+Entonces el sistema muestra información detallada sobre el estado y los parámetros monitoreados de dicho nodo.
+</td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US42</td>
       <td>Consulta de gráficas de comportamiento temporal.</td>
       <td>Como supervisor, quiero consultar gráficas de tendencias de los sensores en rangos de tiempo específicos para detectar patrones de degradación en la calidad del agua.</td>
-      <td>Dado que el supervisor selecciona un nodo o sector específico. Cuando el supervisor filtra por un rango de fechas y un tipo de sensor. Entonces el sistema renderiza un gráfico de líneas que muestra la evolución del parámetro frente a los umbrales configurados.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el supervisor selecciona un nodo o sector específico.
+Cuando el supervisor filtra por un rango de fechas y un tipo de sensor.
+Entonces el sistema renderiza un gráfico de líneas que muestra la evolución del parámetro frente a los umbrales configurados.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el sistema muestra una gráfica de comportamiento temporal.
+Cuando un parámetro supera los umbrales establecidos.
+Entonces el sistema resalta visualmente los puntos críticos dentro de la gráfica.
+</td>
       <td>EP02</td>
     </tr>
     <tr>
       <td>US43</td>
       <td>Consolidado de alertas operativas pendientes.</td>
       <td>Como supervisor, quiero ver un listado priorizado de todas las anomalías activas en la red para asignar equipos de mantenimiento de manera eficiente.</td>
-      <td>Dado que que existen condiciones de sensores que superan los umbrales definidos en la configuración. Cuando el supervisor accede al panel de alertas. Entonces el sistema muestra una tabla con: ID del sensor, ubicación, tipo de anomalía, y severidad.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que existen condiciones de sensores que superan los umbrales definidos en la configuración.
+Cuando el supervisor accede al panel de alertas.
+Entonces el sistema muestra una tabla con: ID del sensor, ubicación, tipo de anomalía y severidad.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que existen múltiples alertas activas registradas en el sistema.
+Cuando el supervisor visualiza el consolidado de alertas.
+Entonces el sistema organiza las anomalías según su nivel de severidad para facilitar la priorización de atención.
+</td>
       <td>EP02</td>
     </tr>
   </tbody>
