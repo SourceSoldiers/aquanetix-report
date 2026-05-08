@@ -280,22 +280,22 @@
     <tr>
       <td>38</td>
       <td>US38</td>
-      <td>Recepción de datos desde sensores IoT</td>
-      <td>Como developer, quiero recibir datos de sensores IoT para integrarlos al sistema de monitoreo.</td>
+      <td>Configuración de rangos de seguridad para pH</td>
+      <td>Como operador técnico, quiero definir los límites superior e inferior de pH para detectar niveles de acidez o alcalinidad que puedan corroer la tubería o violar normativas ambientales.</td>
       <td>8</td>
     </tr>
     <tr>
       <td>39</td>
       <td>US39</td>
-      <td>Consulta de datos mediante API</td>
-      <td>Como developer, quiero consultar los datos de monitoreo mediante endpoints para integrarlos en el dashboard.</td>
+      <td>Configuración de límites de caudal para detección de fugas u obstrucciones</td>
+      <td>Como operador técnico, quiero establecer el flujo nominal y los márgenes de tolerancia para identificar fugas (caída de presión) o taponamientos (sobrepresión).</td>
       <td>5</td>
     </tr>
     <tr>
       <td>40</td>
       <td>US40</td>
-      <td>Validación de datos de sensores</td>
-      <td>Como developer, quiero validar los datos recibidos de sensores para asegurar la calidad de la información.</td>
+      <td>Configuración de niveles de alerta para gases inflamables/tóxicos.</td>
+      <td>Como operador técnico, quiero definir la concentración máxima permitida de gases (como $H_2S$ o $CH_4$) para prevenir explosiones o intoxicaciones en la red.</td>
       <td>5</td>
     </tr>
     
