@@ -298,6 +298,27 @@
       <td>Como operador técnico, quiero definir la concentración máxima permitida de gases (como $H_2S$ o $CH_4$) para prevenir explosiones o intoxicaciones en la red.</td>
       <td>5</td>
     </tr>
+     <tr>
+      <td>41</td>
+      <td>US41</td>
+      <td>Monitoreo en tiempo real mediante mapa interactivo.</td>
+      <td>Como supervisor, quiero visualizar la ubicación geográfica de todos los nodos de la red en un mapa para identificar rápidamente qué zonas presentan estados críticos (alerta/alarma).</td>
+      <td>5</td>
+    </tr>
+     <tr>
+      <td>42</td>
+      <td>US42</td>
+      <td>Consulta de gráficas de comportamiento temporal.</td>
+      <td>Como supervisor, quiero consultar gráficas de tendencias de los sensores en rangos de tiempo específicos para detectar patrones de degradación en la calidad del agua.</td>
+      <td>5</td>
+    </tr>
+     <tr>
+      <td>43</td>
+      <td>US43</td>
+      <td>Consolidado de alertas operativas pendientes.</td>
+      <td>Como supervisor, quiero ver un listado priorizado de todas las anomalías activas en la red para asignar equipos de mantenimiento de manera eficiente.</td>
+      <td>5</td>
+    </tr>
     
   </tbody>
 </table>
