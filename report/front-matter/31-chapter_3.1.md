@@ -1,66 +1,6 @@
 # Capítulo III: Requirements Specification
 
-<h3>Epics</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Epic ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>EP01</td>
-      <td>Configuración del sistema de monitoreo</td>
-      <td>Permite definir parámetros, condiciones y configuraciones necesarias para el funcionamiento del monitoreo y la detección de anomalías en la red.</td>
-    </tr>
-    <tr>
-      <td>EP02</td>
-      <td>Monitoreo en tiempo real</td>
-      <td>Permite visualizar datos de sensores IoT (pH, flujo y gases) en tiempo real para la supervisión de la red.</td>
-    </tr>
-    <tr>
-      <td>EP03</td>
-      <td>Gestión de alertas</td>
-      <td>Permite detectar anomalías en los parámetros del agua y generar alertas automáticas para prevenir riesgos.</td>
-    </tr>
-    <tr>
-      <td>EP04</td>
-      <td>Mantenimiento preventivo</td>
-      <td>Permite identificar patrones de fallas y zonas críticas para optimizar la planificación del mantenimiento.</td>
-    </tr>
-    <tr>
-      <td>EP05</td>
-      <td>Dashboard y visualización</td>
-      <td>Permite visualizar información consolidada mediante gráficos e indicadores para la toma de decisiones.</td>
-    </tr>
-    <tr>
-      <td>EP06</td>
-      <td>Gestión de reutilización de agua</td>
-      <td>Permite identificar, validar y gestionar el uso de agua tratada para su reutilización en procesos operativos.</td>
-    </tr>
-    <tr>
-      <td>EP07</td>
-      <td>Reportes y análisis</td>
-      <td>Permite generar reportes históricos y métricas que apoyen la evaluación del desempeño del sistema.</td>
-    </tr>
-    <tr>
-      <td>EP08</td>
-      <td>Landing Page informativa</td>
-      <td>Permite presentar información del producto, beneficios y propuesta de valor a potenciales clientes.</td>
-    </tr>
-    <tr>
-      <td>EP09</td>
-      <td>Control de acceso por suscripción</td>
-      <td>Permite manejar el acceso a los usuarios a la aplicación mediante una suscripción.</td>
-    </tr>
-  </tbody>
-</table>
-
-
-<h3>User Stories</h3>
+## 3.1. User Stories
 
 <table>
   <thead>
@@ -73,6 +13,69 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>EP01</td>
+      <td>Configuración del sistema de monitoreo</td>
+      <td>Permite definir parámetros, condiciones y configuraciones necesarias para el funcionamiento del monitoreo y la detección de anomalías en la red.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+      <tr>
+      <td>EP02</td>
+      <td>Monitoreo en tiempo real</td>
+      <td>Permite visualizar datos de sensores IoT (pH, flujo y gases) en tiempo real para la supervisión de la red.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+     <tr>
+      <td>EP03</td>
+      <td>Gestión de alertas</td>
+      <td>Permite detectar anomalías en los parámetros del agua y generar alertas automáticas para prevenir riesgos.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+     <tr>
+      <td>EP04</td>
+      <td>Mantenimiento preventivo</td>
+      <td>Permite identificar patrones de fallas y zonas críticas para optimizar la planificación del mantenimiento.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+     <tr>
+      <td>EP05</td>
+      <td>Dashboard y visualización</td>
+      <td>Permite visualizar información consolidada mediante gráficos e indicadores para la toma de decisiones.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+     <tr>
+      <td>EP06</td>
+      <td>Gestión de reutilización de agua</td>
+      <td>Permite identificar, validar y gestionar el uso de agua tratada para su reutilización en procesos operativos.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+     <tr>
+      <td>EP07</td>
+      <td>Reportes y análisis</td>
+      <td>Permite generar reportes históricos y métricas que apoyen la evaluación del desempeño del sistema.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+     <tr>
+      <td>EP08</td>
+      <td>Landing Page informativa</td>
+      <td>Permite presentar información del producto, beneficios y propuesta de valor a potenciales clientes.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+     <tr>
+     <td>EP09</td>
+      <td>Control de acceso por suscripción</td>
+      <td>Maneja el acceso a los usuarios a la aplicación mediante una suscripción.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
     <tr>
       <td>US01</td>
       <td>Suscripción Automatizada y Control de Acceso</td>
