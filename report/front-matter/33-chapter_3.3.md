@@ -84,8 +84,8 @@
     <tr>
       <td>10</td>
       <td>US01</td>
-      <td>Configuración de umbrales de sensores</td>
-      <td>Como operador técnico, quiero definir los umbrales de pH, flujo y gases para detectar condiciones anómalas en la red.</td>
+      <td>Suscripción Automatizada y Control de Acceso</td>
+      <td>Como operador técnico, quiero realizar el pago de mi suscripción mensual a través de una pasarela segura, para obtener acceso inmediato a los tableros de control y reportes de calidad del agua.</td>
       <td>3</td>
     </tr>
     <tr>
@@ -105,8 +105,8 @@
     <tr>
       <td>13</td>
       <td>US08</td>
-      <td>Consulta del estado de la red</td>
-      <td>Como supervisor, quiero consultar el estado general de la red para tomar decisiones operativas oportunas.</td>
+      <td>Renovación automática de suscripción</td>
+      <td>Como usuario, quiero que el sistema gestione la renovación automática de mi suscripción, para evitar interrupciones en el monitoreo de mis sensores y en la programación de mis pedidos de agua.</td>
       <td>3</td>
     </tr>
     <tr>
