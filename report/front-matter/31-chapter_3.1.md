@@ -81,13 +81,13 @@
       <td>Suscripción Automatizada y Control de Acceso</td>
       <td>Como operador técnico, quiero realizar el pago de mi suscripción mensual a través de una pasarela segura, para obtener acceso inmediato a los tableros de control y reportes de calidad del agua.</td>
       <td>
-<b>Acceptance Test 1:</b><br>
+<b>Criterio de aceptación 1:</b><br>
 Dado que el operador registrado ha elegido una suscripción mensual.
 Cuando el usuario ingresa una tarjeta válida y confirma la transacción a través de la pasarela de Stripe.
 Entonces el sistema debe recibir la confirmación de pago y actualizar el estado del usuario a activo en la base de datos.
 <br><br>
 
-<b>Acceptance Test 2:</b><br>
+<b>Criterio de aceptación 2:</b><br>
 Dado que el operador registrado ha elegido una suscripción mensual.
 Cuando el usuario ingresa una tarjeta inválida o la transacción es rechazada por la pasarela de pago.
 Entonces el sistema debe mostrar un mensaje de error y mantener el estado del usuario como inactivo.
