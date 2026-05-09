@@ -37,7 +37,7 @@ Nombres y Apellidos: Jorge Orellana
 
 Evidencia:
 
-<p align = "left"> <img src="/report/assets/interviews/Entrevista_Jorge_Orellana.png" width ="300" height="300"> </p>
+<p align = "left"> <img src="../assets/interviews/Entrevista_Jorge_Orellana.png" width ="300" height="300"> </p>
 
 Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
 
@@ -59,7 +59,7 @@ Nombres y Apellidos: Jorge Luis Castro Rojas
 
 Evidencia:
 <p align = "left">
-  <img src="/report/assets/interviews/Entrevista_Jorge_Castro.png" width ="300" height="300">
+  <img src="../assets/interviews/Entrevista_Jorge_Castro.png" width ="300" height="300">
 </p>
 
 Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
@@ -67,28 +67,27 @@ Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/
 Duración de la entrevista: **14:34 - 20:51 min**
 
 Resumen:
-La entrevista inicia con la presentación de Jorge Luis Castro Rojas, un ingeniero sanitario de 48 años residente en Santiago de Surco. En su labor profesional, Jorge combina herramientas tradicionales con soluciones digitales modernas; utiliza Google Earth para la geolocalización de coordenadas, la plataforma Yorgos para el seguimiento de normativas y aplicaciones móviles como Timestamp Camera, que permite registrar evidencias fotográficas con datos precisos de tiempo y ubicación para sus reportes técnicos. 
+La entrevista inicia con la presentación de Jorge Luis Castro Rojas, un ingeniero sanitario de 48 años residente en Santiago de Surco. Durante la conversación se mostró como un profesional detallista, práctico y orientado al cumplimiento de normas y procesos operativos. En su labor profesional, Jorge combina herramientas tradicionales con soluciones digitales modernas; utiliza Google Earth para la geolocalización de coordenadas, la plataforma Yorgos para el seguimiento de normativas y aplicaciones móviles como Timestamp Camera, que permite registrar evidencias fotográficas con datos precisos de tiempo y ubicación para sus reportes técnicos.
 
-En lo referente a la gestión operativa, Jorge destaca el uso del sistema SAP y la inteligencia artificial a través de Copilot para optimizar sus tareas diarias. El control de la calidad del agua es un proceso riguroso que incluye auditorías mensuales de laboratorios acreditados por INACAL y monitoreos diarios de parámetros críticos como el pH, la turbidez y el cloro residual. Sin embargo, el ingeniero señala que la falta de sensores de flujo e IoT en toda la red limita la capacidad de obtener datos en tiempo real.
+En lo referente a la gestión operativa, Jorge destaca el uso del sistema SAP y herramientas de inteligencia artificial como Copilot para optimizar sus tareas diarias. El control de la calidad del agua es un proceso riguroso que incluye auditorías mensuales de laboratorios acreditados por INACAL y monitoreos diarios de parámetros críticos como el pH, la turbidez y el cloro residual. Sin embargo, el ingeniero señala que la falta de sensores de flujo e IoT en toda la red limita la capacidad de obtener datos en tiempo real.
 
 Uno de los mayores desafíos técnicos mencionados por Jorge es la dificultad para localizar anomalías exactas en la red, como fugas o roturas de tuberías, debido a la carencia de planos digitalizados y mediciones de presión constantes. Actualmente, el mantenimiento preventivo se basa principalmente en la antigüedad de la infraestructura, una estrategia cuyo objetivo es anticiparse al deterioro natural de los materiales antes de que ocurran fallas críticas que comprometan el servicio.
 
-Finalmente, Jorge nos revela que la empresa atiende entre 3 a 5 emergencias mensuales, las cuales representan un reto economico superior al mantenimiento programado especialmente cuando ocurren en días festivos o madrugadas. Él resalta que la integración de nuevas aplicaciones y tecnologías de monitoreo en línea sería fundamental para transformar la respuesta reactiva en una gestión proactiva, mejorando significativamente la eficiencia del servicio de agua y alcantarillado.
-
+Finalmente, Jorge nos revela que la empresa atiende entre 3 a 5 emergencias mensuales, las cuales representan un reto económico importante, especialmente cuando ocurren en horarios no convencionales o días festivos. Considera que la integración de nuevas aplicaciones y tecnologías de monitoreo en línea sería fundamental para transformar la respuesta reactiva en una gestión más predictiva y eficiente.
 **Entrevista 3**
 
 Nombres y Apellidos: Liliana del Pilar Sanchez Fajardo
 
 Evidencia:
 <p align = "left">
-   <img src="/report/assets/interviews/Entrevista_Liliana_Sanchez.png" width ="300" height="600">
+   <img src="../assets/interviews/Entrevista_Liliana_Sanchez.png" width ="300" height="600">
 </p>
 Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
 
 Duración de la entrevista: **20:52 -- 28:24 min**
 
 Resumen:
-Nos reunimos con Liliana de Pilar Sánchez Bajardo, residente del distrito de Comas, de 57 años, quien se desempeña como ingeniera ambiental y consultora en temas vinculados a la gestión del recurso hídrico. En su labor diaria utiliza principalmente la laptop y el teléfono celular para la coordinación de actividades. Entre sus principales cualidades destacó la responsabilidad, la puntualidad y el trabajo en equipo, mientras que señaló como debilidades su tendencia al perfeccionismo y su baja tolerancia frente a la impuntualidad y la falta de compromiso del personal.
+Nos reunimos con Liliana del Pilar Sánchez Fajardo, residente del distrito de Comas, de 57 años, quien se desempeña como ingeniera ambiental y consultora en temas vinculados a la gestión del recurso hídrico. Durante la entrevista se mostró como una persona responsable, puntual y orientada al trabajo en equipo, aunque también reconoció ser perfeccionista y tener poca tolerancia frente a la impuntualidad y la falta de compromiso del personal. En su labor diaria utiliza principalmente la laptop y el teléfono celular para la coordinación de actividades y supervisión de operaciones.
 
 En relación con el monitoreo de la calidad del agua, indicó que este se realiza mayormente mediante muestreos en puntos específicos de la red, complementados con sensores básicos en planta para medir parámetros como pH y turbidez. No obstante, señaló que el monitoreo en tiempo real a lo largo de toda la red de tuberías es limitado, lo que dificulta una supervisión continua. Asimismo, explicó que identificar el origen exacto de una anomalía resulta complejo, ya que muchas veces los problemas se detectan cuando disminuye la presión del agua o a partir de reportes de los usuarios.
 
@@ -104,7 +103,7 @@ Edward Fernando Bojórquez Gonzales
 
 Evidencia:
 <p align = "left">
- <img src="/report/assets/interviews/Entrevista_Fernando_Foto.png" width ="300" height="300">
+ <img src="../assets/interviews/Entrevista_Fernando_Foto.png" width ="300" height="300">
 </p>
 
 Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
@@ -113,13 +112,13 @@ Duración de la entrevista: **28:25 - 35:42 min**
 
 Resumen:
 
-Nos encontramos con Edward Fernando Bojórquez Gonzales, ciudadano del distrito de Lince, y administrador de una empresa de residuos sólidos. Tiene 56 años, es casado, y vive con su esposa e hijo. Prefiere el uso de laptops y computadoras personales, y es alguien organizado, metódico y orientado al trabajo en equipo, aunque también reconoce que no tiene mucha paciencia.
+Nos encontramos con Edward Fernando Bojórquez Gonzales, ciudadano del distrito de Lince y administrador de una empresa de residuos sólidos. Tiene 56 años, es casado y vive con su esposa e hijo. Durante la entrevista se describió como una persona organizada, metódica y orientada al trabajo en equipo, aunque también reconoció que una de sus principales debilidades es la poca paciencia frente a ciertas situaciones laborales. Prefiere utilizar laptops y computadoras personales para la supervisión y gestión de sus operaciones diarias.
 
-Primero, a Fernando se le preguntó de dónde obtenía el agua para sus procesos de lavado, y nos comentó que en su trabajo se apoya de la red pública de SEDAPAL para el lavado de unidades de transporte y contenedores. Además, si bien no cuentan con una planta de tratamiento de agua propia, reciben apoyo de otra empresa proveedora que maneja la recolección y tratamiento de lixiviados. Dentro de todo, el consumo de agua representa entre el 15% y 20% de los costos mensuales de la empresa.
+Primero, a Edward se le preguntó de dónde obtenía el agua para sus procesos de lavado, y comentó que en su trabajo dependen de la red pública de SEDAPAL para el lavado de unidades de transporte y contenedores. Además, si bien no cuentan con una planta de tratamiento propia, reciben apoyo de una empresa externa encargada de la recolección y tratamiento de lixiviados. Dentro de todo, el consumo de agua representa entre el 15% y 20% de los costos mensuales de la empresa.
 
-Respecto al tema del monitoreo y sostenibilidad, él comentó que no utilizan sistemas inteligentes en tiempo real, sino que realizan mediciones volumétricas del caudal mediante equipos convencionales. Asimismo, utilizan la metodología del Water Footprint Network para medir su huella hidríca, predominando la huella azul, y para su caso predomina la huella azul, que representa el consumo de recursos hídricos superficiales y subterráneos.
+Respecto al tema del monitoreo y sostenibilidad, señaló que no utilizan sistemas inteligentes en tiempo real, sino que realizan mediciones volumétricas mediante equipos convencionales. Asimismo, utilizan la metodología Water Footprint Network para medir la huella hídrica de sus operaciones, predominando la huella azul relacionada al consumo de recursos hídricos superficiales y subterráneos.
 
-Por último, Fernando nos mencionó que su mayor desafío logístico en su trabajo es optimizar el tiempo de lavado y mantenimiento de las unidades para cumplir con los cronogramas de los clientes. Asimismo, demostró interés en la implementación de sistemas de reutilización de agua que Aquanetix ofrece, siempre que generen un ahorro de entre el 30% y 40% de los costos actuales, lo cual justificaría la inversión y ayudaría a mejorar la eficiencia operativa.
+Por último, Edward mencionó que uno de los mayores desafíos logísticos en su trabajo es optimizar el tiempo de lavado y mantenimiento de las unidades para cumplir con los cronogramas establecidos. Además, mostró interés en la implementación de sistemas de reutilización de agua como el propuesto por Aquanetix, siempre que estos representen un ahorro significativo y contribuyan a mejorar la eficiencia operativa de la empresa.
 
 **Entrevista 2**
 
@@ -127,7 +126,7 @@ Nombres y apellidos: José Ignacio Calle Chumacero
 
 Evidencia:
 <p align = "left">
-  <img src="/report/assets/interviews/Entrevista_Jose_Ignacio_Foto.png" width ="300" height="300">
+  <img src="../assets/interviews/Entrevista_Jose_Ignacio_Foto.png" width ="300" height="300">
 </p>
 
 Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
@@ -136,13 +135,13 @@ Duración de la entrevista: **35:43 - 48:13 min**
 
 Resumen:
 
-Nos encontramos con José Ignacio Calle Chumacero, residente del distrito de Jesús María, y jefe de operaciones en RESITER Perú SAC. Tiene 33 años, y convive con su pareja y con sus dos hijos. Entre sus tecnologías preferidas están la laptop y el teléfono, así como IAs como ChatGPT, y es una persona puntual, responsable y dispuesta a mantener un compromiso, aunque también reconoce que presenta dificultades para cumplir con su agenda programada.
+Nos encontramos con José Ignacio Calle Chumacero, residente del distrito de Jesús María y jefe de operaciones en RESITER Perú SAC. Tiene 33 años y convive con su pareja y sus dos hijos. Durante la entrevista se mostró como una persona responsable, comprometida y abierta al uso de nuevas tecnologías para optimizar procesos operativos. Entre sus herramientas tecnológicas preferidas destacan la laptop, el teléfono móvil y plataformas basadas en inteligencia artificial como ChatGPT, las cuales utiliza como apoyo para consultas y toma de decisiones.
 
-Para empezar, a José Ignacio se le preguntó sobre cómo conseguían el agua para los procesos de lavado, y él respondió que tercerizaban dicho proceso con la ayuda de una empresa aliada estratégica ubicada cerca de las rutas de sus clientes. Asimismo, respecto al tratado de lixiviados explicó que diseñan contenedores especiales con válvulas para separar el líquido sucio del sólido, enviando el líquido directamente a las rejillas de la planta del cliente para evitar el transporte de residuos húmedos. Dentro de todo, los gastos en agua y limpieza representan alrededor del 20% y 25% de sus costos operativos.
+Para empezar, a José Ignacio se le preguntó sobre cómo obtenían el agua para los procesos de lavado, y respondió que tercerizan dicho servicio mediante una empresa aliada estratégica cercana a las rutas de sus clientes. Respecto al tratamiento de lixiviados, explicó que emplean contenedores especiales con válvulas para separar líquidos y sólidos, enviando los residuos líquidos directamente a las plantas de tratamiento correspondientes. Además, comentó que los gastos relacionados al agua y limpieza representan entre el 20% y 25% de sus costos operativos.
 
-En cuanto a recursos tecnológicos, comentó que realizaron un plan piloto de monitoreo de llenado de contenedores en 2025, pero falló debido a lecturas incorrectas de los sensores, y por ello el proyecto está en pausa. Además, poseen un área de “Economía Circular” que ofrece asesoría “Cero Residuos” a sus clientes para monitorear su huella de carbono e hídrica.
+En cuanto a recursos tecnológicos, mencionó que anteriormente realizaron un piloto de monitoreo inteligente para contenedores, aunque este presentó fallas debido a lecturas incorrectas de sensores, motivo por el cual el proyecto quedó suspendido temporalmente. Asimismo, destacó que la empresa cuenta con un área de “Economía Circular”, encargada de brindar asesorías orientadas al monitoreo de huella de carbono e hídrica.
 
-Por último, José Ignacio destacó que el mayor desafío que enfrentan en su trabajo es el factor tiempo, pues la logística de lavado puede retrasar los servicios, por lo que buscan eficiencia en este proceso. Por ello, considerarían exitoso un sistema de reutilización de agua si este lograra un ahorro mínimo de 20,000 soles mensuales, lo cual justificaría la inversión tecnológica.
+Finalmente, José Ignacio señaló que el principal desafío operativo es el tiempo requerido para coordinar las actividades de limpieza y logística. En ese sentido, considera que un sistema de reutilización de agua sería exitoso si permite generar ahorros importantes y optimizar los tiempos de operación dentro de la empresa.
 
 **Entrevista 3**
 
@@ -150,7 +149,7 @@ Cristian Qquecano De la Sota
 
 Evidencia:
 <p align = "left">
-   <img src="/report/assets/interviews/Entrevista_Cristian_foto.jfif" width ="300" height="600">
+   <img src="../assets/interviews/Entrevista_Cristian_foto.jfif" width ="300" height="600">
 </p>
 
 Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
@@ -159,13 +158,13 @@ Duración de la entrevista: **48:14 - 53:20 min**
 
 Resumen: 
 
-Nos reunimos con Cristian Qquecano de la Sota. Él es un ingeniero ambiental de 38 años, reside en Jesús María, actualmente está soltero. Trabaja como supervisor de operaciones. Para sus labores diarias prefiere usar su celular Android, además de una laptop. Se considera una persona bastante organizada; sin embargo, confiesa estresarse mucho ante cambios repentinos de planes.
+Nos reunimos con Cristian Qquecano De la Sota, ingeniero ambiental de 38 años y residente de Jesús María, quien actualmente trabaja como supervisor de operaciones. Durante la entrevista se mostró como una persona organizada y orientada al control operativo, aunque reconoció que los cambios repentinos de planes suelen generarle altos niveles de estrés. Para sus actividades diarias utiliza principalmente su celular Android y una laptop como herramientas de trabajo y comunicación.
 
-Durante nuestra conversación, explicó lo complicado de conseguir agua para el lavado de flota. La red pública resulta ineficiente. Por tal motivo, dependen de comprar camiones cisterna constantemente. Este gasto, sumado al canon por vertimientos, representa entre el 8% hasta el 12% del presupuesto operativo mensual.
+Durante la conversación explicó las dificultades relacionadas con el abastecimiento de agua para el lavado de flotas vehiculares. Señaló que la red pública resulta insuficiente para cubrir las necesidades operativas, por lo que dependen constantemente de camiones cisterna. Este gasto, sumado al pago de canon por vertimientos, representa entre el 8% y 12% del presupuesto operativo mensual.
 
-Sobre el manejo de lixiviados, indicó que los almacenan en pozas de sedimentación. Tratar esos líquidos cuesta demasiado; por ello, prefieren pagar a plantas externas especializadas. Al consultarle sobre tecnologías de monitoreo inteligente, nos contó sobre algunas evaluaciones previas con sensores de ultrasonido. Lamentablemente, dichas iniciativas fueron incipientes, quedando relegadas a simples proyectos piloto. Su mayor dolor de cabeza diario es el tiempo de inactividad vehicular. Lavar 50 camiones pesados sin afectar las rutas nocturnas de recolección resulta un verdadero caos logístico. Respecto a la huella hídrica, admitió una falta total de estandarización. Apenas utilizan indicadores muy básicos basados en dividir los litros consumidos entre las toneladas de basura.
+Respecto al manejo de lixiviados, indicó que estos son almacenados en pozas de sedimentación y posteriormente tratados por empresas externas especializadas, debido al elevado costo de implementar soluciones propias. Además, comentó que anteriormente evaluaron el uso de sensores de ultrasonido para monitoreo inteligente; sin embargo, dichas iniciativas no llegaron a consolidarse y quedaron únicamente como proyectos piloto.
 
-Finalmente, Cristian concluyó que cualquier sistema tecnológico de reutilización hídrica debe demostrar resultados contundentes. Para convencer a la gerencia, dicha inversión necesitaría garantizar un ahorro del 25% al 30% mensual, reduciendo facturas de consumo junto con los costos logísticos de cisternas.
+Finalmente, Cristian destacó que uno de los principales problemas operativos es el tiempo de inactividad de las unidades vehiculares, ya que coordinar el lavado de grandes flotas sin afectar los horarios de recolección representa un desafío constante. Asimismo, considera que cualquier sistema tecnológico orientado a reutilización hídrica debe demostrar resultados claros y generar ahorros significativos para justificar su implementación dentro de la empresa.
 
 ### Análisis de entrevistas
 
