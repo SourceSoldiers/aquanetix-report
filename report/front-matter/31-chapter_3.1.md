@@ -850,5 +850,79 @@ Entonces el sistema organiza las anomalías según su nivel de severidad para fa
 </td>
       <td>EP02</td>
     </tr>
+    <tr>
+      <td>US44</td>
+      <td>Navegación de contenido</td>
+      <td>Como visitante, quiero disponer de puntos de acceso directo a las secciones clave de la página para localizar rápidamente la información que es de mi interés sin realizar un recorrido lineal.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el visitante desea explorar un tema específico (como la solución o los beneficios).
+Cuando elige una sección en el sistema de navegación de la Landing Page.
+Entonces el sistema lo posiciona de manera inmediata en la sección correspondiente.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que el visitante se encuentra en cualquier sección de la página.
+Cuando el visitante desea cambiar de sección.
+Entonces el visitante puede elegir otra sección sin tener que volver al inicio.
+
+</td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>US45</td>
+      <td>Comprensión del problema</td>
+      <td>Como visitante corporativo, quiero conocer el problema a enfrentar para comprender mejor el enfoque de la solución.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el visitante está navegando por la Landing Page.
+Cuando consulta la información sobre el problema a enfrentar.
+Entonces el sistema presenta con sustento estadístico el desafío de la brecha hídrica que está presente.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el visitante ha revisado las cifras del déficit de saneamiento.
+Cuando analiza el impacto de la falta de visibilidad operativa en la gestión de recursos.
+Entonces el sistema establece una conexión directa entre la problemática expuesta y la necesidad de una transformación digital para democratizar el acceso al agua segura.
+
+</td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>US46</td>
+      <td>Acceso a información de respaldo y transparencia</td>
+      <td>Como visitante, quiero disponer de un espacio con referencias institucionales y legales para validar la formalidad del proyecto y conocer mis derechos como usuario.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el visitante desea conocer el marco legal del sitio.
+Cuando consulta la información de cierre de la página.
+Entonces el sistema ofrece acceso a las políticas de privacidad, términos de servicio y compromisos de sostenibilidad de la organización.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el visitante ha revisado las cifras del déficit de saneamiento.
+Cuando analiza el impacto de la falta de visibilidad operativa en la gestión de recursos.
+Entonces el sistema muestra la identificación de la empresa como desarrolladores y la marca de propiedad intelectual correspondiente al año 2026.
+</td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>US47</td>
+      <td>Solicitud de demostración del sistema</td>
+      <td>Como visitante corporativo interesado, quiero solicitar una demostración personalizada del ecosistema para observar cómo las funcionalidades de monitoreo y trazabilidad se adaptan a las necesidades específicas de mi organización.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el visitante ha evaluado la propuesta de valor y los beneficios en la landing page.
+Cuando decide profundizar en el funcionamiento técnico y operativo de la plataforma.
+Entonces el sistema proporciona un canal directo para manifestar el interés en una sesión demostrativa.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el visitante requiere una validación práctica de la herramienta.
+Cuando interactúa con la opción de solicitar consultoría o demo.
+Entonces el sistema captura la intención del usuario para facilitar la coordinación de una presentación detallada sobre las capacidades de inteligencia hídrica.
+</td>
+      <td>EP08</td>
+    </tr>
   </tbody>
 </table>
