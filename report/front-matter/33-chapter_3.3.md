@@ -325,10 +325,10 @@
 
 ## Imagenes del Product Backlog realizados en Jira
 
-<div align="center"><img src="/report/assets/Jira/ProductBacklog_1.png" width ="100%"></div>
+<div align="center"><img src="../assets/Jira/ProductBacklog_1.png" width ="100%"></div>
 
 
-<div align="center"><img src="/report/assets/Jira/ProductBacklog_2.png" width ="100%"></div>
+<div align="center"><img src="../assets/Jira/ProductBacklog_2.png" width ="100%"></div>
 
 
-**URL del Product Backlog:** https://webwarriors-aquanetix-202610.atlassian.net/jira/software/projects/SA/boards/34/backlog
+**URL del Product Backlog:** https://sourcesoldiers.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog
