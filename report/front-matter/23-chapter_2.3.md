@@ -3,12 +3,12 @@
 
 #### Segmento 1: Empresas prestadoras de servicios de agua y alcantarillado
 <p align = "left">
-  <img src="/report/assets/ux_pressia/Jorge Navarro's User Persona.png">
+  <img src="../assets/ux_pressia/Jorge Navarro's User Persona.png">
 </p>
 
 #### Segmento 2: Empresas gestoras de residuos sólidos
 <p align = "left">
-  <img src="/report/assets/ux_pressia/Ricardo Sánchez's User Persona.png">
+  <img src="../assets/ux_pressia/Ricardo Sánchez's User Persona.png">
 </p>
 
 ### 2.3.2. Task Matrix
@@ -53,34 +53,34 @@ En general, sus tareas reflejan un compromiso con la eficiencia y la sostenibili
 
 #### User Persona 1: 
 <p align = "left">
-  <img src="/report/assets/ux_pressia/Jorge Navarro's Journey Map.png">
+  <img src="../assets/ux_pressia/Jorge Navarro's Journey Map.png">
 </p>
 
 #### User Persona 2: Ricardo Sánchez
 <p align = "left">
-  <img src="/report/assets/ux_pressia/Ricardo Sanchez's Journey Map.png">
+  <img src="../assets/ux_pressia/Ricardo Sanchez's Journey Map.png">
 </p>
 
 ### 2.3.4. Empathy Mapping
 
 #### User Persona 1:
 <p align = "left">
-  <img src="/report/assets/ux_pressia/Jorge Navarro's Empathy Map.png">
+  <img src="../assets/ux_pressia/Jorge Navarro's Empathy Map.png">
 </p>
 
 #### User Persona 2: Ricardo Sánchez
 <p align = "left">
-  <img src="/report/assets/ux_pressia/Ricardo Sánchez's Empathy Map.png">
+  <img src="../assets/ux_pressia/Ricardo Sánchez's Empathy Map.png">
 </p>
 
 ### 2.3.5. As-Is Scenario Mapping
 
 #### User Persona 1: Jorge Navarro
 <p align = "left">
-   <img src="/report/assets/miro/Jorge Navarro's As-Is Scenario Map.png">
+   <img src="../assets/miro/Jorge Navarro's As-Is Scenario Map.png">
 </p>
 
 #### User Persona 2: Ricardo Sánchez
 <p align = "left">
-   <img src="/report/assets/miro/Ricardo Sánchez's As-Is Scenario Map.png">
+   <img src="../assets/miro/Ricardo Sánchez's As-Is Scenario Map.png">
 </p>
