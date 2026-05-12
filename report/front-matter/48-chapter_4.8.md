@@ -4,5 +4,5 @@ El diseño de la base de datos resulta vital en la construcción de Aquanetix, p
 
 ### 4.8.1. Database Diagram.
 
-<div align="center"><img src="/report/assets/c4_diagrams/Database_desing.png" width ="100%"></div>
+<div align="center"><img src="../assets/c4_diagrams/Database_desing.png" width ="100%"></div>
 
