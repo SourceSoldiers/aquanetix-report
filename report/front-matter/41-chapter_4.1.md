@@ -16,7 +16,7 @@ Principios de Diseño:
 La tipografía debe reflejar la solidez de una solución corporativa/municipal.
 > * Encabezados (Manrope): Se utilizará en pesos Bold (700) y SemiBold (600). Su estructura geométrica y moderna da una imagen de startup sólida.
 > * Cuerpo de Texto y Labels (Inter): Se utilizará para toda la lectura de datos, tablas y etiquetas. Es la fuente estándar en interfaces de alta densidad por su claridad en tamaños pequeños.
- <div align="center"><img src="/report/assets/LandingPage/tipografía.jpg" width ="400" height="700"></div>
+ <div align="center"><img src="../assets/LandingPage/tipografía.jpg" width ="400" height="700"></div>
 
 #### Colores
 La paleta utilizada para el sitio web le da un mayor protagonismo a los azules vibrantes:
@@ -24,7 +24,7 @@ La paleta utilizada para el sitio web le da un mayor protagonismo a los azules v
 > * Verde esmeralda (#10B981): Acentos de éxito, sostenibilidad, recuperación y estados "Activo/Óptimo".
 > * Verde bosque (#064E3B): Fondos de secciones oscuras, iconos de naturaleza y estados de "Eco-impacto".
 > * Blanco pizarrón (#F1F5F9): Fondos de la aplicación (UI), tarjetas de datos y separación de secciones.
-<div align="center"><img src="/report/assets/LandingPage/paleta de colores.jpg" width ="400" height="700"></div>
+<div align="center"><img src="../assets/LandingPage/paleta de colores.jpg" width ="400" height="700"></div>
 
 #### Principios de espaciado
 Utilizaremos un sistema de espaciado basado en una rejilla de 8px (base 8). Esto garantiza que todos los componentes (gráficos de sensores, menús, tarjetas) tengan una relación matemática limpia. El espacio negativo debe ser amplio para reducir la "carga cognitiva" en dashboards complejos.
