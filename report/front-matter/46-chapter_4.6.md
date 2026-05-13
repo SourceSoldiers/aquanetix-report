@@ -2,6 +2,33 @@
 ### 4.6. Domain-Driven Software Architecture
 En esta seccion, se ha tomado el tiempo de 2 horas para identificar los diversos puntos de integración con servicios externos y definir la estructura necesaria por cada Bounded Context, con la seguridad de implementar una arquitectura SaaS escalable.
 ### 4.6.1. Design-Level EventStorming
+A continuacion, se mostrará el Design-Level Event Storming de nuestra aplicación. En esta sección se profundizó a mayor detalle nuestro Big Picture Event Storming, enfocandonos en la arquitectura interna, componentes y resultados finales. Se menciona que se utilizó la herramiento Miro para la elaboracion de dicho mapeo, asi que se muestra a continuación el enlace para una mejor visualización: https://shorturl.at/ozZeU
+
+**Paso 1: Definition of Commands and Actors**
+
+Iniciamos el análisis identificando las acciones específicas (Comandos) que disparan los procesos en cada sub-dominio y  a los actores (usuarios o sistemas) responsables de ejecutar dichas acciones.
+
+<div align="center"><img src="../assets/miro/ActorsandCommands.jpg" width ="100%"></div>
+
+**Paso 2: Policy Design and Inter-Context Orchestration**
+
+En este paso, establecimos con paciencia las Policies para gestionar el comportamiento reactivo y la comunicación entre los Bounded Contexts.
+
+<div align="center"><img src="../assets/miro/Policies.jpg" width ="100%"></div>
+
+
+**Paso 3: Aggregate Modeling and Business Logic Rules**
+
+Ya con el flujo de comunicación claro y definido, decidimos introducir los Agregados para definir las fronteras de consistencia, agrupando los comandos y eventos bajo entidades lógicas.
+
+<div align="center"><img src="../assets/miro/Aggregates.jpg" width ="100%"></div>
+
+<div align="center"><img src="../assets/miro/relacionBoundedContext.jpg" width ="100%"></div>
+
+**Paso 4: Identification of External Systems, Read Models and Attribute Refinement**
+
+En la etapa final, integramos los sistemas externos que el actor necesita visualizar antes de ejecutar un comando, asegurando una interfaz informada, incorporamos los Read Models para definir la información que el actor requiere visualizar antes de ejecutar un comando y desglosamos los Atributos técnicos (IDs, estados, parámetros técnicos) dentro de cada aggregate para eliminar ambigüedades para la codificación, definiendo exactamente qué información debe persistir en la base de datos para cada entidad del dominio.
+
 <div align="center"><img src="../assets/miro/Design-Level Event Storming.jpg" width ="100%"></div>
 
 ### 4.6.2. Software Architecture Context Diagram
