@@ -122,3 +122,27 @@ Para el desarrollo de este primer sprint, todos los miembros del equipo desarrol
 <p align = "left">
    <img src="../assets/insights/Team Collaboration Insights.jpg">
 </p>
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El objetivo de este sprint backlog 2 fue el designar tareas referente al frontend de nuestra web application del sistema Aquanetix en lo que refiere a diseño y funcionalidad. Mayormente el enfoque fue la maquetación de los paneles de control y la integración de la interfaz con las lógicas de estado, garantizando que el sistema refleje adecuadamente los datos de calidad de agua y las métricas operativas del usuario.
+
+Durante este Sprint, el equipo trabajó de manera colaborativa en la construcción de las diferentes secciones de la web application, asegurando una muestra del como funciona la aplicacion que se está proponiendo.
+
+<div align="center">
+  <img src="../assets/Jira/Captura SB2.png">
+  <img src="../assets/Jira/CapturaSB2_2.png">
+  <img src="../assets/Jira/CapturaSB2_3.png">
+  <img src="../assets/Jira/CapturaSB2_4.png">
+</div>
+
+Enlace a la herramienta utilizada: https://shorturl.at/xs1Pv
+
+A continuación, se detallan las User Stories priorizadas y las tareas asociadas:
+
+| US Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|------|------|--------|------------|------------|-------------------|-------------|--------|
+| US-38 | Detectar alertas críticas en tiempo real | T-01 | Implementar lógica de detección de alertas | Implementar lógica de detección de alertas | 6 | Sebastián Pinedo | Done |
+| US-5 | Actualizar automáticamente el estado de los sensores | T-02 | Implementar actualización automática de estados | Implementar actualización automática de estados | 5 | Sebastián Cochachi | Done |
+| US-11 | Generar alertas automáticas por valores fuera de rango | T-03 | Configurar generación automática de alertas | Configurar generación automática de alertas | 4 | Nicolás Castro | Done |
+| US-12 | Clasificar alertas según nivel de riesgo | T-04 | Implementar lógica de clasificación automática de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Leonardo Cabrera | Done |
