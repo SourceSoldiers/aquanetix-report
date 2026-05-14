@@ -40,6 +40,13 @@ Los aspectos seleccionados corresponden a las principales áreas del proyecto Aq
 
 El objetivo del presente Sprint fue el diseño y desarrollo de la landing page del sistema Aquanetix, enfocándose en la comunicación efectiva de la propuesta de valor, la presentación de funcionalidades clave y la facilitación del contacto con potenciales usuarios.
 
+<div align="center">
+  <img src="../assets/Jira/Sprint1_1.png">
+  <img src="../assets/Jira/Sprint1_2.png">
+  <img src="../assets/Jira/Sprint1_3.png">
+  <img src="../assets/Jira/Sprint1_4.png">
+</div>
+
 Durante este Sprint, el equipo trabajó de manera colaborativa en la construcción de las diferentes secciones de la landing page, asegurando una experiencia de usuario clara, intuitiva y alineada con los objetivos del sistema.
 
 A continuación, se detallan las User Stories priorizadas y las tareas asociadas:
