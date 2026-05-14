@@ -25,12 +25,26 @@ El impacto de esta problemática es económico, ambiental y social. Desde el pun
 #### 1.2.2.1. Lean UX Problem Statement
 "Actualmente, las empresas prestadoras de servicios hídricos y operadoras de residuos en Lima enfrentan una falta crítica de visibilidad en tiempo real sobre la calidad y el flujo del agua en sus redes, lo que genera altos costos operativos por mantenimiento reactivo ante obstrucciones y graves riesgos de seguridad por gases tóxicos no detectados. Existe una brecha significativa entre la recolección de agua en estado deficiente y su potencial reaprovechamiento, perdiendo la oportunidad de cerrar el ciclo de economía circular en zonas industriales con alto estrés hídrico. Ante esta situación, ¿cómo podríamos utilizar tecnología IoT (PH, gases y flujo) para monitorear y transformar el agua residual en un recurso recuperable, optimizando la gestión operativa de las empresas y facilitando su redistribución logística hacia los sectores que más la necesitan?"
 #### 1.2.2.2. Lean UX Assumptions
-User Assumptions:<br>
-•	Creemos que nuestros clientes necesitan reducir sus multas por vertimientos fuera de norma (PH).<br>
-•	Creemos que los operadores de campo prefieren recibir alertas en dispositivos móviles que realizar inspecciones manuales programadas.<br>
 Business Assumptions:<br>
-•	Creemos que las empresas están dispuestas a pagar una suscripción si el ahorro en mantenimiento preventivo supera el costo del servicio.<br>
-•	Creemos que el mayor valor agregado es el módulo de logística para la redistribución (economía circular).<br>
+> *	Creemos que nuestros clientes necesitan ver la calidad y flujo de sus redes para evitar mantenimientos reactivos, y que están dispuestos a pagar una suscripción recurrente por el servicio de monitoreo por una solución que ofrezca alertas tempranas de obstrucciones y detección de gases tóxicos.<br>
+> *	Creemos que el valor #1 que el cliente quiere de nuestro producto es el módulo de logística para la redistribución de agua en las regiones necesitadas.<br>
+
+Business Outcome Assumptions:<br>
+> *	Sabremos que el negocio está teniendo éxito cuando veamos una reducción del 20% en las salidas de cuadrillas de emergencia por parte de los equipos de mantenimiento en un plazo de un semestre, validando que el monitoreo preventivo está funcionando.<br>
+> *	Sabremos que el negocio está teniendo éxito cuando veamos un registro de cero infracciones por parámetros de PH fuera de norma por parte de las autoridades reguladoras hacia nuestros clientes en un plazo de un año tras la implementación.<br>
+
+User Assumptions:<br>
+> *	Creemos que nuestro primer tipo de usuario son los trabajadores de empresas prestadoras de servicios de agua y alcantarillados (ej. SEDAPAL), quienes actualmente se enfrentan a la falta de datos históricos y en tiempo real sobre la calidad del agua (PH), lo que resulta en multas inesperadas y costosas por vertimientos que no cumplen con la normativa vigente.<br>
+> *	Creemos que nuestro segundo tipo de usuario son los supervisores y operarios de empresas gestoras de residuos sólidos (ej. RESITER), quienes actualmente se enfrentan a una incertidumbre crítica sobre la composición química y el estado de los residuos líquidos que recolectan, lo que les impide clasificar eficientemente el material para su reaprovechamiento y los obliga a realizar procesos de tratamiento genéricos que elevan los costos logísticos.<br>
+
+User Benefits Assumptions:<br>
+> * Creemos que el usuario quiere lograr una validación precisa de las condiciones del entorno antes de realizar una intervención física para poder obtener la tranquilidad de que su integridad física y salud no están en riesgo por agentes invisibles o peligrosos.<br>
+> * Creemos que el usuario quiere lograr la consolidación inmediata de los datos de calidad de agua recolectados durante el mes para poder obtener un ahorro significativo de tiempo administrativo y eliminar la frustración que genera el procesamiento manual de datos para reportes de cumplimiento.<br>
+
+Feature Assumptions:<br>
+> * Creemos que construir un panel de control interactivo con comparativas de datos históricos y en tiempo real permitirá a los gerentes de planta identificar tendencias de contaminación de manera predictiva para ajustar los procesos de tratamiento antes de que ocurra un incidente.<br>
+> *	Creemos que construir un sistema de notificaciones críticas con umbrales de PH configurables permitirá a los encargados de cumplimiento ambiental reaccionar instantáneamente ante vertimientos fuera de norma, evitando así sanciones y multas regulatorias.<br>
+
 #### 1.2.2.3. Lean UX Hypothesis Statements:
 Creemos que al proporcionar sensores de PH y flujo a las empresas de alcantarillado, lograremos que se reduzcan los costos de mantenimiento. Sabremos que estaremos en lo correcto cuando veamos una disminución del 20% en el número de cuadrillas enviadas por emergencias de obstrucción.<br>
 Creemos que integrar detectores de gases tóxicos en el plan base lograremos aumentar la seguridad percibida por los trabajadores. Sabremos que tenemos razón cuando el 80% de los usuarios califiquen la plataforma como "esencial para la seguridad".<br>
