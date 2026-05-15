@@ -72,12 +72,13 @@ Herramienta de comunicación utilizada para la coordinación del equipo durante 
 
 La gestión del código fuente del proyecto se realizó mediante la plataforma GitHub, la cual fue utilizada como sistema de control de versiones para organizar y dar seguimiento a todos los cambios realizados durante el desarrollo.
 
-El proyecto cuenta con dos repositorios principales:
+El proyecto cuenta con tres repositorios principales:
 
-- Repositorio del informe (documentación): https://github.com/DeterminedSoul7/aquanetix-report.git
-- Repositorio de la Landing Page: https://github.com/NicoCSE/SourceSoldiers-Landing-Page.git
+- Repositorio del informe (documentación): https://github.com/SourceSoldiers/aquanetix-report.git
+- Repositorio de la Landing Page: https://github.com/SourceSoldiers/SourceSoldiers-Landing-Page.git
+- Repositorio de la Web Application: https://github.com/SourceSoldiers/SourceSoldiers-WebApplications-Aquanetix.git
 
-En el repositorio del informe se gestionaron todos los avances relacionados a la documentación del proyecto, mientras que en el repositorio de la Landing Page se desarrolló la parte visual y funcional del producto.
+En el repositorio del informe se gestionaron todos los avances relacionados a la documentación del proyecto, mientras que en el repositorio de la Landing Page se desarrolló la parte visual y funcional del producto. Por su parte, en el repositorio de la Web Application se desplegó la aplicación con las funcionalidades especificadas.
 
 ### GitFlow Workflow
 
