@@ -184,3 +184,51 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | US-5 | Actualizar automáticamente el estado de los sensores | T-02 | Implementar actualización automática de estados | Implementar actualización automática de estados | 5 | Sebastián Cochachi | Done |
 | US-11 | Generar alertas automáticas por valores fuera de rango | T-03 | Configurar generación automática de alertas | Configurar generación automática de alertas | 4 | Nicolás Castro | Done |
 | US-12 | Clasificar alertas según nivel de riesgo | T-04 | Implementar lógica de clasificación automática de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Andrea Correa | Done |
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En esta sección se presentan evidencias de la ejecución de la web application desarrollada durante el Sprint.
+
+Las siguientes capturas muestran la interacción del usuario con las diferentes secciones de la web application.
+
+**Figura 1. Dashboard principal**
+
+<div align="center">
+  <img src="../assets/web_applications/Web-App-Cap1.jpg">
+</div>
+
+La figura muestra el dashboard principal de la web application Aquanetix, donde el usuario puede visualizar en tiempo real el estado general del sistema, incluyendo dispositivos activos, alertas críticas, volumen tratado y eficiencia operativa. Además, se presentan tablas y paneles informativos que facilitan el monitoreo y supervisión de los sensores conectados.
+
+**Figura 2. Listado de dispositivos**
+
+<div align="center">
+  <img src="../assets/web_applications/Web-App-Cap2.jpg">
+</div>
+
+La figura muestra la sección de dispositivos de la aplicación web, donde se presenta una tabla con todos los sensores registrados en el sistema. El usuario puede visualizar información relevante como ubicación, tipo de sensor, valor actual y estado operativo, además de realizar acciones de consulta y edición sobre cada dispositivo.
+
+**Figura 3. Registro de nuevo dispositivo**
+
+<div align="center">
+  <img src="../assets/web_applications/Web-App-Cap3.jpg">
+</div>
+
+La figura representa el formulario de registro de nuevos dispositivos dentro de la plataforma Aquanetix. El usuario puede ingresar información relacionada al sensor, como nombre, ubicación, tipo, unidad de medida y umbrales permitidos, facilitando la incorporación de nuevos dispositivos al sistema de monitoreo.
+
+**Figura 4. Gestión de alertas**
+
+<div align="center">
+  <img src="../assets/web_applications/Web-App-Cap4.jpg">
+</div>
+
+La figura muestra el módulo de alertas de la aplicación web, en el cual el usuario puede visualizar y gestionar alertas activas generadas por los sensores del sistema. Cada alerta incluye información relacionada al dispositivo, nivel de prioridad y ubicación, permitiendo identificar rápidamente incidencias críticas dentro de la operación.
+
+**Figura 5. Gestión de suscripción**
+
+<div align="center">
+  <img src="../assets/web_applications/Web-App-Cap5.jpg">
+</div>
+
+La figura presenta la sección de suscripción de la plataforma, donde el usuario puede consultar la información de su plan actual, visualizar el uso de recursos disponibles y acceder a datos de facturación. Asimismo, se incluyen opciones para cambiar o cancelar la suscripción según las necesidades del usuario.
+
