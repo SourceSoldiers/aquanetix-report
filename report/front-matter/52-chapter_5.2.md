@@ -273,6 +273,79 @@ La interacción con estos servicios se realiza a través de la infraestructura d
 
 La figura presenta la sección de suscripción de la plataforma, donde el usuario puede consultar la información de su plan actual, visualizar el uso de recursos disponibles y acceder a datos de facturación. Asimismo, se incluyen opciones para cambiar o cancelar la suscripción según las necesidades del usuario.
 
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo realizó el despliegue de la primera versión funcional de la **Frontend Web Application** de Aquanetix utilizando Firebase Hosting, plataforma de hosting en la nube de Google. A continuación se describen las actividades realizadas durante el proceso de despliegue.
+
+---
+
+### 1. Configuración del proyecto en Firebase
+
+Se creó el proyecto `ss-aquanetix-webapplication` en Firebase Console, habilitando el servicio Firebase Hosting para publicar la aplicación Angular desarrollada con Angular CLI. Posteriormente, se vinculó el proyecto local ejecutando los siguientes comandos:
+
+```bash
+firebase login
+firebase init hosting
+```
+
+Durante la configuración inicial se seleccionó la carpeta `dist/` generada por Angular como directorio público de despliegue y se habilitó el modo Single Page Application (SPA), permitiendo que todas las rutas sean redirigidas automáticamente hacia `index.html`.
+
+---
+
+### 2. Configuración del archivo firebase.json
+
+Se configuró el archivo `firebase.json` para permitir el correcto funcionamiento del Angular Router mediante reglas de reescritura (rewrites), además de establecer configuraciones básicas de caché para los recursos estáticos.
+
+```json
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 3. Build y despliegue de la aplicación
+
+Se generó el build de producción utilizando Angular CLI y posteriormente se desplegó la aplicación en Firebase Hosting mediante los siguientes comandos:
+
+```bash
+ng build
+firebase deploy
+```
+
+---
+
+### 4. URL de la aplicación desplegada
+
+La aplicación fue publicada exitosamente y quedó accesible mediante la siguiente URL:
+
+🔗 **https://ss-aquanetix-webapplication.web.app/monitoring/dashboard**
+
+Al acceder al sistema, el usuario puede visualizar el Dashboard principal de monitoreo, incluyendo la información obtenida desde las APIs externas configuradas para la aplicación.
+
+---
+
+### 5. Configuración de variables de entorno
+
+La aplicación utiliza archivos `environment.ts` para gestionar las variables de entorno y las rutas de conexión hacia los servicios externos utilizados durante el Sprint 2.
+
+Entre las configuraciones principales se incluyen:
+
+- URL base de las APIs externas.
+- Endpoints de monitoreo y sensores.
+- Configuración de alertas y suscripciones.
+- Parámetros de entorno para producción y desarrollo.
+
+Esta estructura permitió separar la configuración del entorno de desarrollo y producción, facilitando el despliegue y mantenimiento de la aplicación.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
