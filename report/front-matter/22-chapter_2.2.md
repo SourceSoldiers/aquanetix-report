@@ -39,7 +39,7 @@ Evidencia:
 
 <p align = "left"> <img src="../assets/interviews/Entrevista_Jorge_Orellana.png" width ="300" height="300"> </p>
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
+Enlace: https://shorturl.at/lv4LG
 
 Duración de la entrevista: **00:00 - 14:33 min**
 
@@ -62,7 +62,7 @@ Evidencia:
   <img src="../assets/interviews/Entrevista_Jorge_Castro.png" width ="300" height="300">
 </p>
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
+Enlace: https://shorturl.at/lv4LG
 
 Duración de la entrevista: **14:34 - 20:51 min**
 
@@ -82,7 +82,7 @@ Evidencia:
 <p align = "left">
    <img src="../assets/interviews/Entrevista_Liliana_Sanchez.png" width ="300" height="600">
 </p>
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
+Enlace: https://shorturl.at/lv4LG
 
 Duración de la entrevista: **20:52 -- 28:24 min**
 
@@ -106,7 +106,7 @@ Evidencia:
  <img src="../assets/interviews/Entrevista_Fernando_Foto.png" width ="300" height="300">
 </p>
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
+Enlace: https://shorturl.at/lv4LG
 
 Duración de la entrevista: **28:25 - 35:42 min**
 
@@ -129,7 +129,7 @@ Evidencia:
   <img src="../assets/interviews/Entrevista_Jose_Ignacio_Foto.png" width ="300" height="300">
 </p>
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
+Enlace: https://shorturl.at/lv4LG
 
 Duración de la entrevista: **35:43 - 48:13 min**
 
@@ -152,7 +152,7 @@ Evidencia:
    <img src="../assets/interviews/Entrevista_Cristian_foto.jfif" width ="300" height="600">
 </p>
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411402_upc_edu_pe/IQBH8SnRE8eqTYnL0jq2JpnNAUMtggHtV61evBSjdIe1AP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LVRGw8
+Enlace: https://shorturl.at/lv4LG
 
 Duración de la entrevista: **48:14 - 53:20 min**
 
