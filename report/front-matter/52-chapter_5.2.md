@@ -273,3 +273,10 @@ La interacción con estos servicios se realiza a través de la infraestructura d
 
 La figura presenta la sección de suscripción de la plataforma, donde el usuario puede consultar la información de su plan actual, visualizar el uso de recursos disponibles y acceder a datos de facturación. Asimismo, se incluyen opciones para cambiar o cancelar la suscripción según las necesidades del usuario.
 
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Para el desarrollo de este segundo sprint, todos los miembros del equipo desarrollaron y colaboraron de manera activa y continua. De tal modo, se muestra como evidencia los insights de cada miembro del equipo.
+<p align = "left">
+   <img src="../assets/insights/Commiters.png">
+</p>
