@@ -14,8 +14,8 @@ Para este sprint, la reunión de Sprint Planning nos permite evaluar nuestra vel
 | Date | 2026-04-22 |
 | Time | 9:00 PM |
 | Location | Google meet |
-| Prepared By | Castro Solorza, Nicolas Eduardo |
-| Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Correa Rodríguez, Andrea Khristina Esther |
+| Prepared By | Bojórquez Bustinza, Renzo Alejandro |
+| Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Correa Rodríguez, Andrea Khristina Esther / Bojórquez Bustinza, Renzo Alejandro |
 | Sprint 1  Review Summary | Al ser el primer sprint del proyecto (Fase de Inicio), no hay un Review de entregables previos. Se revisaron los requisitos del Primer Entregable (TB1), estableciendo como prioridad el diseño de la arquitectura base, diseño de base de datos, además de los flujos de registro de empresas. |
 | Sprint 1  Retrospective Summary | De igual manera al ser el inicio del proyecto, se establecieron las normas de trabajo del equipo: reuniones de seguimiento (Daily Stand-ups) mediante Meet, uso de herramientas ágiles para el control de tareas, sumado a la necesidad de mantener una comunicación constante para evitar bloqueos técnicos en el desarrollo del backend. |
 | Sprint 1 Goal | Para este sprint se requiere el cumplimiento de los siguientes objetivos: Establecer la arquitectura base del backend, desplegar el esquema de la base de datos relacional, configurar el registro de clientes (Enterprise) junto con la seguridad (Login). La métrica de cumplimiento se basará en el proceso de cómo nuestro "Board de Jira" luzca con el paso del tiempo, nuestro resultado final debe de mostrar todas las tareas en el lado derecho de la herramienta, ubicándolos en la columna "Terminado". |
@@ -123,6 +123,44 @@ Para el desarrollo de este primer sprint, todos los miembros del equipo desarrol
    <img src="../assets/insights/Team Collaboration Insights.jpg">
 </p>
 
+### 5.2.2. Sprint 2
+El segundo sprint de nuestro proyecto estuvo enfocado en el desarrollo de funcionalidades relacionadas al monitoreo inteligente de la red hídrica, la gestión de alertas automáticas y la administración de parámetros operativos dentro del sistema. Durante este periodo, el equipo priorizó la implementación de módulos backend orientados al procesamiento de datos de sensores, validación de condiciones críticas y generación de información operativa para supervisores y operadores técnicos.
+
+#### 5.2.2.1. Sprint Planning 2.
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting. El segundo sprint de nuestro proyecto posee una gran importancia en lo que refiere al proceso de desarrollo ágil y la construcción de la lógica de negocio en el backend. A lo largo de este periodo, se ha dado un enfoque con mayor énfasis en la implementación de las características fundamentales de monitoreo químico y la gestión de acceso, así como en las funcionalidades de mayor prioridad en nuestra planificación de inicio, asegurando que el equipo entregue valor tangible a los usuarios de la plataforma.
+
+| Campo / Sección | Detalle |
+| :--- | :--- |
+| Sprint # | Sprint 2 |
+| Date | 2026-05-10 |
+| Time | 9:00 PM |
+| Location | Google meet |
+| Prepared By | Bojórquez Bustinza, Renzo Alejandro |
+| Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Correa Rodríguez, Andrea Khristina Esther / Bojórquez Bustinza, Renzo Alejandro |
+| Sprint 2  Review Summary | Durante el Sprint 2 se lograron desplegar los cimientos de la arquitectura backend y los endpoints iniciales de registro de cuentas. El Product Owner validó positivamente la estructura inicial, pero resaltó que para entregar verdadero valor al negocio es prioritario enfocarse ahora en el flujo de suscripciones que habilita los tableros, y en el motor de reglas de los sensores químicos para la detección temprana de anomalías. |
+| Sprint 2  Retrospective Summary | El equipo identificó como un gran acierto la comunicación constante en los Daily Stand-ups. Sin embargo, como oportunidad de mejora, se evidenció la necesidad de aplicar de forma más estricta las buenas prácticas de programación (uso de DTOs, Inyección de Dependencias y manejo de excepciones) desde la planificación de las tareas, para evitar bloqueos técnicos y mantener un flujo de trabajo continuo. |
+| Sprint 2 Goal |Nuestro enfoque está en implementar un control de acceso automatizado por suscripciones y configurar los rangos de seguridad para los sensores químicos (pH) en la API del backend.
+||Creemos que esto entrega una experiencia de inicio ágil y capacidades de monitoreo proactivo para prevenir la corrosión de las tuberías a los operadores técnicos.
+||Esto se confirmará cuando los operadores técnicos puedan adquirir con éxito una suscripción para desbloquear los endpoints protegidos del tablero, y el sistema evalúe correctamente las lecturas de los umbrales de pH, activando alertas de forma precisa sin fallos en el backend cuando los valores superen los límites permitidos. |
+| Sprint 2 Velocity | Para este Sprint 2, evaluando el desempeño previo y la capacidad actual del equipo, se ha establecido un Velocity de 67 Story Points. |
+| Sum of Story Points | 67 |
+
+#### 5.2.2.2 Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de liderazgo y colaboración (LACX), donde se definen los roles de cada integrante del equipo en los distintos aspectos considerados dentro del Sprint.
+
+Los aspectos seleccionados corresponden a las principales áreas del proyecto Aquanetix, incluyendo diseño UX/UI, desarrollo de la web application, documentación y modelado del sistema.
+
+| Team Member (Last Name, First Name) | GitHub Username | UX/UI Design | Web Application | Documentation | Modeling |
+|------------------------------------|----------------|-------------|-------------|--------------|----------|
+| Bojórquez Bustinza, Renzo Alejandro | DeterminedSoul7 | C | C | C | L |
+| Correa Rodríguez, Andrea Khristina Esther | Daiko-07 | C | L | C | C |
+| Castro Solorza, Nicolás Eduardo | NicoCSE | C | C | L | C |
+| Cochachi Chagua, Sebastian Josue | sebastiancochachi02-cmd | L | C | C | C |
+| Pinedo Sanchez, Sebastián Martín | smp1107 | L | C | C | C |
+
+
 #### 5.2.2.3. Sprint Backlog 2
 
 El objetivo de este sprint backlog 2 fue el designar tareas referente al frontend de nuestra web application del sistema Aquanetix en lo que refiere a diseño y funcionalidad. Mayormente el enfoque fue la maquetación de los paneles de control y la integración de la interfaz con las lógicas de estado, garantizando que el sistema refleje adecuadamente los datos de calidad de agua y las métricas operativas del usuario.
@@ -145,4 +183,4 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | US-38 | Detectar alertas críticas en tiempo real | T-01 | Implementar lógica de detección de alertas | Implementar lógica de detección de alertas | 6 | Sebastián Pinedo | Done |
 | US-5 | Actualizar automáticamente el estado de los sensores | T-02 | Implementar actualización automática de estados | Implementar actualización automática de estados | 5 | Sebastián Cochachi | Done |
 | US-11 | Generar alertas automáticas por valores fuera de rango | T-03 | Configurar generación automática de alertas | Configurar generación automática de alertas | 4 | Nicolás Castro | Done |
-| US-12 | Clasificar alertas según nivel de riesgo | T-04 | Implementar lógica de clasificación automática de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Leonardo Cabrera | Done |
+| US-12 | Clasificar alertas según nivel de riesgo | T-04 | Implementar lógica de clasificación automática de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Andrea Correa | Done |
