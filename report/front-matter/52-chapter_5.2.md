@@ -185,6 +185,16 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | US-11 | Generar alertas automáticas por valores fuera de rango | T-03 | Configurar generación automática de alertas | Configurar generación automática de alertas | 4 | Nicolás Castro | Done |
 | US-12 | Clasificar alertas según nivel de riesgo | T-04 | Implementar lógica de clasificación automática de alertas por nivel de riesgo | Implementar lógica de clasificación automática de alertas por nivel de riesgo | 4 | Andrea Correa | Done |
 
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Ids | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| WebApplication_Aquanetix | develop | 3028d6d79409993a81a02a99d84606e038ac2841 | feat: add sensor detail component |  | 14/05/2026 |
+| WebApplication_Aquanetix | develop | 2f9f599387448876028acb45cdcf1fbed068cefa | feat: app components updated |  | 14/05/2026 |
+| WebApplication_Aquanetix | develop | 322d5421d02267d5d4a4af56c0c68c24422f61cd | feat: sensor-list.component.ts code completed |  | 14/05/2026 |
+| WebApplication_Aquanetix | develop | aa2eb3de23c60a8d5ba16754eea2a6c472f89c55 | feat: Add application directory |  | 14/05/2026 |
+| WebApplication_Aquanetix | develop | a2d8ad7b3ae19f3735297f1487767733b59ea87a | feat: resources imported |  | 14/05/2026 |
+
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
