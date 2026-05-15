@@ -230,5 +230,36 @@ La figura muestra el módulo de alertas de la aplicación web, en el cual el usu
   <img src="../assets/web_applications/Web-App-Cap5.jpg">
 </div>
 
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En el alcance del presente Sprint 2, el equipo no ha implementado un Web Service propio con documentación OpenAPI/Swagger, dado que el backend formal en ASP.NET Core corresponde a un entregable posterior (AV2/TB2). Sin embargo, la Frontend Web Application integra dos servicios REST externos que actúan como fuente de datos simulada durante esta fase de desarrollo:
+
+**Servicio 1 — MockAPI (Sensores y Alertas)**
+URL base: `https://6a01f74d0d92f63dd2531d8e.mockapi.io/api/v1`
+
+| Endpoint | Verbo HTTP | Descripción | Parámetros | Response ejemplo |
+|----------|-----------|-------------|------------|-----------------|
+| `/sensors` | GET | Obtiene todos los dispositivos IoT registrados | — | Array de objetos Sensor (id, name, location, type, currentValue, unit, status, minAlert, maxAlert, history) |
+| `/sensors/{id}` | GET | Obtiene un dispositivo por ID | `id`: string | Objeto Sensor |
+| `/sensors` | POST | Registra un nuevo dispositivo IoT | Body: objeto Sensor sin id | Objeto Sensor creado con id asignado |
+| `/sensors/{id}` | PUT | Actualiza datos de un dispositivo | `id`: string · Body: objeto Sensor | Objeto Sensor actualizado |
+| `/sensors/{id}` | DELETE | Elimina un dispositivo | `id`: string | Objeto eliminado |
+| `/alerts` | GET | Obtiene todas las alertas del sistema | — | Array de objetos Alert (id, sensorName, location, type, severity, message, timestamp, status, value, threshold) |
+| `/alerts` | POST | Crea una nueva alerta automática | Body: objeto Alert sin id | Objeto Alert creado |
+| `/alerts/{id}` | PUT | Actualiza el estado de una alerta (ej. Resuelta) | `id`: string · Body: objeto Alert | Objeto Alert actualizado |
+| `/alerts/{id}` | DELETE | Elimina una alerta | `id`: string | Objeto eliminado |
+
+**Servicio 2 — MockAPI (Suscripción y Planes)**
+URL base: `https://69fb530188a7af0ecca8fada.mockapi.io/api/v1`
+
+| Endpoint | Verbo HTTP | Descripción | Parámetros | Response ejemplo |
+|----------|-----------|-------------|------------|-----------------|
+| `/subscription` | GET | Obtiene la suscripción activa de la empresa | — | Objeto con plan, tier, price, currency, billingCycle, features, usage |
+| `/subscription/{id}` | PUT | Actualiza el plan de suscripción | `id`: string · Body: objeto Subscription | Objeto Subscription actualizado |
+| `/plans` | GET | Obtiene los planes disponibles | — | Array de objetos Plan (id, name, tier, monthlyPrice, annualMonthlyPrice, maxSensors, highlight, features) |
+
+La interacción con estos servicios se realiza a través de la infraestructura definida en las clases `production`, `apiUrl`, `sensorsEndpoint`y `alertsEndpoint`, `subscriptionApiUrl`, `subscriptionEndpoint` y `plansEndpointi`, siguiendo la arquitectura DDD implementada en la aplicación. Las rutas de cada endpoint están configuradas en el archivo `.env` del proyecto.
+
 La figura presenta la sección de suscripción de la plataforma, donde el usuario puede consultar la información de su plan actual, visualizar el uso de recursos disponibles y acceder a datos de facturación. Asimismo, se incluyen opciones para cambiar o cancelar la suscripción según las necesidades del usuario.
 
