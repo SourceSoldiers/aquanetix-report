@@ -14,3 +14,9 @@ https://github.com/SourceSoldiers/SourceSoldiers-WebApplications-Aquanetix.git
 
 Web Application desplegada:
 https://ss-aquanetix-webapplication.web.app/monitoring/dashboard
+
+Para la entrega del avance 2, se procede a mostrar el análiss de colaboración, el cual representa el número de contribuciones realizadas en el repositorio del informe.
+
+<p align="center">
+  <img src="../assets/github/commits.png" width="700"/>
+</p>
