@@ -2,6 +2,9 @@
 
 ## 3.1. User Stories
 
+
+<h3>User Stories</h3>
+
 <table>
   <thead>
     <tr>
@@ -14,56 +17,56 @@
   </thead>
   <tbody>
     <tr>
-      <td>EP01</td>
+      <td>EP001</td>
       <td>Configuración del sistema de monitoreo</td>
       <td>Permite definir parámetros, condiciones y configuraciones necesarias para el funcionamiento del monitoreo y la detección de anomalías en la red.</td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
       <tr>
-      <td>EP02</td>
+      <td>EP002</td>
       <td>Monitoreo en tiempo real</td>
       <td>Permite visualizar datos de sensores IoT (pH, flujo y gases) en tiempo real para la supervisión de la red.</td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
      <tr>
-      <td>EP03</td>
+      <td>EP003</td>
       <td>Gestión de alertas</td>
       <td>Permite detectar anomalías en los parámetros del agua y generar alertas automáticas para prevenir riesgos.</td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
      <tr>
-      <td>EP04</td>
+      <td>EP004</td>
       <td>Mantenimiento preventivo</td>
       <td>Permite identificar patrones de fallas y zonas críticas para optimizar la planificación del mantenimiento.</td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
      <tr>
-      <td>EP05</td>
+      <td>EP005</td>
       <td>Dashboard y visualización</td>
       <td>Permite visualizar información consolidada mediante gráficos e indicadores para la toma de decisiones.</td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
      <tr>
-      <td>EP06</td>
+      <td>EP006</td>
       <td>Gestión de reutilización de agua</td>
       <td>Permite identificar, validar y gestionar el uso de agua tratada para su reutilización en procesos operativos.</td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
      <tr>
-      <td>EP07</td>
+      <td>EP007</td>
       <td>Reportes y análisis</td>
       <td>Permite generar reportes históricos y métricas que apoyen la evaluación del desempeño del sistema.</td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
      <tr>
-      <td>EP08</td>
+      <td>EP008</td>
       <td>Landing Page informativa</td>
       <td>Permite presentar información del producto, beneficios y propuesta de valor a potenciales clientes.</td>
       <td>N/A</td>
@@ -737,7 +740,7 @@ Entonces el sistema proporciona un medio para establecer contacto.
 
 <b>Criterio de aceptación 2:</b><br>
 Dado que el visitante revisa la sección final de la landing page.
-Cuando selecciona el botón “Agendar Consultoría Técnica” o “Solicitar Demo”.
+Cuando el visitante quiere solicitar una consultoría técnica.
 Entonces el sistema dirige al usuario hacia el canal de contacto correspondiente.
 </td>
       <td>EP08</td>
@@ -797,25 +800,8 @@ Entonces se activa automáticamente el protocolo de ventilación, si este se enc
       <td>EP01</td>
     </tr>
     <tr>
+       <tr>
       <td>US41</td>
-      <td>Monitoreo en tiempo real mediante mapa interactivo.</td>
-      <td>Como supervisor, quiero visualizar la ubicación geográfica de todos los nodos de la red en un mapa para identificar rápidamente qué zonas presentan estados críticos (alerta/alarma).</td>
-      <td>
-<b>Criterio de aceptación 1:</b><br>
-Dado que el supervisor registrado accede al mapa.
-Cuando el sistema carga las coordenadas de los sensores IoT.
-Entonces se muestran marcadores con código de colores: verde (normal), amarillo (advertencia) y rojo (crítico).
-<br><br>
-
-<b>Criterio de aceptación 2:</b><br>
-Dado que el supervisor visualiza el mapa interactivo.
-Cuando selecciona un marcador correspondiente a un sensor.
-Entonces el sistema muestra información detallada sobre el estado y los parámetros monitoreados de dicho nodo.
-</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US42</td>
       <td>Consulta de gráficas de comportamiento temporal.</td>
       <td>Como supervisor, quiero consultar gráficas de tendencias de los sensores en rangos de tiempo específicos para detectar patrones de degradación en la calidad del agua.</td>
       <td>
@@ -833,7 +819,7 @@ Entonces el sistema resalta visualmente los puntos críticos dentro de la gráfi
       <td>EP02</td>
     </tr>
     <tr>
-      <td>US43</td>
+      <td>US42</td>
       <td>Consolidado de alertas operativas pendientes.</td>
       <td>Como supervisor, quiero ver un listado priorizado de todas las anomalías activas en la red para asignar equipos de mantenimiento de manera eficiente.</td>
       <td>
@@ -851,7 +837,7 @@ Entonces el sistema organiza las anomalías según su nivel de severidad para fa
       <td>EP02</td>
     </tr>
     <tr>
-      <td>US44</td>
+      <td>US43</td>
       <td>Navegación de contenido</td>
       <td>Como visitante, quiero disponer de puntos de acceso directo a las secciones clave de la página para localizar rápidamente la información que es de mi interés sin realizar un recorrido lineal.</td>
       <td>
@@ -870,7 +856,7 @@ Entonces el visitante puede elegir otra sección sin tener que volver al inicio.
       <td>EP08</td>
     </tr>
     <tr>
-      <td>US45</td>
+      <td>US44</td>
       <td>Comprensión del problema</td>
       <td>Como visitante corporativo, quiero conocer el problema a enfrentar para comprender mejor el enfoque de la solución.</td>
       <td>
@@ -889,7 +875,7 @@ Entonces el sistema establece una conexión directa entre la problemática expue
       <td>EP08</td>
     </tr>
     <tr>
-      <td>US46</td>
+      <td>US45</td>
       <td>Acceso a información de respaldo y transparencia</td>
       <td>Como visitante, quiero disponer de un espacio con referencias institucionales y legales para validar la formalidad del proyecto y conocer mis derechos como usuario.</td>
       <td>
@@ -907,7 +893,7 @@ Entonces el sistema muestra la identificación de la empresa como desarrolladore
       <td>EP08</td>
     </tr>
     <tr>
-      <td>US47</td>
+      <td>US46</td>
       <td>Solicitud de demostración del sistema</td>
       <td>Como visitante corporativo interesado, quiero solicitar una demostración personalizada del ecosistema para observar cómo las funcionalidades de monitoreo y trazabilidad se adaptan a las necesidades específicas de mi organización.</td>
       <td>
