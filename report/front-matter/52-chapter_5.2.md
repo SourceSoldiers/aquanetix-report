@@ -78,7 +78,7 @@ Las siguientes capturas muestran la interacción del usuario con las diferentes 
 **Figura 1. Sección principal de la landing page**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing1.png">
+  <img src="../assets/LandingPage/Landing1TB.png">
 </div>
 La figura muestra la sección principal de la landing page, donde se presenta la propuesta de valor del sistema Aquanetix junto con un llamado a la acción dirigido al usuario.
 
@@ -86,7 +86,7 @@ La figura muestra la sección principal de la landing page, donde se presenta la
 **Figura 2. Sección informativa de la landing page**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing2.png">
+  <img src="../assets/LandingPage/Landing2TB.png">
 </div>
 
 En esta sección se describe el problema abordado y la solución propuesta por el sistema, permitiendo al usuario comprender el propósito y beneficios del servicio.
@@ -94,7 +94,7 @@ En esta sección se describe el problema abordado y la solución propuesta por e
 **Figura 3. Sección de funcionalidades**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing3.png">
+  <img src="../assets/LandingPage/Landing3TB.png">
 </div>
 
 La figura muestra las principales funcionalidades del sistema, destacando las capacidades de monitoreo, gestión de alertas y análisis de datos.
@@ -102,7 +102,7 @@ La figura muestra las principales funcionalidades del sistema, destacando las ca
 **Figura 4. Sección final y llamado a la acción**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing4.png">
+  <img src="../assets/LandingPage/Landing4TB.png">
 </div>
 
 En esta sección final se incluye un llamado a la acción que invita al usuario a interactuar con el sistema, junto con información adicional relevante.
