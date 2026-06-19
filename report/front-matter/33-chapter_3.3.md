@@ -342,7 +342,7 @@
 
 ## Imagenes del Product Backlog realizados en Jira
 
-<div align="center"><img src="../assets/Jira/ProductBacklog_AV2.png" width ="100%"></div>
+<div align="center"><img src="../assets/Jira/PB_OP_AV2.png" width ="100%"></div>
 
 
 
