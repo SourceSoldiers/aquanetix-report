@@ -14,13 +14,13 @@ Para este sprint, la reunión de Sprint Planning nos permite evaluar nuestra vel
 | Date | 2026-04-22 |
 | Time | 9:00 PM |
 | Location | Google meet |
-| Prepared By | Bojórquez Bustinza, Renzo Alejandro |
+| Prepared By | Castro Solorza, Nicolas Eduardo |
 | Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Correa Rodríguez, Andrea Khristina Esther / Bojórquez Bustinza, Renzo Alejandro |
-| Sprint 1  Review Summary | Al ser el primer sprint del proyecto (Fase de Inicio), no hay un Review de entregables previos. Se revisaron los requisitos del Primer Entregable (TB1), estableciendo como prioridad el diseño de la arquitectura base, diseño de base de datos, además de los flujos de registro de empresas. |
+| Sprint 1  Review Summary | Al ser el primer sprint del proyecto, no existe una revisión de un sprint anterior. El equipo partió de la aprobación del Product Backlog inicial, enfocándose en las Historias de Usuario prioritarias relacionadas al registro de empresas (Enterprise), configuración de planes y seguridad. |
 | Sprint 1  Retrospective Summary | De igual manera al ser el inicio del proyecto, se establecieron las normas de trabajo del equipo: reuniones de seguimiento (Daily Stand-ups) mediante Meet, uso de herramientas ágiles para el control de tareas, sumado a la necesidad de mantener una comunicación constante para evitar bloqueos técnicos en el desarrollo del backend. |
-| Sprint 1 Goal | Para este sprint se requiere el cumplimiento de los siguientes objetivos: Establecer la arquitectura base del backend, desplegar el esquema de la base de datos relacional, configurar el registro de clientes (Enterprise) junto con la seguridad (Login). La métrica de cumplimiento se basará en el proceso de cómo nuestro "Board de Jira" luzca con el paso del tiempo, nuestro resultado final debe de mostrar todas las tareas en el lado derecho de la herramienta, ubicándolos en la columna "Terminado". |
-| Sprint 1 Velocity | Para este sprint se han elegido 5 User Stories con estimaciones basadas en la serie de Fibonacci. |
-| Sum of Story Points | 26 |
+| Sprint 1 Goal |Nuestro enfoque se centra en comunicar nuestra propuesta de valor de la plataforma a los visitantes de la Landing Page.<br>Creemos que esto entregará una Landing Page llamativa, con datos reales, que interesen a los visitantes.<br>Esto será confirmado cuando los visitantes examinen la Landing Page y demuestren interés en suscribirse dando clic al botón de Acceso al Dashboard, aunque este no sea funcional aún.|
+| Sprint 1 Velocity | El equipo ha establecido un Velocity de 26 Story Points, que representa la capacidad máxima de esfuerzo que los developers pueden aceptar de manera realista para este Sprint 1. |
+| Sum of Story Points | 24 |
 
 #### 5.2.1.2 Aspect Leaders and Collaborators
 
@@ -78,7 +78,7 @@ Las siguientes capturas muestran la interacción del usuario con las diferentes 
 **Figura 1. Sección principal de la landing page**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing1TB.png">
+  <img src="../assets/LandingPage/Landing1.png">
 </div>
 La figura muestra la sección principal de la landing page, donde se presenta la propuesta de valor del sistema Aquanetix junto con un llamado a la acción dirigido al usuario.
 
@@ -86,7 +86,7 @@ La figura muestra la sección principal de la landing page, donde se presenta la
 **Figura 2. Sección informativa de la landing page**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing2TB.png">
+  <img src="../assets/LandingPage/Landing2.png">
 </div>
 
 En esta sección se describe el problema abordado y la solución propuesta por el sistema, permitiendo al usuario comprender el propósito y beneficios del servicio.
@@ -94,7 +94,7 @@ En esta sección se describe el problema abordado y la solución propuesta por e
 **Figura 3. Sección de funcionalidades**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing3TB.png">
+  <img src="../assets/LandingPage/Landing3.png">
 </div>
 
 La figura muestra las principales funcionalidades del sistema, destacando las capacidades de monitoreo, gestión de alertas y análisis de datos.
@@ -102,7 +102,7 @@ La figura muestra las principales funcionalidades del sistema, destacando las ca
 **Figura 4. Sección final y llamado a la acción**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing6TB.png">
+  <img src="../assets/LandingPage/Landing4.png">
 </div>
 
 En esta sección final se incluye un llamado a la acción que invita al usuario a interactuar con el sistema, junto con información adicional relevante.
@@ -136,13 +136,11 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 | Date | 2026-05-10 |
 | Time | 9:00 PM |
 | Location | Google meet |
-| Prepared By | Bojórquez Bustinza, Renzo Alejandro |
+| Prepared By | Castro Solorza, Nicolas Eduardo |
 | Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Correa Rodríguez, Andrea Khristina Esther / Bojórquez Bustinza, Renzo Alejandro |
-| Sprint 2  Review Summary | Durante el Sprint 2 se lograron desplegar los cimientos de la arquitectura backend y los endpoints iniciales de registro de cuentas. El Product Owner validó positivamente la estructura inicial, pero resaltó que para entregar verdadero valor al negocio es prioritario enfocarse ahora en el flujo de suscripciones que habilita los tableros, y en el motor de reglas de los sensores químicos para la detección temprana de anomalías. |
+| Sprint 2  Review Summary | Durante el Sprint 2 se lograron desplegar los cimientos de la arquitectura frontend y los endpoints iniciales pertenecientes a los bounded context identificados. El Product Owner validó positivamente la estructura inicial, pero resaltó que para entregar verdadero valor al negocio es prioritario enfocarse ahora en el flujo de suscripciones que habilita los tableros, y en el motor de reglas de los sensores químicos para la detección temprana de anomalías. |
 | Sprint 2  Retrospective Summary | El equipo identificó como un gran acierto la comunicación constante en los Daily Stand-ups. Sin embargo, como oportunidad de mejora, se evidenció la necesidad de aplicar de forma más estricta las buenas prácticas de programación (uso de DTOs, Inyección de Dependencias y manejo de excepciones) desde la planificación de las tareas, para evitar bloqueos técnicos y mantener un flujo de trabajo continuo. |
-| Sprint 2 Goal |Nuestro enfoque está en implementar un control de acceso automatizado por suscripciones y configurar los rangos de seguridad para los sensores químicos (pH) en la API del backend.
-||Creemos que esto entrega una experiencia de inicio ágil y capacidades de monitoreo proactivo para prevenir la corrosión de las tuberías a los operadores técnicos.
-||Esto se confirmará cuando los operadores técnicos puedan adquirir con éxito una suscripción para desbloquear los endpoints protegidos del tablero, y el sistema evalúe correctamente las lecturas de los umbrales de pH, activando alertas de forma precisa sin fallos en el backend cuando los valores superen los límites permitidos. |
+| Sprint 2 Goal |Nuestro enfoque está en captar la atención de los visitantes de la página web de Aquanetix y darles a las empresas la posibilidad de monitorear sus dispositivos con seguridad.<br>Creemos que esto proporcionará una Landing Page atractiva para los visitantes y una aplicación de monitoreo y registro de dispositivos consistente para las empresas.<br>Esto se confirmará cuando los visitantes puedan acceder a la plataforma directamente desde la Landing Page y las empresas puedan registrar sus dispositivos y alertas y que estos estén conectados a una MockAPI.|
 | Sprint 2 Velocity | Para este Sprint 2, evaluando el desempeño previo y la capacidad actual del equipo, se ha establecido un Velocity de 67 Story Points. |
 | Sum of Story Points | 67 |
 
