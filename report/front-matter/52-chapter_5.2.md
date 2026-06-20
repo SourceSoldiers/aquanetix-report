@@ -351,6 +351,7 @@ Para el desarrollo de este segundo sprint, todos los miembros del equipo desarro
 <p align = "left">
    <img src="../assets/insights/Commiters.png">
 </p>
+
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3.
@@ -362,7 +363,7 @@ Para el desarrollo de este segundo sprint, todos los miembros del equipo desarro
 | Time | 6:00 PM |
 | Location | Google meet |
 | Prepared By | Bojórquez Bustinza Renzo Alejandro |
-| Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Cabrera Novoa, Leonardo Moisés / Bojórquez Bustinza, Renzo Alejandro |
+| Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Correa Rodríguez, Andrea Khristina Esther / Bojórquez Bustinza, Renzo Alejandro |
 | Sprint 3  Review Summary | Durante el sprint 3, se logro desplegar la arquitectura backend de la aplicacion web, y crear los endpoints relacionados a los bounded context identificados. Asimismo, se corrigieron varias observaciones identificadas tanto en la Landing Page como en la aplicacion frontend. El Product Owner aprobo la estructura inicial, mas recomendo poner un mayor enfasis en la interaccion de backend con el frontend. |
 | Sprint 3  Retrospective Summary | El equipo identifico como acierto verificar la funcionalidad de los endpoints antes de subirlos al repositorio. Sin embargo, como oportunidad de mejora, se identifico implementar el uso de GitFlow en nuestro proyecto para trabajar de manera mas ordenada.|
 | Sprint 3 Goal |Nuestro enfoque está en ofrecer información detallada y real para los visitantes, facilidad de monitoreo y manejo de almacenamiento para las empresas suscritas a la plataforma, y aumentar las posibilidades para nuevos features para los desarrolladores.<br>Creemos que esto proporcionará una Landing Page atractiva para los visitantes, una aplicación de monitoreo estable para las empresas, y un entorno de desarrollo estable para los desarrolladores.<br>Esto se confirmará cuando los visitantes puedan ingresar a la plataforma directamente desde la Landing Page, las empresas puedan actualizar y ver los datos logisticos, obtenidos dinamicamente de la base de datos, sin depender de datos codificados; y cuando los desarrolladores puedan implementar nuevos features desde los endpoints existentes con facilidad.|
