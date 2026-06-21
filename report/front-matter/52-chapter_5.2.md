@@ -369,3 +369,17 @@ Para el desarrollo de este segundo sprint, todos los miembros del equipo desarro
 | Sprint 3 Goal |Nuestro enfoque está en ofrecer información detallada y real para los visitantes, facilidad de monitoreo y manejo de almacenamiento para las empresas suscritas a la plataforma, y aumentar las posibilidades para nuevos features para los desarrolladores.<br>Creemos que esto proporcionará una Landing Page atractiva para los visitantes, una aplicación de monitoreo estable para las empresas, y un entorno de desarrollo estable para los desarrolladores.<br>Esto se confirmará cuando los visitantes puedan ingresar a la plataforma directamente desde la Landing Page, las empresas puedan actualizar y ver los datos logisticos, obtenidos dinamicamente de la base de datos, sin depender de datos codificados; y cuando los desarrolladores puedan implementar nuevos features desde los endpoints existentes con facilidad.|
 | Sprint 3 Velocity |Para este Sprint 3, evaluando el desempeño previo, capacidad actual del equipo, y circunstancias actuales de tiempo, se establecio un Velocity de 112 Story Points.|
 | Sum of Story Points | 112 
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+En esta sección se presenta la matriz de liderazgo y colaboración (LACX), donde se definen los roles de cada integrante del equipo en los distintos aspectos considerados dentro del Sprint.
+
+Los aspectos seleccionados corresponden a las principales áreas del proyecto Aquanetix, incluyendo desarrollo de la web application, Web Platform, la documentación y modelado del sistema.
+
+| Team Member (Last Name, First Name) | GitHub Username | Web Application | Web Platform | Documentation | Modeling |
+|------------------------------------|----------------|-------------|-------------|--------------|----------|
+| Bojórquez Bustinza, Renzo Alejandro | DeterminedSoul7 | C | C | L | L |
+| Castro Solorza, Nicolás Eduardo | NicoCSE | L | C | C | C |
+| Cochachi Chagua, Sebastian Josue | sebastiancochachi02-cmd | C | C | C | C |
+| Correa Rodriguez, Andrea Khristina Esther | Daiko-07 | C | L | C | C |
+| Pinedo Sanchez, Sebastián Martín | smp1107 | L | C | C | C |
