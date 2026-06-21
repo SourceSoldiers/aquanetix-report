@@ -389,3 +389,13 @@ Los aspectos seleccionados corresponden a las principales áreas del proyecto Aq
 El objetivo de este sprint backlog 3 fue la asignación de tareas relacionadas al servicio backend de nuestra plataforma en lo que refiere a métodos HTTP: GET, PUT, POST y DELETE. Se asignó un líder por cada bounded context para el desarrollo de cada endpoint, asegurándonos de que se cumplan las Technical Stories especificadas. Asimismo, se levantaron las observaciones identificadas tanto en la Landing Page como en la aplicación frontend.
 
 Durante este Sprint, el equipo trabajó de manera colaborativa en la implementación de los diversos endpoints del servicio backend.
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit Ids | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| aquanetix_platform | feature/get-subscription-by-id | 2e7ca3f2244109c2c7a9fb79f08a07d921993ab4 | feat (subscription): feature get subscription by id |  | 20/06/2026 |
+| aquanetix_platform | feature/crete-device-treshold | 087426d9fed4679bd08c537e5a9b8243aeac9f87 | feat(devices): add create-device-threshold endpoint. |  | 20/06/2026 |
+| aquanetix_platform | feature/get-all-devices | 5ec662a80336682cb32aae60d1b8523166d1d13e | feat(devices): add get-all-devices-query |  | 18/06/2026 |
+| aquanetix_platform | feature/create-quality-analysis | 0277b65c708f9c549974df4c3e676f18a277ad5b | feat(quality-analysis): add command and service for creating quality analysis |  | 20/06/2026 |
+| aquanetix_platform | feature/get-all-alerts | ad6fd985b5b61f10c128459ebb8d681fa642a1e0 | feat(alert): add GetAllAlertsQuery record for alert retrieval |  | 20/06/2026 |
