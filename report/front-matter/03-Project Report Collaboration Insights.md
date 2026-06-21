@@ -21,8 +21,8 @@ Repositorio (Web Service):
 Web Service desplegado:
 [https://aquanetix-platform-vwyl.onrender.com/swagger-ui/index.html#/](https://aquanetix-platform-vwyl.onrender.com/swagger-ui/index.html#/)
 
-Para la entrega del avance 2, se procede a mostrar el análisis de colaboración, el cual representa el número de contribuciones realizadas en el repositorio del informe.
+Para la entrega del avance 3 (AV2), se procede a mostrar el análisis de colaboración, el cual representa el número de contribuciones realizadas en el repositorio del informe.
 
 <p align="center">
-  <img src="../assets/github/commits.png" width="700"/>
+  <img src="../assets/github/CommitsAV2.png" width="700"/>
 </p>
