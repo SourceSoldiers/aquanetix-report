@@ -491,6 +491,11 @@ A continuación se presenta la relación de endpoints documentados con OpenAPI d
 
 ### Evidencias de Interacción (Swagger UI)
 
+**Creación exitosa de un Device en la base de datos**
+<div align="center">
+  <img src="../assets/insights/EvidenciaSwagger.jpeg">
+</div>
+
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
