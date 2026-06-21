@@ -383,3 +383,9 @@ Los aspectos seleccionados corresponden a las principales áreas del proyecto Aq
 | Cochachi Chagua, Sebastian Josue | sebastiancochachi02-cmd | C | C | C | C |
 | Correa Rodriguez, Andrea Khristina Esther | Daiko-07 | C | L | C | C |
 | Pinedo Sanchez, Sebastián Martín | smp1107 | L | C | C | C |
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+El objetivo de este sprint backlog 3 fue la asignación de tareas relacionadas al servicio backend de nuestra plataforma en lo que refiere a métodos HTTP: GET, PUT, POST y DELETE. Se asignó un líder por cada bounded context para el desarrollo de cada endpoint, asegurándonos de que se cumplan las Technical Stories especificadas. Asimismo, se levantaron las observaciones identificadas tanto en la Landing Page como en la aplicación frontend.
+
+Durante este Sprint, el equipo trabajó de manera colaborativa en la implementación de los diversos endpoints del servicio backend.
