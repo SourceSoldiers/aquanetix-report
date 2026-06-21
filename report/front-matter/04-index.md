@@ -25,7 +25,7 @@
 ## Capítulo V: Product Implementation, Validation & Deployment
 [Capítulo 5.1. Software Configuration Management.](51-chapter_5.1.md)<br>
 [Capítulo 5.2. Landing Page, Services & Applications Implementation.](52-chapter_5.2.md)<br>
-
+[Capítulo 5.3. Product Validation.](53-chapter_5.3.md)<br>
 ## Conclusiones
 
 ## Bibliografía
