@@ -390,6 +390,27 @@ El objetivo de este sprint backlog 3 fue la asignación de tareas relacionadas a
 
 Durante este Sprint, el equipo trabajó de manera colaborativa en la implementación de los diversos endpoints del servicio backend.
 
+
+<div align="center">
+  <img src="../assets/Jira/Captura SB3_1.png">
+  <img src="../assets/Jira/Captura SB3_2_2.png">
+  <img src="../assets/Jira/Captura SB3_3.png">
+  <img src="../assets/Jira/Captura SB3_4.png">
+</div>
+
+Enlace a la herramienta utilizada: https://shorturl.at/Q1UHY
+
+A continuación, se detallan las User Stories priorizadas y las tareas asociadas:
+
+
+| US Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|------|------|--------|------------|------------|-------------------|-------------|--------|
+| US-03 | Ajuste de frecuencia de monitoreo | T-01 | Exponer endpoint de tipo PUT | Exponer endpoint REST implementando comando de actualización (PUT/api/v1/devices/{id}) en DevicesController | 5 | Renzo Bojórquez | Done |
+| US-21 | Visualización gráfica | T-02 | Exponer endpoint de tipo GET | Exponer endpoint REST para listar análisis ('GET/api/v1/quality-analysis') implementando 'GetAllQualityAnalysesQuery' en 'QualityAnalysisController'  | 4 | Sebastián Pinedo | Done |
+| US-36 | Configuración de límites de caudal para detección de fugas u obstruccciones. | T-03 | Exponer endpoint de tipo POST | Exponer endpoint REST para registrar umbrales de caudal ('GET/api/v1/devices/{id}/thresholds') | 6 | Nicolás Castro | Done |
+| US-33 | Suscripción automatizada y control de acceso. | T-04 | Prueba de registro de suscripciones | Insertar datos de prueba en tabla 'subscriptions' para validar el endpoint ('GET/api/v1/subscriptions/{id}')| 5 | Sebastián Cochachi | Done |
+| US-37 | Registro de volúmenes reutilizables | T-05 | Exponer endpoint de tipo DELETE | Exponer endpoint REST para eliminar lotes {'DELETE/api/v1/water-batches/{id}'} en 'WaterBatchesController'| 4 | Andrea Correa | Done |
+
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
 | Repository | Branch | Commit Ids | Commit Message | Commit Message Body | Committed on (Date) |
