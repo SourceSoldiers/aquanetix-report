@@ -420,3 +420,10 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | aquanetix_platform | feature/get-all-devices | 5ec662a80336682cb32aae60d1b8523166d1d13e | feat(devices): add get-all-devices-query |  | 18/06/2026 |
 | aquanetix_platform | feature/create-quality-analysis | 0277b65c708f9c549974df4c3e676f18a277ad5b | feat(quality-analysis): add command and service for creating quality analysis |  | 20/06/2026 |
 | aquanetix_platform | feature/get-all-alerts | ad6fd985b5b61f10c128459ebb8d681fa642a1e0 | feat(alert): add GetAllAlertsQuery record for alert retrieval |  | 20/06/2026 |
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+Para el desarrollo de este tercer sprint, todos los miembros del equipo desarrollaron y colaboraron de manera activa y continua. De tal modo, se muestra como evidencia los insights de cada miembro del equipo.
+
+<p align = "left">
+   <img src="../assets/insights/commit_captura_av2.png">
+</p>
