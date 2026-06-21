@@ -445,6 +445,54 @@ La figura presenta los schemas generados automáticamente por OpenAPI para los d
 
 Los resultados obtenidos evidencian que los servicios REST fueron desplegados correctamente y que la documentación generada permite verificar tanto los endpoints disponibles como las estructuras de datos utilizadas por cada bounded context de la aplicación.
 
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 3, el equipo consolidó la documentación de los Web Services de la plataforma Aquanetix utilizando OpenAPI (Swagger), generada automáticamente mediante la librería `springdoc-openapi` a partir de las anotaciones `@Tag`, `@Operation` y `@ApiResponse` incorporadas en cada controlador de la API REST. El alcance de este Sprint comprendió la documentación de los endpoints de los cinco Bounded Contexts del backend (ServiceDesign, Monitoring, Devices, Dashboard y Subscription), así como la incorporación del nuevo endpoint de creación de dispositivos (`POST /api/v1/devices`) y la documentación de los sub-recursos de configuración de umbrales (thresholds). La documentación se encuentra desplegada y accesible públicamente a través de la interfaz Swagger UI del servicio desplegado en Render.
+
+La especificación OpenAPI completa puede consultarse en los siguientes enlaces:
+
+* **Swagger UI (documentación interactiva):** https://aquanetix-platform.onrender.com/swagger-ui/index.html
+* **Especificación OpenAPI (JSON):** https://aquanetix-platform.onrender.com/v3/api-docs
+* **Repositorio de Web Services:** [Insertar enlace al repositorio de GitHub aquí]
+* **Commits relacionados a la documentación:** [Insertar IDs de los commits aquí]
+
+A continuación se presenta la relación de endpoints documentados con OpenAPI durante este Sprint, indicando para cada acción el verbo HTTP, la sintaxis de llamada, los parámetros esperados y la respuesta correspondiente.
+
+## Tabla de endpoints documentados
+
+| Bounded Context | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Request | Response |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| ServiceDesign | Listar lotes de agua | GET | `/api/v1/water-batches` | — | `GET /api/v1/water-batches` | `200 OK` · `WaterBatchResource[]` |
+| ServiceDesign | Obtener lote por id | GET | `/api/v1/water-batches/{id}` | `id` (path, Long) | `GET /api/v1/water-batches/1` | `200 OK` · `WaterBatchResource` / `404` |
+| ServiceDesign | Crear lote de agua | POST | `/api/v1/water-batches` | Body `CreateWaterBatchResource` | `{ "certificationCode": "WB-2026-001", "destinationSectorId": 3, "volumeLiters": 1200.5, "deliveryTimestamp": "2026-06-18T10:00:00Z", "status": "Certified", "source": "Plant A" }` | `201 Created` · `WaterBatchResource` |
+| ServiceDesign | Actualizar lote | PUT | `/api/v1/water-batches/{id}` | `id` (path) + Body `UpdateWaterBatchResource` | `PUT /api/v1/water-batches/1` | `200 OK` / `404` |
+| ServiceDesign | Eliminar lote | DELETE | `/api/v1/water-batches/{id}` | `id` (path, Long) | `DELETE /api/v1/water-batches/1` | `204 No Content` / `404` |
+| Monitoring | Listar alertas | GET | `/api/v1/alerts` | — | `GET /api/v1/alerts` | `200 OK` · `AlertResource[]` |
+| Monitoring | Obtener alerta por id | GET | `/api/v1/alerts/{alertId}` | `alertId` (path, Long) | `GET /api/v1/alerts/5` | `200 OK` · `AlertResource` / `404` |
+| Monitoring | Alertas por dispositivo | GET | `/api/v1/alerts/device/{deviceId}` | `deviceId` (path, Long) | `GET /api/v1/alerts/device/2` | `200 OK` · `AlertResource[]` |
+| Monitoring | Alertas por estado | GET | `/api/v1/alerts/status/{status}` | `status` (path, String) | `GET /api/v1/alerts/status/Active` | `200 OK` · `AlertResource[]` |
+| Monitoring | Crear alerta | POST | `/api/v1/alerts` | Body `CreateAlertResource` | `{ "deviceId": 2, "deviceName": "Sensor A", "location": "Planta 1", "type": "Turbidity", "severity": "Warning", "message": "Niveles altos", "value": 8.0, "threshold": 6.0 }` | `201 Created` · `AlertResource` |
+| Monitoring | Resolver alerta | PUT | `/api/v1/alerts/{alertId}` | `alertId` (path, Long) | `PUT /api/v1/alerts/5` | `200 OK` / `404` |
+| Devices | Listar dispositivos | GET | `/api/v1/devices` | — | `GET /api/v1/devices` | `200 OK` · `DeviceResource[]` |
+| Devices | Obtener dispositivo por id | GET | `/api/v1/devices/{deviceId}` | `deviceId` (path, Long) | `GET /api/v1/devices/1` | `200 OK` · `DeviceResource` / `404` |
+| Devices | Crear dispositivo | POST | `/api/v1/devices` | Body `CreateDeviceResource` | `{ "ownerId": 1, "serialNumber": "SN-PH-007", "deviceType": "PH", "name": "SN-PH-007", "location": "Planta Norte", "unit": "pH", "currentValue": 7.2 }` | `201 Created` · `DeviceResource` |
+| Devices | Actualizar dispositivo | PUT | `/api/v1/devices/{deviceId}` | `deviceId` (path) + Body `UpdateDeviceResource` | `PUT /api/v1/devices/1` | `200 OK` · `DeviceResource` / `404` |
+| Devices | Listar umbrales de un dispositivo | GET | `/api/v1/devices/{deviceId}/thresholds` | `deviceId` (path, Long) | `GET /api/v1/devices/1/thresholds` | `200 OK` · `ThresholdResource[]` |
+| Devices | Crear umbral de un dispositivo | POST | `/api/v1/devices/{deviceId}/thresholds` | `deviceId` (path) + Body `CreateThresholdResource` | `{ "minValue": 6.5, "maxValue": 8.5, "unit": "pH", "alertLevel": "Warning" }` | `201 Created` · `ThresholdResource` |
+| Dashboard | Listar análisis de calidad | GET | `/api/v1/quality-analysis` | — | `GET /api/v1/quality-analysis` | `200 OK` · `QualityAnalysisResource[]` |
+| Dashboard | Obtener análisis por id | GET | `/api/v1/quality-analysis/{id}` | `id` (path, Long) | `GET /api/v1/quality-analysis/1` | `200 OK` · `QualityAnalysisResource` / `404` |
+| Dashboard | Crear análisis de calidad | POST | `/api/v1/quality-analysis` | Body `CreateQualityAnalysisResource` | `POST /api/v1/quality-analysis` | `201 Created` · `QualityAnalysisResource` |
+| Subscription | Obtener suscripción por id | GET | `/api/v1/subscriptions/{id}` | `id` (path, Long) | `GET /api/v1/subscriptions/1` | `200 OK` · `SubscriptionResource` / `404` |
+| Subscription | Crear suscripción | POST | `/api/v1/subscriptions` | Body `CreateSubscriptionResource` | `POST /api/v1/subscriptions` | `201 Created` · `SubscriptionResource` |
+| Subscription | Cancelar suscripción | PUT | `/api/v1/subscriptions/{id}/cancel` | `id` (path, Long) | `PUT /api/v1/subscriptions/1/cancel` | `200 OK` / `404` |
+| Subscription | Renovar suscripción | PUT | `/api/v1/subscriptions/{id}/renew` | `id` (path, Long) | `PUT /api/v1/subscriptions/1/renew` | `200 OK` / `404` |
+
+> Todos los endpoints están documentados bajo las especificaciones de OpenAPI 3.0. Las respuestas de la API utilizan las entidades `ResponseEntity` de Spring Web para asegurar códigos de estado HTTP estandarizados y estructurados según las convenciones de la arquitectura REST.
+
+### Evidencias de Interacción (Swagger UI)
+
+
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 Durante el Sprint 3, el equipo completó el despliegue de los componentes principales de la plataforma Aquanetix en proveedores cloud, abarcando los Web Services (backend), la Web Application (frontend) y la base de datos. El objetivo de este Sprint fue garantizar que la aplicación funcionara de extremo a extremo en entornos productivos: que el frontend desplegado consumiera datos reales del backend desplegado, y que este último persistiera la información en una base de datos gestionada en la nube. A continuación se describen las actividades de creación de cuentas, configuración de recursos en los proveedores cloud y configuración de los proyectos para la integración del despliegue.
