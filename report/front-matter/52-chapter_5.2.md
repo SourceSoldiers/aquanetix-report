@@ -421,6 +421,44 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | aquanetix_platform | feature/create-quality-analysis | 0277b65c708f9c549974df4c3e676f18a277ad5b | feat(quality-analysis): add command and service for creating quality analysis |  | 20/06/2026 |
 | aquanetix_platform | feature/get-all-alerts | ad6fd985b5b61f10c128459ebb8d681fa642a1e0 | feat(alert): add GetAllAlertsQuery record for alert retrieval |  | 20/06/2026 |
 
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 3, el equipo completó el despliegue de los componentes principales de la plataforma Aquanetix en proveedores cloud, abarcando los Web Services (backend), la Web Application (frontend) y la base de datos. El objetivo de este Sprint fue garantizar que la aplicación funcionara de extremo a extremo en entornos productivos: que el frontend desplegado consumiera datos reales del backend desplegado, y que este último persistiera la información en una base de datos gestionada en la nube. A continuación se describen las actividades de creación de cuentas, configuración de recursos en los proveedores cloud y configuración de los proyectos para la integración del despliegue.
+
+#### Arquitectura de despliegue
+
+El despliegue de la plataforma se distribuye en tres servicios cloud independientes:
+
+| Componente | Proveedor | Tecnología | URL |
+| :--- | :--- | :--- | :--- |
+| Web Services (Backend) | Render | Docker · Spring Boot · Java | https://aquanetix-platform.onrender.com/swagger-ui/index.html |
+| Web Application (Frontend) | Firebase Hosting | Angular · TypeScript | https://shorturl.at/n8nN7 |
+| Base de datos | Aiven | MySQL 8 | (privada, accedida vía connection string) |
+
+#### Despliegue de la Base de Datos (Aiven — MySQL 8)
+
+Durante Sprints previos, la base de datos se hospedaba en Filess.io con MySQL 5.7; sin embargo, dicho proveedor presentaba incompatibilidades con el manejo de conexiones del driver JDBC y el dialecto de Hibernate. Por este motivo, durante este Sprint se migró la base de datos al servicio gestionado de **Aiven con MySQL 8**, que ofrece soporte completo para conexiones SSL y mayor estabilidad.
+
+Las actividades realizadas fueron:
+
+* Creación de la cuenta en Aiven y aprovisionamiento de un servicio MySQL 8 gestionado.
+* Obtención de la connection string con SSL requerido, host, puerto y credenciales del servicio para configurar el `datasource` en Spring Boot.
+* Aplicación del esquema de base de datos mediante la sincronización automática de Hibernate (`spring.jpa.hibernate.ddl-auto=update`), mapeando correctamente las entidades del dominio (Aggregates).
+* Verificación de la creación de las tablas, incluyendo las nuevas tablas de los módulos desarrollados en el Sprint (como `alert`, `devices`, entre otras).
+
+#### Despliegue de los Web Services (Render — Docker)
+
+El backend se desplegó en **Render** utilizando un contenedor Docker, conectado a la rama `main` del repositorio para despliegue continuo: cada vez que se realiza un merge a `main`, Render reconstruye y redespliega el servicio automáticamente.
+
+Las actividades realizadas fueron:
+
+* Creación del servicio web en Render a partir del repositorio de GitHub, configurado para construir mediante el Dockerfile del proyecto Spring Boot.
+* Configuración de las variables de entorno del servicio, incluyendo las credenciales de Aiven (`SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`) gestionadas como variables de entorno y no versionadas en el repositorio por motivos de seguridad.
+* Habilitación de Swagger UI en todos los entornos mediante `springdoc-openapi`, de modo que la documentación de la API sea accesible públicamente en producción.
+* Verificación del arranque del servicio mediante los logs de Render y la respuesta exitosa de la interfaz gráfica de Swagger.
+
+> Durante el Sprint se gestionó adecuadamente un incidente de seguridad: GitHub Push Protection detectó credenciales de acceso a la base de datos en un commit. Se resolvió asegurando que el archivo `application.properties` con datos sensibles no se subiera al control de versiones (añadiéndolo al `.gitignore` o usando perfiles específicos) y reescribiendo el historial del feature branch para no exponer secretos, siguiendo buenas prácticas de manejo de credenciales.
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 Para el desarrollo de este tercer sprint, todos los miembros del equipo desarrollaron y colaboraron de manera activa y continua. De tal modo, se muestra como evidencia los insights de cada miembro del equipo.
 
