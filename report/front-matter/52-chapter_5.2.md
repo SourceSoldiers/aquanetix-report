@@ -421,6 +421,30 @@ A continuación, se detallan las User Stories priorizadas y las tareas asociadas
 | aquanetix_platform | feature/create-quality-analysis | 0277b65c708f9c549974df4c3e676f18a277ad5b | feat(quality-analysis): add command and service for creating quality analysis |  | 20/06/2026 |
 | aquanetix_platform | feature/get-all-alerts | ad6fd985b5b61f10c128459ebb8d681fa642a1e0 | feat(alert): add GetAllAlertsQuery record for alert retrieval |  | 20/06/2026 |
 
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 3 se avanzó significativamente en la implementación del backend de Aquanetix, desarrollando y documentando los principales servicios REST correspondientes a los bounded contexts definidos para la solución.
+
+Con el objetivo de validar el funcionamiento de los servicios implementados, se utilizó Swagger UI como herramienta de documentación y prueba de endpoints. Esta plataforma permitió verificar la correcta exposición de las operaciones REST, así como la definición de los recursos y modelos utilizados por el sistema.
+
+**Figura 1. Documentación de endpoints mediante Swagger UI**
+
+<div align="center">
+  <img src="../assets/development_environment/swagger-ui-overview.png">
+</div>
+
+La figura muestra la documentación generada automáticamente mediante Swagger UI. En ella se observan los endpoints implementados para los bounded contexts Devices, Alerts, QualityAnalysis, Subscriptions y Service Design. Asimismo, se evidencian las operaciones HTTP disponibles (GET, POST y PUT), las cuales permiten realizar consultas, registros y actualizaciones sobre los recursos administrados por la plataforma.
+
+**Figura 2. Schemas y recursos documentados en OpenAPI**
+
+<div align="center">
+  <img src="../assets/development_environment/swagger-schemas-resources.png">
+</div>
+
+La figura presenta los schemas generados automáticamente por OpenAPI para los distintos recursos del sistema. Entre ellos se encuentran DeviceResource, AlertResource, QualityAnalysisResource, SubscriptionResource y CreateServiceDesignResource. Estos modelos describen la estructura de los datos intercambiados entre cliente y servidor, facilitando la integración, validación y mantenimiento de los servicios implementados.
+
+Los resultados obtenidos evidencian que los servicios REST fueron desplegados correctamente y que la documentación generada permite verificar tanto los endpoints disponibles como las estructuras de datos utilizadas por cada bounded context de la aplicación.
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 Durante el Sprint 3, el equipo completó el despliegue de los componentes principales de la plataforma Aquanetix en proveedores cloud, abarcando los Web Services (backend), la Web Application (frontend) y la base de datos. El objetivo de este Sprint fue garantizar que la aplicación funcionara de extremo a extremo en entornos productivos: que el frontend desplegado consumiera datos reales del backend desplegado, y que este último persistiera la información en una base de datos gestionada en la nube. A continuación se describen las actividades de creación de cuentas, configuración de recursos en los proveedores cloud y configuración de los proyectos para la integración del despliegue.
