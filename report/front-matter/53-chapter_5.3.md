@@ -41,6 +41,64 @@ Con la Landing Page y Aplicación Frontend de Aquanetix desplegadas, hemos dise�
 
 ### 5.3.2. Registro de entrevistas
 
+#### Segmento 1: Empresas prestadoras de servicios de agua y alcantarillados (EPS).
+
+**Entrevista 1**
+
+
+
+**Evidencia:**
+<p align = "left">
+ <img src="/report/assets/interviews/">
+</p>
+
+**Enlace de la entrevista:** 
+
+**Resumen:**
+
+
+**Entrevista 2**
+
+Jorge Luis Castro Rojas
+
+**Evidencia:**
+<p align = "left">
+ <img src="/report/assets/interviews/Entrevista_Validacion_Jorge_Castro_Foto.png">
+</p>
+
+**Enlace de la entrevista:** [https://shorturl.at/6Ov2S](https://shorturl.at/p27si)
+
+**Resumen:**
+
+En esta entrevista, nos volvemos a comunicar con Jorge Castro, ingeniero sanitario que colaboró anteriormente para esta entrevista de validación con fines de recolectar información valiosa para la evolución del desarrollo del proyecto Aquanetix. Durante la entrevista, Jorge analizó la plataforma web desde una perspectiva técnica y operativa, enfocándose en la capacidad del sistema para facilitar una respuesta rápida y en la alineación de la herramienta con los estándares reales de la industria del monitoreo de agua.
+
+Al examinar el panel de control, Jorge validó la estructura general y resaltó la importancia de mantener las gráficas de tendencias históricas. Señaló que esta funcionalidad es vital para que los operadores puedan distinguir si un valor anómalo es simplemente un error aislado de medición o el inicio de un problema continuo. Asimismo, confirmó que el uso de un código de colores tipo semáforo (verde, ámbar y rojo) para identificar el estado de los sensores es totalmente acertado y se ajusta a las convenciones del sector.
+
+En cuanto a las oportunidades de mejora, el ingeniero enfatizó la necesidad de implementar notificaciones automáticas inmediatas vía correo electrónico o WhatsApp ante alertas críticas, garantizando así una reacción oportuna del equipo de trabajo. Además, recomendó realizar ajustes técnicos en la terminología del sistema, sugiriendo renombrar la pestaña de "Dispositivos" por "Puntos de monitoreo" y cambiar "Tipo" por "Parámetro". Finalmente, subrayó que es indispensable que la interfaz muestre siempre las unidades de medida correspondientes (como NTU o mg/L) junto a cada valor para asegurar una interpretación precisa de los datos.
+
+**Entrevista 3**
+
+Liliana Sánchez Fajardo
+
+**Evidencia:**
+<p align = "left">
+ <img src="/report/assets/interviews/Entrevista_Validacion_Liliana_Sanchez_Foto.png">
+</p>
+
+**Enlace de la entrevista:** [https://shorturl.at/WyZBZ](https://shorturl.at/4uTHf)
+
+**Resumen:**
+
+En esta sesión nos reunimos con Liliana Sánchez, ingeniera ambiental y consultora en gestión del recurso hídrico, quien participó en la entrevista de validación del proyecto Aquanetix. Durante la evaluación, Liliana demostró ser una profesional con una visión práctica y orientada al impacto social del manejo del agua, destacando en todo momento la importancia de contar con herramientas que permitan prevenir problemas de salud pública en la comunidad. Su perfil como consultora ambiental se reflejó en la forma en que evaluó la plataforma, priorizando la utilidad real del sistema por encima de aspectos técnicos o estéticos.
+
+Al revisar la landing page, Liliana identificó con claridad que Aquanetix es una plataforma para monitorear la calidad del agua en tiempo real y controlar sus parámetros de forma centralizada. Entre los tres beneficios presentados, destacó las alertas tempranas como el más importante, argumentando que detectar a tiempo una contaminación o una falla en un sensor puede evitar consecuencias graves para la salud de la población. Asimismo, sugirió que la página incluya información clara sobre planes y precios, testimonios de empresas que ya utilicen la plataforma y un video demostrativo corto que facilite la decisión de adoptar el servicio.
+
+Al ingresar al panel de control, Liliana señaló que lo primero que analizaría son las alertas activas y la cantidad de dispositivos en funcionamiento, ya que esa información le daría una visión inmediata del estado general del sistema. Al explorar la sección de dispositivos, valoró positivamente el uso del sistema de colores tipo semáforo, indicando que el verde, naranja y rojo son intuitivos y comprensibles para cualquier operador sin necesidad de capacitación adicional. En cuanto al panel de alertas, coincidió en que el criterio de ordenamiento más útil sería por nivel de urgencia, de modo que los problemas más críticos sean visibles de inmediato y puedan atenderse sin demora.
+
+Finalmente, Liliana validó que la plataforma responde a una necesidad real y relevante en el contexto peruano, especialmente ante los altos niveles de contaminación del agua en el país. Como oportunidades de mejora, sugirió que las alertas incluyan más detalle sobre el problema detectado y que el sistema permita exportar reportes fácilmente, lo cual haría la plataforma más completa y útil para el trabajo diario de las empresas prestadoras de servicios de agua.
+
+
+
 #### Segmento 2: Empresas gestoras de residuos sólidos
 **Entrevista 1**
 
@@ -79,3 +137,23 @@ Nos encontramos con José Ignacio Calle Chumacero, ingeniero industrial y actual
 Primero, a José Ignacio se le mostró la landing page de la plataforma Aquanetix para recoger sus impresiones sobre el diseño y la propuesta del ecosistema. Al leer el título principal, nos comentó que lo primero que asocia con la plataforma es una nueva versión de las tecnologías para plantas de tratamiento y reutilización de recursos hídricos en el país. Si bien consideró la interfaz muy ágil y directa por no saturar al usuario con botones innecesarios, señaló que a nivel cultural en el Perú existe un gran reto para el cumplimiento normativo. No obstante, por su perfil como ingeniero industrial enfocado en la logística de operaciones, destacó que el pilar más atractivo del proyecto es la optimización de costos operativos, ya que una mala planificación financiera puede arruinar cualquier plan teórico.
 
 Por último, al ingresar a la aplicación web y revisar el funcionamiento del dashboard, el entrevistado validó rápidamente la estructura visual afirmando que el diseño del panel de control es espectacular. Comentó que al iniciar el día lo primero que revisaría serían las alertas críticas, y consideró que el monitoreo en tiempo real con un formato de semáforo resulta sumamente intuitivo para efectos de ayuda visual. Respecto al tarifario presentado en la sección de suscripciones, José Ignacio lo percibió como una opción muy correcta y flexible para plantas que requieran una gran cantidad de sensores. No obstante, sugirió al equipo que se enfoquen en garantizar un margen mínimo de error desde el primer mes, argumentando que los gerentes de las grandes empresas suelen ser impacientes y exigen un retorno de inversión inmediato.
+
+**Entrevista 3**
+
+Amid Alfonso Liñan
+
+**Evidencia:**
+<p align = "left">
+  <img src="/report/assets/interviews/.png">
+</p>
+
+**Enlace de la entrevista:** https://shorturl.at/4ZEVQ
+
+**Resumen:**
+
+En esta última sesión nos reunimos con Amid, con experiencia en gestión de operaciones y control de procesos, quien participó en la validación de la plataforma Aquanetix. Durante la sesión, interactuó tanto con la Landing Page como con la aplicación web para evaluar su facilidad de uso.
+
+Al revisar la página principal, comentó que el diseño es bastante claro y va directo al grano. Mencionó que la distribución de la información ayuda a entender rápido el propósito del software y consideró que tener la página en dos idiomas es un gran punto a favor. Además, destacó que los botones de contacto son visibles y cumplen bien su función.
+
+Al ingresar al panel de control (Dashboard), su evaluación fue positiva. Señaló que el uso de colores (verde, ámbar y rojo) para el estado de los sensores es muy útil porque permite identificar si hay algún problema de un solo vistazo. Como única sugerencia de mejora para el uso diario, recomendó agregar una opción que permita descargar el historial de las alertas en un formato sencillo como Excel o PDF para facilitar la elaboración de reportes. En general, concluyó que la herramienta es funcional e intuitiva.
+
