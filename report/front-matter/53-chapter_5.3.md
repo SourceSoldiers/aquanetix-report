@@ -49,7 +49,7 @@ Jorge Orellana
 
 **Evidencia:**
 <p align = "left">
- <img src="/report/assets/interviews/">
+ <img src="/report/assets/interviews/Entrevista_Validacion_Jorge_Orellana.png">
 </p>
 
 **Enlace de la entrevista:** [https://shorturl.at/yVpja](https://shorturl.at/yVpja)
