@@ -96,9 +96,6 @@
       <td>8</td>
     </tr>
     <tr>
-     <tr>
-    </tr>
-    <tr>
       <td>13</td>
       <td>US11</td>
       <td>Generación automática de alertas</td>
@@ -144,7 +141,7 @@
       <td>19</td>
        <td>US42</td>
       <td>Consulta de gráficas de comportamiento temporal.</td>
-      <td>Como supervisor, quiero consultar gráficas de tendencias de los sensores en rangos de tiempo específicos para detectar           patrones de degradación en la calidad del agua.</td>
+      <td>Como supervisor, quiero consultar gráficas de tendencias de los sensores en rangos de tiempo específicos para detectar patrones de degradación en la calidad del agua.</td>
       <td>5</td>
     </tr>
     <tr>
@@ -349,3 +346,4 @@
 
 
 **URL del Product Backlog:** [https://shorturl.at/ovtg5](https://shorturl.at/ptzjg)
+
