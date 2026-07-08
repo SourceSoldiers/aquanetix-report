@@ -45,7 +45,7 @@ Con la Landing Page y Aplicaci√≥n Frontend de Aquanetix desplegadas, hemos dise√
 
 **Entrevista 1**
 
-
+Jorge Orellana
 
 **Evidencia:**
 <p align = "left">
