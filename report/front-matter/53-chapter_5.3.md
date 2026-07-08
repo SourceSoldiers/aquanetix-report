@@ -144,7 +144,7 @@ Amid Alfonso Liñan
 
 **Evidencia:**
 <p align = "left">
-  <img src="/report/assets/interviews/.png">
+  <img src="/report/assets/interviews/Entrevista_Validacion_Amid_Liñan.png">
 </p>
 
 **Enlace de la entrevista:** https://shorturl.at/4ZEVQ
