@@ -52,7 +52,7 @@ Con la Landing Page y Aplicaci√≥n Frontend de Aquanetix desplegadas, hemos dise√
  <img src="/report/assets/interviews/">
 </p>
 
-**Enlace de la entrevista:** 
+**Enlace de la entrevista:** [https://shorturl.at/yVpja](https://shorturl.at/yVpja)
 
 **Resumen:**
 
