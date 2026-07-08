@@ -2,9 +2,6 @@
 
 ## 3.1. User Stories
 
-
-<h3>User Stories</h3>
-
 <table>
   <thead>
     <tr>
@@ -800,25 +797,7 @@ Entonces se activa automáticamente el protocolo de ventilación, si este se enc
       <td>EP01</td>
     </tr>
     <tr>
-      <td>US42</td>
-      <td>Consulta de gráficas de comportamiento temporal.</td>
-      <td>Como supervisor, quiero consultar gráficas de tendencias de los sensores en rangos de tiempo específicos para detectar patrones de degradación en la calidad del agua.</td>
-      <td>
-<b>Criterio de aceptación 1:</b><br>
-Dado que el supervisor selecciona un nodo o sector específico.
-Cuando el supervisor filtra por un rango de fechas y un tipo de sensor.
-Entonces el sistema renderiza un gráfico de líneas que muestra la evolución del parámetro frente a los umbrales configurados.
-<br><br>
-
-<b>Criterio de aceptación 2:</b><br>
-Dado que el sistema muestra una gráfica de comportamiento temporal.
-Cuando un parámetro supera los umbrales establecidos.
-Entonces el sistema resalta visualmente los puntos críticos dentro de la gráfica.
-</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US43</td>
+      <td>US41</td>
       <td>Consolidado de alertas operativas pendientes.</td>
       <td>Como supervisor, quiero ver un listado priorizado de todas las anomalías activas en la red para asignar equipos de mantenimiento de manera eficiente.</td>
       <td>
@@ -836,7 +815,7 @@ Entonces el sistema organiza las anomalías según su nivel de severidad para fa
       <td>EP02</td>
     </tr>
     <tr>
-      <td>US44</td>
+      <td>US42</td>
       <td>Navegación de contenido</td>
       <td>Como visitante, quiero disponer de puntos de acceso directo a las secciones clave de la página para localizar rápidamente la información que es de mi interés sin realizar un recorrido lineal.</td>
       <td>
@@ -855,7 +834,7 @@ Entonces el visitante puede elegir otra sección sin tener que volver al inicio.
       <td>EP08</td>
     </tr>
     <tr>
-      <td>US45</td>
+      <td>US43</td>
       <td>Comprensión del problema</td>
       <td>Como visitante corporativo, quiero conocer el problema a enfrentar para comprender mejor el enfoque de la solución.</td>
       <td>
@@ -874,7 +853,7 @@ Entonces el sistema establece una conexión directa entre la problemática expue
       <td>EP08</td>
     </tr>
     <tr>
-      <td>US46</td>
+      <td>US44</td>
       <td>Acceso a información de respaldo y transparencia</td>
       <td>Como visitante, quiero disponer de un espacio con referencias institucionales y legales para validar la formalidad del proyecto y conocer mis derechos como usuario.</td>
       <td>
@@ -892,22 +871,602 @@ Entonces el sistema muestra la identificación de la empresa como desarrolladore
       <td>EP08</td>
     </tr>
     <tr>
-      <td>US47</td>
+      <td>US45</td>
       <td>Solicitud de demostración del sistema</td>
       <td>Como visitante corporativo interesado, quiero solicitar una demostración personalizada del ecosistema para observar cómo las funcionalidades de monitoreo y trazabilidad se adaptan a las necesidades específicas de mi organización.</td>
       <td>
 <b>Criterio de aceptación 1:</b><br>
 Dado que el visitante ha evaluado la propuesta de valor y los beneficios en la landing page.
-Cuando decide profundizar en el funcionamiento técnico y operativo de la plataforma.
+Cuando el visitante decide profundizar en el funcionamiento técnico y operativo de la plataforma.
 Entonces el sistema proporciona un canal directo para manifestar el interés en una sesión demostrativa.
 <br><br>
 
 <b>Criterio de aceptación 2:</b><br>
 Dado que el visitante requiere una validación práctica de la herramienta.
-Cuando interactúa con la opción de solicitar consultoría o demo.
+Cuando el visitante interactúa con la opción de solicitar consultoría o demo.
 Entonces el sistema captura la intención del usuario para facilitar la coordinación de una presentación detallada sobre las capacidades de inteligencia hídrica.
 </td>
       <td>EP08</td>
+    </tr>
+    <tr>
+      <td>US46</td>
+      <td>Registro de usuarios</td>
+      <td>Como nuevo usuario de la plataforma, quiero registrarme en ella ingresando mi nombre y contraseña, para crear una cuenta y poder acceder a las herramientas de monitoreo de agua.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el usuario está en la página de registro.
+Cuando el usuario ingresa un nombre de usuario no registrado, y una contraseña.
+Entonces el sistema debe redirigir al usuario a la pantalla de suscripción, para que elija un plan.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el usuario está en la página de registro.
+Cuando ingresa un nombre de usuario que ya se encuentra registrado en el sistema.
+Entonces el sistema debe mostrar un mensaje de error indicando que el correo ya está en uso.
+</td>
+      <td>EP009</td>
+    </tr>
+     <tr>
+      <td>US47</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario registrado de Aquanetix, quiero iniciar sesión con mi correo y contraseña, para acceder de manera segura al dashboard.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el usuario se encuentra en la pantalla de inicio de sesión
+Cuando ingresa con su nombre de usuario y contraseña correctos
+Entonces el sistema debe redirigir al usuario a su panel de control.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que el usuario se encuentra en la pantalla de inicio de sesión
+Cuando intenta ingresar con un nombre de usuario y/o contraseña incorrectos
+Entonces el sistema debe mostrar un mensaje de error genérico, indicando que su nombre de usuario y/o contraseña son incorrectos.
+</td>
+      <td>EP009</td>
+    </tr>
+     <tr>
+      <td>US48</td>
+      <td>Cierre de sesión</td>
+      <td>Como usuario autenticado, quiero cerrar mi sesión activa en la plataforma, para garantizar que nadie más pueda acceder a mis datos si dejo el dispositivo desatendido.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el usuario ha iniciado sesión y se encuentra navegando en la plataforma,
+Cuando escoge la opción para cerrar sesión,
+Entonces el sistema debe redirigir al usuario inmediatamente a la página pública de inicio de sesión,
+Y bloquear cualquier intento posterior de navegación hacia rutas protegidas sin iniciar sesión de nuevo.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el usuario ha iniciado sesión y se encuentra navegando en la plataforma
+Cuando escoge la opción para cerrar sesión.
+Y el sistema intenta comunicarse con el backend para invalidar el token, pero la petición falla (por error 500 o falta de red)
+Entonces el sistema debe borrar de todos modos el token del almacenamiento local (localStorage/sessionStorage) por seguridad
+Y redirigir al usuario a la pantalla de inicio de sesión.
+</td>
+      <td>EP009</td>
+    </tr>
+     <tr>
+      <td>US49</td>
+      <td>Gestión de perfil del usuario.</td>
+      <td>Como usuario autenticado, quiero acceder a una sección de perfil para ver y actualizar mis datos personales (nombre, apellido, teléfono), para mantener mi información de contacto actualizada dentro del sistema.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el usuario ha iniciado sesión y se encuentra en el dashboard principal,
+Cuando hace clic en su avatar o en la opción "Mi Perfil" del menú de navegación,
+Entonces el sistema debe redirigirlo a la vista de perfil de usuario.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el usuario se encuentra visualizando la pantalla de "Mi Perfil",
+Cuando hace clic en el botón "Volver" o en el logotipo de Aquanetix en la barra superior,
+Entonces el sistema debe redirigirlo de regreso al dashboard principal sin perder el estado de su sesión.
+</td>
+      <td>EP009</td>
+    </tr>
+    <tr>
+      <td>US50</td>
+      <td>Selección de plan de suscripción</td>
+      <td>Como usuario recién registrado, quiero visualizar los planes de suscripción disponibles y seleccionar uno, para activar mi cuenta con las características de monitoreo y redistribución que mejor se adapten a mis necesidades.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el usuario acaba de completar su registro y se encuentra en la pantalla de "Selección de Plan",
+Cuando selecciona uno de los planes disponibles y lo confirma,
+Entonces el sistema debe asociar el plan elegido a su cuenta en la base de datos,
+Y redirigir al usuario al dashboard principal con los accesos correspondientes a su nivel de suscripción.
+<br><br>
+
+<b>Criterio de aceptación 2:</b><br>
+Dado que el usuario se encuentra visualizando la pantalla de su perfil,
+Cuando intenta volver al dashboard,
+Entonces el sistema debe redirigirlo de regreso al dashboard principal sin perder el estado de su sesión.
+</td>
+      <td>EP009</td>
+    </tr>
+    <tr>
+      <td>T01</td>
+      <td>Get-All-Devices</td>
+      <td>Como desarrollador, quiero implementar un endpoint de tipo API REST con el método GET /api/devices, para proveer un listado centralizado en formato JSON con la información de todos los dispositivos de monitoreo hídrico que consumirá el frontend.</td>
+      <td>
+<b>Criterio de Aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/devices.
+Cuando la base de datos responde correctamente (tenga o no registros almacenados).
+Entonces el sistema debe retornar un código de estado 200 OK junto con el arreglo JSON correspondiente (con los datos de los dispositivos o vacío []).
+        <br><br>
+        
+<b>Criterio de Aceptación 2:</b><br>
+Dado que se invoca el endpoint /api/devices mediante una petición GET.
+Cuando la base de datos no se encuentra disponible o el servidor experimenta una falla interna.
+Entonces el sistema debe retornar un código de estado 500 Internal Server Error y registrar el error en los logs de la aplicación de forma segura.<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Get-Device-By-Id</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful GET /api/devices/{id}, para permitir la consulta individual de un dispositivo de monitoreo hídrico específico mediante su identificador único.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/devices/{id} enviando un ID válido y existente.
+Cuando el sistema procesa la consulta en la base de datos.
+Entonces el sistema debe retornar un código de estado 200 OK junto con el objeto JSON que contiene los detalles específicos de ese dispositivo.
+        <br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se realiza una solicitud HTTP GET al endpoint /api/devices/{id} enviando un ID que no corresponde a ningún dispositivo registrado.
+Cuando el sistema valida la inexistencia del recurso.
+Entonces el sistema debe retornar un código de estado 404 Not Found acompañado de un mensaje JSON indicando que el dispositivo no fue localizado.<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T03</td>
+      <td>Update-Device-Frequency</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful UPDATE /api/devices/{id}/frequency, para permitir la actualización remota de la frecuencia de transmisión de datos de un dispositivo de monitoreo específico.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP PATCH a /api/devices/{id}/frequency con un JSON que contiene el nuevo intervalo de tiempo válido.
+Cuando el sistema actualiza exitosamente el parámetro en la base de datos.
+Entonces el sistema debe retornar un código de estado 200 OK (o 204 No Content) confirmando que la frecuencia de transmisión se modificó correctamente.<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se envía una solicitud HTTP PATCH al endpoint pero con un valor de frecuencia negativo, vacío o en un formato de datos incorrecto.
+Cuando el backend ejecuta las reglas de validación de negocio.
+Entonces el sistema debe retornar un código de estado 400 Bad Request junto con un JSON que describa los errores de validación del payload.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T04</td>
+      <td>Create-Device-Thresholds</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful POST /api/devices/{id}/thresholds, para registrar los umbrales de alerta mínimos y máximos asignados a las métricas de un dispositivo de monitoreo hídrico.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP POST a /api/devices/{id}/thresholds enviando un JSON con los límites de alerta estructurados correctamente.
+Cuando el sistema procesa el almacenamiento de estos nuevos parámetros de control.
+Entonces el sistema debe retornar un código de estado 201 Created junto con el objeto JSON de los umbrales creados y su respectivo identificador.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se realiza una solicitud POST al endpoint omitiendo campos obligatorios o definiendo un umbral mínimo mayor que el máximo.
+Cuando el backend evalúa la integridad y lógica de los datos recibidos.
+Entonces el sistema debe rechazar la operación retornando un código de estado 400 Bad Request.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T05</td>
+      <td>Register-Devices-BC</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful POST /api/devices, para procesar el registro masivo o individual de nuevos dispositivos de monitoreo hídrico dentro de su respectivo contexto de negocio en la plataforma.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que una aplicación emisora envía una solicitud HTTP POST a /api/devices incluyendo los campos obligatorios del dispositivo (número de serie, modelo, etc.).
+Cuando el backend verifica que el dispositivo no se encuentra duplicado y lo persiste en la base de datos de manera exitosa.
+Entonces el sistema debe retornar un código de estado 201 Created y el recurso recién creado en el cuerpo de la respuesta.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se envía una solicitud HTTP POST para registrar un dispositivo cuyo identificador único o número de serie ya existe en el sistema.
+Cuando el backend realiza la validación de unicidad en la persistencia.
+Entonces el sistema debe prevenir la duplicación de datos retornando un código de estado 490 Conflict (o 400 Bad Request) informando la naturaleza del problema.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T06</td>
+      <td>Get-All-Alerts</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful GET /api/alerts, para proveer un listado histórico y centralizado de todas las alertas generadas por el sistema de monitoreo hídrico.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/alerts.
+Cuando la base de datos responde de manera correcta.
+Entonces el sistema debe retornar un código de estado 200 OK junto con un arreglo JSON que contenga las alertas registradas (o vacío []).
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se invoca el endpoint /api/alerts mediante una petición GET.
+Cuando ocurre un problema de conectividad interna con la base de datos o un timeout.
+Entonces el sistema debe responder con un código de estado 500 Internal Server Error y registrar el error en los logs del servidor.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T07</td>
+      <td>Get-Alerts-By-Device-Id</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful GET /api/devices/{deviceId}/alerts, para filtrar y recuperar únicamente las alertas que pertenecen a un dispositivo de monitoreo específico.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET a /api/devices/{deviceId}/alerts enviando un ID de dispositivo existente.
+Cuando el backend procesa la consulta con la condición de filtrado.
+Entonces el sistema debe retornar un código de estado 200 OK y el arreglo JSON con las alertas asociadas a ese dispositivo.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se realiza la solicitud HTTP GET especificando un deviceId que no está registrado en el sistema.
+Cuando el backend valida la integridad estructural de los datos.
+Entonces el sistema debe retornar un código de estado 404 Not Found informando que el dispositivo referenciado no existe.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T08</td>
+      <td>Create-Alert</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful POST /api/alerts, para permitir que el motor de reglas o los servicios de monitoreo registren de forma automática una nueva alerta cuando se superen los umbrales definidos.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que el servicio emite una solicitud HTTP POST a /api/alerts con los datos obligatorios (dispositivo de origen, métrica excedida, timestamp).
+Cuando el sistema procesa de manera correcta la inserción del registro.
+Entonces el sistema debe retornar un código de estado 201 Created junto con el objeto de la alerta creada.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se realiza una solicitud POST al endpoint omitiendo parámetros críticos de la alerta (como el ID del dispositivo o la descripción).
+Cuando el backend intercepta el payload y ejecuta la validación.
+Entonces el sistema debe rechazar la petición retornando un código de estado 400 Bad Request.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T09</td>
+      <td>Get-Alerts-By-Status</td>
+      <td> Como desarrollador, quiero implementar el endpoint de la API RESTful GET /api/alerts?status={status}, para permitir al frontend filtrar las alertas del sistema de acuerdo a su estado actual (ej. Activa, Atendida, Resuelta).
+</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que se realiza una solicitud HTTP GET a /api/alerts incluyendo un parámetro de estado válido (ej. status=active).
+Cuando el backend procesa la consulta aplicando dicho criterio.
+Entonces el sistema debe retornar un código de estado 200 OK junto con el listado JSON filtrado.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se invoca el endpoint enviando un estado que no coincide con los enumerados permitidos por el sistema (ej. status=desconocido).
+Cuando el backend valida la consulta.
+Entonces el sistema debe retornar un código de estado 400 Bad Request indicando el error de sintaxis en el parámetro.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T10</td>
+      <td>Update-Alert</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful PUT /api/alerts/{id}, para actualizar de forma integral las propiedades o comentarios de gestión de una alerta en particular.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP PUT a /api/alerts/{id} enviando el payload completo modificado.
+Cuando el sistema persiste los cambios del recurso en la base de datos de forma exitosa.
+Entonces el sistema debe retornar un código de estado 200 OK (o 204 No Content) confirmando la actualización del recurso.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se procesa una solicitud PUT enviando datos inconsistentes o intentando alterar campos inmutables de la alerta histórica.
+Cuando se ejecutan las reglas de negocio en el backend.
+Entonces el sistema debe denegar la operación devolviendo un código de estado 400 Bad Request.
+<br></td>
+      <td>N/A</td>    
+    </tr>
+    <tr>
+      <td>T11</td>
+      <td>Get-Alert-By-Id</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful GET /api/alerts/{id}, para permitir la consulta individual y detallada de una alerta específica mediante su identificador único.
+  </td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que se realiza una solicitud HTTP GET al endpoint /api/alerts/{id} enviando un ID válido y existente.
+Cuando el sistema lee el registro desde la base de datos.
+Entonces el sistema debe retornar un código de estado 200 OK acompañado del objeto JSON completo de la alerta.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se solicita una alerta mediante un ID inexistente en la persistencia.
+Cuando se valida la ausencia del recurso.
+Entonces el sistema debe retornar un código de estado 404 Not Found.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T12</td>
+      <td>Register-Monitoring-BC</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful POST /api/monitoring-records, para procesar e ingresar las tramas de telemetría continuas recibidas desde los sensores (flujo, presión, etc.) en su respectivo contexto de negocio.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un dispositivo emisor envía un payload JSON válido con las lecturas capturadas al endpoint de monitoreo.
+Cuando el sistema valida la estructura del mensaje y lo registra exitosamente en la persistencia temporal/histórica.
+Entonces el sistema debe retornar un código de estado 201 Created confirmando la correcta recepción del paquete de telemetría.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se recibe una petición HTTP POST pero con una estructura JSON rota o con tipos de datos inválidos en las lecturas de los sensores.
+Cuando el middleware de la API o el controlador validan el request.
+Entonces el sistema debe descartar el paquete devolviendo un código de estado
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T13</td>
+      <td>Get-Quality-Analysis-By-Id</td>
+      <td> Como desarrollador, quiero implementar el endpoint de la API RESTful GET /api/quality-analyses/{id}, para permitir la consulta individual de un reporte técnico o análisis de calidad de agua específico mediante su identificador único.
+    </td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/quality-analyses/{id} enviando un ID válido y existente.
+Cuando el sistema procesa la consulta en la base de datos.
+Entonces el sistema debe retornar un código de estado 200 OK junto con el objeto JSON que contiene los parámetros detallados del análisis de calidad.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se realiza una solicitud HTTP GET al endpoint /api/quality-analyses/{id} con un identificador que no está registrado.
+Cuando el backend verifica la inexistencia del recurso.
+Entonces el sistema debe retornar un código de estado 404 Not Found acompañado de un mensaje JSON estructurado.
+<br></td>
+      <td>N/A</td>
+    </tr>
+     <tr>
+      <td>T14</td>
+      <td>Get-All-Quality-Analyses</td>
+      <td>Como Desarrollador, quiero implementar el endpoint de la API RESTful GET /api/quality-analyses, para proveer un listado histórico centralizado con todos los análisis de calidad de agua registrados en la plataforma.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/quality-analyses.
+Cuando la base de datos responde correctamente a la consulta de registros.
+Entonces el sistema debe retornar un código de estado 200 OK junto con un arreglo JSON que contenga los análisis almacenados (o vacío []).
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/quality-analyses.
+Cuando la base de datos responde correctamente a la consulta de registros.
+Entonces el sistema debe retornar un código de estado 200 OK junto con un arreglo JSON que contenga los análisis almacenados (o vacío []).
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T15</td>
+      <td>Create-Quality-Analysis</td>
+      <td>Como Developer, quiero implementar el endpoint de la API RESTful POST /api/quality-analyses, para registrar un nuevo reporte de parámetros químicos o físicos del agua evaluada en el sistema de monitoreo.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que una entidad autorizada envía una solicitud HTTP POST a /api/quality-analyses con un JSON válido que incluye las métricas requeridas (pH, turbidez, etc.).
+Cuando el sistema valida y almacena exitosamente el registro en la base de datos.
+Entonces el sistema debe retornar un código de estado 201 Created junto con el objeto JSON del reporte generado.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se realiza una solicitud POST omitiendo campos obligatorios o enviando valores fuera de los rangos físicos permitidos por las reglas del backend.
+Cuando el controlador de la API procesa la validación del request.
+Entonces el sistema debe rechazar la inserción devolviendo un código de estado 400 Bad Request.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T16</td>
+      <td>Register-Dashboard-BC</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful POST /api/dashboard-metrics, para registrar, consolidar o recalcular los KPI generales (consumo, eficiencia, estado global) requeridos por el contexto de negocio del Dashboard.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un servicio interno realiza una solicitud HTTP POST a /api/dashboard-metrics con el consolidado periódico de datos hídricos.
+Cuando el backend actualiza de forma correcta las proyecciones y resúmenes estadísticos en la persistencia del dashboard.
+Entonces el sistema debe retornar un código de estado 201 Created o 200 OK confirmando la actualización del panel visual.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se envía una solicitud POST al endpoint pero con un formato corrupto o datos temporales desalineados.
+Cuando el backend ejecuta las reglas de integridad del contexto del Dashboard.
+Entonces el sistema debe prevenir el registro inconsistente retornando un código de estado 400 Bad Request.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T17</td>
+      <td>Get-All-Water-Batches</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful GET /api/water-batches, para proveer un listado centralizado de todos los lotes de agua registrados para su monitoreo y distribución.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/water-batches.
+Cuando la base de datos responde correctamente a la consulta de registros.
+Entonces el sistema debe retornar un código de estado 200 OK junto con un arreglo JSON que contenga los lotes de agua (o vacío []).
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se invoca el endpoint /api/water-batches mediante una petición GET.
+Cuando el servicio de base de datos experimenta un error de conexión interno.
+Entonces el sistema debe responder con un código de estado 500 Internal Server Error.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T18</td>
+      <td>Get-Water-Batch-By-Id</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful GET /api/water-batches/{id}, para permitir la consulta individual de un lote de agua específico mediante su identificador único.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/water-batches/{id} enviando un ID válido y existente.
+Cuando el sistema procesa la consulta en la base de datos.
+Entonces el sistema debe retornar un código de estado 200 OK junto con el objeto JSON que contiene los detalles del lote de agua.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se realiza una solicitud HTTP GET al endpoint con un identificador que no está registrado.
+Cuando el backend verifica la inexistencia del recurso.
+Entonces el sistema debe retornar un código de estado 404 Not Found.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T19</td>
+      <td>Create-Water-Batch</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful POST /api/water-batches, para registrar un nuevo lote de agua con sus especificaciones de origen y volumen en el sistema.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que una entidad autorizada envía una solicitud HTTP POST a /api/water-batches con un JSON válido que incluye los campos obligatorios del lote.
+Cuando el sistema almacena exitosamente el registro en la base de datos.
+Entonces el sistema debe retornar un código de estado 201 Created junto con el objeto JSON del lote generado.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se realiza una solicitud POST omitiendo parámetros requeridos o enviando valores de volumen inconsistentes.
+Cuando el backend procesa la validación del request.
+Entonces el sistema debe rechazar la inserción devolviendo un código de estado 400 Bad Request.
+<br></td>
+      <td>N/A</td>
+    </tr>
+       <tr>
+      <td>T20</td>
+      <td>Update-Water-Batch</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful PUT /api/water-batches/{id}, para actualizar de forma integral las propiedades o el estado de un lote de agua específico.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP PUT a /api/water-batches/{id} enviando el payload completo modificado.
+Cuando el sistema persiste los cambios del recurso en la base de datos de manera exitosa.
+Entonces el sistema debe retornar un código de estado 200 OK (o 204 No Content).
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se envía una solicitud PUT con una estructura malformada o valores fuera de rango para el lote de agua.
+Cuando el backend ejecuta las validaciones de negocio.
+Entonces el sistema debe denegar la operación devolviendo un código de estado 400 Bad Request.
+<br></td>
+      <td>N/A</td>
+    </tr>
+       <tr>
+      <td>T21</td>
+      <td>Delete-Water-Batch</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful DELETE /api/water-batches/{id}, para remover (o dar de baja de forma lógica) un lote de agua del sistema mediante su identificador único.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP DELETE al endpoint /api/water-batches/{id} con un ID válido.
+Cuando el backend procesa el borrado físico o el cambio de estado a inactivo en la persistencia.
+Entonces el sistema debe retornar un código de estado 200 OK (o 240 No Content) confirmando la eliminación del recurso.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se intenta eliminar un lote de agua enviando un ID que ya no existe o nunca fue registrado.
+Cuando el sistema comprueba la ausencia del registro.
+Entonces el sistema debe retornar un código de estado 404 Not Found.
+<br></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>T22</td>
+      <td>Validate-Water-Batch</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful POST /api/water-batches/{id}/validate, para evaluar y certificar si un lote de agua cumple con las normas de calidad necesarias antes de autorizar su redistribución.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que se realiza una solicitud HTTP POST a /api/water-batches/{id}/validate con los datos de las pruebas de laboratorio o sensores.
+Cuando los parámetros químicos y físicos evaluados cumplen rigurosamente con los rangos permitidos.
+Entonces el sistema debe actualizar el estado del lote a "Validado/Aprobado" y retornar un código 200 OK.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se invoca el endpoint de validación pero los datos del payload indican que se excedieron los límites de contaminación permitidos.
+Cuando el sistema procesa las reglas de control de calidad.
+Entonces el sistema debe registrar el lote con estado "Rechazado" y retornar un código 200 OK (o 422 Unprocessable Entity) detallando las métricas fuera de norma.
+<br></td>
+      <td>N/A</td>
+    </tr>
+      <tr>
+      <td>T23</td>
+      <td>Register-Service-Design-BC</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful POST /api/service-designs, para registrar las configuraciones estructurales, topologías o especificaciones iniciales del servicio de distribución en su respectivo contexto de negocio.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que una aplicación emisora envía una solicitud HTTP POST a /api/service-designs con un payload JSON que define el diseño del servicio.
+Cuando el backend valida que la topología y configuraciones cumplen con las reglas del contexto y las persiste de manera exitosa.
+Entonces el sistema debe retornar un código de estado 201 Created junto con el recurso de configuración creado.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se envía un request POST intentando registrar un diseño de servicio con un identificador o versión que ya se encuentra activo en el sistema.
+Cuando el backend realiza el control de duplicidad.
+Entonces el sistema debe denegar el registro retornando un código de estado 490 Conflict (o 400 Bad Request).
+<br></td>
+      <td>N/A</td>
+    </tr>
+  <tr>
+      <td>T24</td>
+      <td>Get-Subscription-By-Id</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful GET /api/subscriptions/{id}, para permitir la consulta individual de los detalles y el estado de una suscripción específica mediante su identificador único.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/subscriptions/{id} enviando un ID válido y existente.
+Cuando el sistema procesa la consulta en la base de datos.
+Entonces el sistema debe retornar un código de estado 200 OK junto con el objeto JSON que contiene los datos de la suscripción (fechas, plan, estado).
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se realiza una solicitud HTTP GET al endpoint con un identificador que no está registrado.
+Cuando el backend verifica la inexistencia del recurso.
+Entonces el sistema debe retornar un código de estado 404 Not Found.
+<br></td>
+      <td>N/A</td>
+    </tr>
+      <tr>
+      <td>T25</td>
+      <td>Get-All-Subscriptions</td>
+      <td>Como developer, quiero implementar el endpoint de la API RESTful GET /api/subscriptions, para proveer un listado centralizado con todas las suscripciones de los clientes registradas en la plataforma.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP GET al endpoint /api/subscriptions.
+Cuando la base de datos responde correctamente a la consulta de registros.
+Entonces el sistema debe retornar un código de estado 200 OK junto con un arreglo JSON que contenga las suscripciones (o vacío []).
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se invoca el endpoint /api/subscriptions mediante una petición GET.
+Cuando el servicio de persistencia experimenta un error de conexión interno o un timeout.
+Entonces el sistema debe responder con un código de estado 500 Internal Server Error.
+<br></td>
+      <td>N/A</td>
+    </tr>
+      <tr>
+      <td>T26</td>
+      <td>Update-Subscription</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful PUT /api/subscriptions/{id}, para permitir la actualización integral de los parámetros de una suscripción (como la renovación, cambio de plan o cancelación).</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que un componente autorizado realiza una solicitud HTTP PUT a /api/subscriptions/{id} enviando el payload completo modificado.
+Cuando el sistema persiste los cambios en la base de datos de manera exitosa.
+Entonces el sistema debe retornar un código de estado 200 OK (o 204 No Content) confirmando la modificación.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se envía una solicitud PUT con una estructura malformada o valores lógicos incorrectos (ej. fecha de fin anterior a la fecha de inicio).
+Cuando el backend ejecuta las validaciones de negocio.
+Entonces el sistema debe denegar la operación devolviendo un código de estado 400 Bad Request.
+<br></td>
+      <td>N/A</td>
+    </tr>    
+      <tr>
+      <td>T27</td>
+      <td>Register-Subscription-BC</td>
+      <td>Como desarrollador, quiero implementar el endpoint de la API RESTful POST /api/subscriptions, para registrar la adquisición de una nueva suscripción corporativa en su respectivo contexto de negocio.</td>
+      <td>
+<b>Criterio de aceptación 1:</b><br>
+Dado que una aplicación emisora envía una solicitud HTTP POST a /api/subscriptions incluyendo los campos obligatorios del plan y cliente.
+Cuando el backend valida e inserta exitosamente la suscripción en la base de datos.
+Entonces el sistema debe retornar un código de estado 201 Created junto con el recurso recién creado en el cuerpo de la respuesta.
+<br><br>
+        
+<b>Criterio de aceptación 2:</b><br>
+Dado que se procesa una solicitud POST omitiendo parámetros críticos del contrato de suscripción (como el identificador del cliente o el tipo de plan).
+Cuando el middleware de la API intercepta y evalúa el request.
+Entonces el sistema debe rechazar el registro retornando un código de estado 400 Bad Request.
+<br></td>
+      <td>N/A</td>
     </tr>
   </tbody>
 </table>
