@@ -10,7 +10,6 @@ Los Wireflow Diagrams de la aplicación web representan de manera visual los flu
 
 ### 4.4.3. Web Applications Mock-ups
 
-#### Web:
 <div align="center"><img src="../assets/web_applications/web-app-mockup.png" width ="100%"></div>
 
 
