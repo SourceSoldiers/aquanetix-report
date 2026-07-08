@@ -1,13 +1,13 @@
 <p align = "center">
-  <img src="/report/assets/logos/UPC_Logo.png" width ="300" height="300">
+  <img src="../assets/logos/UPC_Logo.png" width ="300" height="300">
 </p>
 <h1 align = "center">
   UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 </h1>
 <h2 align = "center">
   Ingeniería de Software - 5° Ciclo<br>
-  1ASI0730 - Desarrollo de Aplicaciones Open Source<br>
-  NRC: 12242<br>
+  1ASI0729 - Desarrollo de Aplicaciones Open Source<br>
+  NRC: 12010<br>
   Profesor: Iván Robles Fernández<br>
   "Informe del Trabajo Final"<br>
   Startup: Source Soldiers<br>

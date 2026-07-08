@@ -1,9 +1,9 @@
 # Autores:
-> * Bojórquez Bustinza	Renzo Alejandro - U202411402	
-> * Pinedo Sánchez	Sebastián Martin - U202414345
-> * Castro Solorza	Nicolás Eduardo - U20241D428
+> * Bojórquez Bustinza, Renzo Alejandro - U202411402	
+> * Pinedo Sánchez, Sebastián Martin - U202414345
+> * Castro Solorza, Nicolás Eduardo - U20241D428
 > * Correa Rodriguez, Andrea Khristina Esther - U202412041
-> * Cochachi Chagua	Sebastian Josue - U202416320
+> * Cochachi Chagua, Sebastian Josue - U202416320
 
 # ¿En qué consiste el proyecto?
 Nuestra aplicación Aquanetix tiene como objetivo principal recolectar el agua en estado deficiente y estudiarla para poderse reutilizar y así ayudar a los sectores que más la necesiten. Esta propuesta irá dirigida principalmente a empresas prestadoras de servicios de agua y alcantarillados, como SEDAPAL; y a empresas operadoras de residuos de sólidos, como RESITER; ya que ambas poseen la infraestructura logística y los canales de distribución necesarios para escalar sistemas de tratamiento a gran escala.
