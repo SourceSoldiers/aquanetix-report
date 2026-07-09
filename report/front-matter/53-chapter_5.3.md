@@ -166,8 +166,8 @@ Esta sección contiene el proceso de evaluación de las sesiones de validación 
 **Usability - Inclusive Design - Information Architecture**
 
 **CARRERA:** Ingeniería de Software
-**CURSO:** Aplicaciones Web
-**SECCIÓN:** 1AS10730
+**CURSO:** Desarrollo de Aplicaciones en Open Source
+**SECCIÓN:** 1AS10729
 **PROFESORES:** Todos
 **AUDITOR:** Equipo Aquanetix (Solvers Squad)
 **CLIENTE(S):** Diana Patricia Huamaní, Jorge Luis Castro, Liliana Sánchez, Fernando Bojórquez, Jose Ignacio Calle, Amid Alfonso Liñan.
