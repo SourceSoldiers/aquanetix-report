@@ -6,16 +6,17 @@
   Carrera de Ingeniería de Software
 </p>
 <h4 align = "center">
-  1ASI0730
+  1ASI0729
 </h4>
 <h4 align = "center">
-  Aplicaciones Web
+
+Desarrollo de Aplicaciones Open Source
 </h4>
 <p align = "center">
   NRC
 </p>
 <h4 align = "center">
-  12242
+  12010
 </h4>
 <h3 align = "center">
   Informe del Trabajo Final
