@@ -78,7 +78,7 @@ Las siguientes capturas muestran la interacción del usuario con las diferentes 
 **Figura 1. Sección principal de la landing page**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing1TB.png">
+  <img src="../assets/LandingPage/Landing1.jpeg">
 </div>
 La figura muestra la sección principal de la landing page, donde se presenta la propuesta de valor del sistema Aquanetix junto con un llamado a la acción dirigido al usuario.
 
@@ -86,7 +86,7 @@ La figura muestra la sección principal de la landing page, donde se presenta la
 **Figura 2. Sección informativa de la landing page**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing2TB.png">
+  <img src="../assets/LandingPage/Landing2.jpeg">
 </div>
 
 En esta sección se describe el problema abordado y la solución propuesta por el sistema, permitiendo al usuario comprender el propósito y beneficios del servicio.
@@ -94,7 +94,7 @@ En esta sección se describe el problema abordado y la solución propuesta por e
 **Figura 3. Sección de funcionalidades**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing3TB.png">
+  <img src="../assets/LandingPage/Landing3.jpeg">
 </div>
 
 La figura muestra las principales funcionalidades del sistema, destacando las capacidades de monitoreo, gestión de alertas y análisis de datos.
@@ -102,7 +102,7 @@ La figura muestra las principales funcionalidades del sistema, destacando las ca
 **Figura 4. Sección final y llamado a la acción**
 
 <div align="center">
-  <img src="../assets/LandingPage/Landing4TB.png">
+  <img src="../assets/LandingPage/Landing4.jpeg">
 </div>
 
 En esta sección final se incluye un llamado a la acción que invita al usuario a interactuar con el sistema, junto con información adicional relevante.
@@ -541,4 +541,129 @@ Para el desarrollo de este tercer sprint, todos los miembros del equipo desarrol
 
 <p align = "left">
    <img src="../assets/insights/commit_captura_av2.png">
+</p>
+
+### 5.2.4. Sprint 4
+El cuarto sprint de nuestro proyecto se caracterizó por un trabajo en paralelo en los distintos frentes del ecosistema Aquanetix. Por un lado, se realizó una refactorización profunda y optimización visual de la Landing Page (Frontend) para alinearla a estándares corporativos y mejorar la captación de leads. Por otro lado, el equipo continuó con el desarrollo e integración de los servicios de la Web Application y la Web Platform, enfocándose en [COMPLETAR: Mencionar brevemente en qué se enfocaron en el backend/webapp en este sprint, ej: validación de datos, nuevos bounded contexts, etc.].
+
+#### 5.2.4.1. Sprint Planning 4.
+
+Para este sprint, la reunión de Sprint Planning nos permitió evaluar nuestra velocidad previa y definir las nuevas metas. En esta fase, el equipo seleccionó las historias de usuario orientadas a mejorar la experiencia de usuario (UX/UI) de la página de aterrizaje y a extender las funcionalidades del sistema central. 
+
+| Campo / Sección | Detalles |
+| :--- | :--- |
+| Sprint # | Sprint 4 |
+| Date | 2026-07-01 |
+| Time | 9:00 PM |
+| Location | Google meet |
+| Prepared By | Castro Solorza, Nicolas Eduardo |
+| Attendees (to planning meeting) | Pinedo Sánchez, Sebastián Martín / Castro Solorza, Nicolás Eduardo / Cochachi Chagua, Sebastián Josué / Correa Rodríguez, Andrea Khristina / Bojórquez Bustinza, Renzo Alejandro |
+| Sprint 4 Review Summary | En el Sprint 3 se habían notado muchas observaciones pendientes a levantar, relacionadas con la Landing Page, Aplicación Frontend y Aplicación Backend, motivo por el cual se incorporaron muchas tareas a este Sprint 4. A ello se le debió sumar la lógica de Identity and Access Management, para registrar usuarios y que ellos puedan iniciar sesión, para así cumplir con los estándares de seguridad de la aplicación. |
+| Sprint 4 Retrospective Summary | Se levantaron las observaciones identificadas en el sprint anterior, y se añadió la lógica de Identity and Access Management |
+| Sprint 4 Goal | Nuestro enfoque está en ofrecer información detallada y real para los visitantes, facilidad y seguridad para el manejo de almacenamiento para las empresas suscritas a la plataforma, y aumentar las posibilidades para nuevos features para los desarrolladores.<br>Creemos que esto proporcionará una Landing Page atractiva para los visitantes, una aplicación de monitoreo estable y segura para las empresas, y un entorno de desarrollo estable para los desarrolladores.<br>Esto se confirmará cuando los visitantes puedan ingresar a la plataforma directamente desde la Landing Page, las empresas puedan registrarse y ver los datos logisticos, obtenidos dinámicamente de la base de datos, sin depender de datos codificados; y cuando los desarrolladores puedan implementar nuevos features desde los endpoints existentes mediante una autenticación de forma segura. |
+| Sprint 4 Velocity | Para este Sprint 4, evaluando el desempeño previo, capacidad actual del equipo, y circunstancias actuales de tiempo, se establecio un Velocity de 87 Story Points. |
+| Sum of Story Points | 87 |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En esta sección se presenta la matriz de liderazgo y colaboración (LACX), donde se definen los roles de cada integrante en los distintos frentes de trabajo del Sprint 4.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Web Application | Web Platform | Documentation |
+|------------------------------------|----------------|-------------|-------------|--------------|----------|
+| Bojórquez Bustinza, Renzo Alejandro | DeterminedSoul7 | C | C | L | C |
+| Correa Rodríguez, Andrea Khristina | Daiko-07 | C | L | C | C |
+| Castro Solorza, Nicolás Eduardo | NicoCSE | C | C | C | L |
+| Cochachi Chagua, Sebastian Josue | sebastiancochachi02-cmd | L | C | C | C |
+| Pinedo Sanchez, Sebastián Martín | smp1107 | C | C | L | C |
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+El objetivo del presente Sprint abarcó tanto la refactorización visual de la Landing Page como la evolución del backend/frontend de la aplicación. 
+
+<div align="center">
+  <img src="../assets/Jira/jira_sprint_4.png">
+  <img src="../assets/Jira/jira_sprint_4_2.png">
+</div>
+
+Enlace a la herramienta utilizada: https://shorturl.at/iJlvT
+
+A continuación, se detallan las User Stories priorizadas y las tareas asociadas (incluyendo las tareas de la Landing Page y las de los demás módulos):
+
+| US Id | Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|------|------|--------|------------|------------|-------------------|-------------|--------|
+| US-46 | Registro de usuarios | T-01 | Registro de usuarios | Registro de usuarios | 1 | Nicolás Castro | Done |
+| US-47 | Inicio de sesión | T-02 | Inicio de sesión | Inicio de sesión | 1 | Andrea Correa | Done |
+| US-48 | Cierre de sesión | T-03 | Cierre de sesión | Cierre de sesión | 1 | Sebastián Cochachi | Done |
+| US-49 | Gestión de perfil de usuario | T-04 | Gestión de perfil de usuario | Gestión de perfil de usuario | 1 | Renzo Bojórquez | Done |
+| US-50 | Selección de plan de suscripción | T-05 | Selección de plan de suscripción | Selección de plan de suscripción | 1 | Sebastián Pinedo | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit Ids | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| aquanetix_platform | feature/get-all-devices | 7c8bad665184224272dd8a07fbf80f5c6c129def | feat(get-all-devices): add get all devices query. |  | 16/06/2026 |
+| aquanetix_platform | feature/get-all-quality-analyses | 7be44256f1cdf815b9eca3611f5311138886f647 | feat: implement GetAllQualityAnalyses query and endpoint |  | 17/05/2026 |
+| aquanetix_platform | feature/get-all-alerts | 77026adc3d13ad0c6072a74fcf81d430e6155eca | feat(monitoring): implement GetAllAlerts query and endpoint |  | 17/06/2026 |
+| aquanetix_platform | feature/get-subscription-by-id | 29187e7120e7fe903b80af4d66975ce7624cabba | feat(subscription): implement create subscription and get subscription by id |  | 16/06/2026 |
+| aquanetix_platform | feature/delete-water-batch | 53f8ddc14c1a8325a3597c8b538ac46499378ef2 | feat(service-design): add DeleteWaterBatch endpoint and command for deleting water batch entries |  | 15/06/2026 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+En esta sección se presentan evidencias de la ejecución de los componentes desarrollados durante el Sprint 4.
+
+**Figura 1. Sección principal de la landing page**
+
+<div align="center">
+  <img src="../assets/LandingPage/Landing1.jpeg">
+</div>
+
+**Figura 2. Sección informativa de la landing page**
+
+<div align="center">
+  <img src="../assets/LandingPage/Landing2.jpeg">
+</div>
+
+**Figura 3. Dashboard principal**
+
+<div align="center">
+  <img src="../assets/web_applications/Web-App-Cap1.jpg">
+</div>
+
+
+**Figura 4. Registro de nuevo usuario**
+
+<div align="center">
+  <img src="../assets/web_applications/WebApp_IAM.png">
+</div>
+
+
+**Figura 5. Endpoints con autenticación**
+
+<div align="center">
+  <img src="../assets/web_applications/WebService_Final.png">
+</div>
+
+A continuación, se elaboró una explicación de forma audiovisual que detalla cada funcionalidad descrita en este tercer sprint: https://shorturl.at/JGi1y
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Durante este Sprint, la arquitectura de Web Services se mantuvo estable conforme a la documentación Swagger detallada en el Sprint 3, enfocándose los esfuerzos en el consumo de dichas APIs desde el Frontend:
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+El despliegue de los componentes del Sprint 4 se realizó en las siguientes plataformas:
+
+| Componente | Proveedor | Tecnología | URL |
+|---|---|---|---|
+| Web Services (Backend) | Render | Java Spring Boot | https://aquanetix-platform-vwyl.onrender.com/swagger-ui/index.html#/ |
+| Web Application (Frontend) | Firebase Hosting | Angular | https://shorturl.at/l6ihN |
+| Base de datos | Render | PostgreSQL | (privada, accedida vía connection string) |
+| Landing Page | GitHub Pages | GitHub Pages | https://sourcesoldiers.github.io/SourceSoldiers-Landing-Page/ |
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+Para el desarrollo de este cuarto sprint, el equipo colaboró activamente dividiendo esfuerzos: mientras un frente se encargaba del rediseño completo de la Landing Page, los demás miembros trabajaron en la estabilización e integración de la Web Application y la Web Platform.
+
+<p align = "left">
+   <img src="../assets/insights/team-insights-TB2.png">
 </p>
