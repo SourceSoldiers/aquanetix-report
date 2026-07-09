@@ -16,7 +16,7 @@ El mockup de la landing page de Aquanetix presenta un diseño limpio y estructur
 <div align="center"><img src="../assets/LandingPage/Landing3.jpeg" width ="100%"></div>
 <div align="center"><img src="../assets/LandingPage/Landing4.jpeg" width ="100%"></div>
 <div align="center"><img src="../assets/LandingPage/Landing5.jpeg" width ="100%"></div>
-<div align="center"><img src="../assets/LandingPage/Landing.jpeg" width ="100%"></div>
+<div align="center"><img src="../assets/LandingPage/Landing6.png" width ="100%"></div>
 <div align="center"><img src="../assets/LandingPage/Landing10.jpeg" width ="100%"></div>
 <div align="center"><img src="../assets/LandingPage/Landing11.jpeg" width ="100%"></div>
 <div align="center"><img src="../assets/LandingPage/Landing7.png" width ="100%"></div>
