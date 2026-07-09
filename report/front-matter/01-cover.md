@@ -1,32 +1,57 @@
 <p align = "center">
-  <img src="../assets/logos/UPC_Logo.png" width ="300" height="300">
+  <img src="../assets/logos/UPC_Logo.png" width ="20%">
 </p>
-<h1 align = "center">
-  UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-</h1>
-<h2 align = "center">
-  Ingeniería de Software - 5° Ciclo<br>
-  1ASI0729 - Desarrollo de Aplicaciones Open Source<br>
-  NRC: 12010<br>
-  Profesor: Iván Robles Fernández<br>
-  "Informe del Trabajo Final"<br>
-  Startup: Source Soldiers<br>
-  Producto: Aquanetix
-</h2>
+<p align = "center">
+  Universidad Peruana de Ciencias Aplicadas<br>
+  Carrera de Ingeniería de Software
+</p>
+<h4 align = "center">
+  1ASI0730
+</h4>
+<h4 align = "center">
+  Aplicaciones Web
+</h4>
+<p align = "center">
+  NRC
+</p>
+<h4 align = "center">
+  12242
+</h4>
 <h3 align = "center">
-  Relación de integrantes:
+  Informe del Trabajo Final
 </h3>
+<p align = "center">
+  Docente
+</p>
+<h4 align = "center">
+  Robles Fernández, Ivan
+</h4>
+  <p align = "center">Equipo<br>
+  </p>
+  <h4 align = "center">
+  SourceSoldiers
+  </h4>
+  <p align = "center">Proyecto</p>
+  <h4 align = "center">
+  Aquanetix
+  </h4>
+<h4 align = "center">
+  Integrantes
+</h4>
 <div align = "center">
-  
-  | Código | Apellidos | Nombres |
-  | :--- | :--- | :--- |
-  | U202411402 | Bojórquez Bustinza | Renzo Alejandro |
-  | U202414345 | Pinedo Sánchez | Sebastián Martin |
-  | U20241D428 | Castro Solorza | Nicolás Eduardo |
-  | U202412041 | Correa Rodriguez | Andrea Khristina Esther |
-  | U202416320 | Cochachi Chagua | Sebastian Josue |
-  
+
+|| Código      | Apellidos y Nombres                       |
+  | :--- |:------------|:------------------------------------------|
+|1| U202411402  | Bojórquez Bustinza Renzo Alejandro        |
+|2| U202414345  | Pinedo Sánchez Sebastián Martin           |
+|3| U20241D428  | Castro Solorza Nicolás Eduardo            |
+|4| U202412041  | Correa Rodriguez  Andrea Khristina Esther |
+|5| U202416320  | Cochachi Chagua Sebastian Josue           |
+
 </div>
-<h3 align = "center">
-  Abril, 2026
-</h3>
+<h4 align = "center">
+  Período 202610
+</h4>
+<h4 align = "center">
+  Julio 2026
+</h4>
