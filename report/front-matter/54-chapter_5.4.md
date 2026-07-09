@@ -10,17 +10,17 @@ El video inicia con una introducción a la problemática de la brecha hídrica e
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Título del video          | `upc-pre-202610-1asi0730-12242-Aquanetix-about-the-product-tf`                                                                                          |
 | Plataforma de publicación | Microsoft Stream / SharePoint y YouTube                                                                                                                 |
-| URL Microsoft Stream      |                                                                                                                                                         |
-| URL Youtube               |                                                                                                                                                         |
-| Duración                  | xx:xx min                                                                                                                                               |
-| Fecha de publicación | xx/07/2026                                                                                                                                              |
+| URL Microsoft Stream      | https://shorturl.at/dY9KL                                                                                                                               |
+| URL Youtube               | https://shorturl.at/Pxs7P                                                                                                                               |
+| Duración                  | 	02:56 min                                                                                                                                              |
+| Fecha de publicación | 05/07/2026                                                                                                                                              |
 | Testimonio positivo incluido | Testimonios de un usuario del segmento de empresa prestadora de servicios de agua y un usuario del segmento proveedor de servicios de residuos sólidos. |
 
 ### 5.4.4. Evidencia fotográfica del video
 La siguiente captura corresponde al Video About-the-Product publicado para el cierre TF:
 
 <p align="left">
-   <img src="../assets/about_the_product/about_the_product_screenshot.png"> //crea una carpeta llamada "about_the_product" y la imagen.
+   <img src="../assets/about_the_product/about_the_product_screenshot.png"> 
 </p>
 
 ### 5.4.5. Testimonios positivos incluidos
