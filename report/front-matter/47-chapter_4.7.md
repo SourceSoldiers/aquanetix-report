@@ -1,121 +1,83 @@
 ### 4.7. Software Object-Oriented Design
 
-El desarrollo estructural de nuestra plataforma se fundamenta estrictamente en el paradigma orientado a objetos. Esta decisión metodológica nos brinda la capacidad de segmentar los distintos procesos del negocio hídrico garantizando una expansión futura sin fricciones. A través de la correcta aplicación del encapsulamiento para proteger la información corporativa, sumado a la herencia para jerarquizar nuestras entidades de monitoreo, diseñaremos componentes de software robustos, facilitando enormemente las labores de actualización técnica.
+El desarrollo estructural de nuestra plataforma se fundamenta estrictamente en el paradigma orientado a objetos, diseñado en C# siguiendo los principios de Domain-Driven Design (DDD) y patrones como CQRS (Command Query Responsibility Segregation). Esta decisión metodológica nos brinda la capacidad de segmentar los procesos en *Bounded Contexts* independientes, garantizando una alta cohesión y un bajo acoplamiento. A través de la correcta aplicación del encapsulamiento, modelamos entidades de dominio robustas que protegen sus invariantes y reglas de negocio, facilitando la escalabilidad del sistema.
+
+A continuación, se presentan los diagramas de clases UML y el diccionario de datos enfocado en las entidades de dominio centrales para cada *Bounded Context* identificado.
 
 ### 4.7.1. Class Diagrams
 
-<div align="center"><img src="../assets/c4_diagrams/Diagrama_de_clase.png" width ="100%"></div>
+#### 1. Bounded Context: Subscription
+Este contexto gestiona las suscripciones activas de los usuarios y el catálogo de planes disponibles en la plataforma.
 
-### 4.7.2. Class Dictionary
+<div align="center">
+  <img src="../assets/c4_diagrams/Diagrama_Subscription.png" width ="100%">
+</div>
 
-## Bounded Context: Subscriptions & Payment Management
+**Diccionario de Clases de Dominio:**
+* **Clase `Subscription` (Aggregate Root):** Representa la suscripción activa de un cliente en el sistema.
+  * *Atributos:* `- Id : int`, `- UserId : int`, `- PlanId : string`, `- StartDate : DateTime`, `- EndDate : DateTime`, `- IsActive : bool`
+* **Clase `PlanDefinition`:** Entidad que define las características y límites de un plan comercial.
+  * *Atributos:* `- Code : string`, `- Name : string`, `- Price : decimal`, `- DurationInMonths : int`, `- MaxDevices : int`
 
-### Clase: Subscriber «Aggregate Root»
-**Descripción:** Representa al cliente titular de la cuenta y dueño de los recursos en el sistema.
-* **Atributos:**
-    * `id` : UUID - Identificador único del suscriptor.
-    * `name` : String - Nombre o razón social.
-    * `email` : String - Correo electrónico de contacto.
+#### 2. Bounded Context: Devices
+Este contexto maneja el inventario, estado y configuración técnica de los sensores IoT físicos.
 
-### Clase: Subscription «Aggregate Root»
-**Descripción:** Entidad que gestiona el ciclo de vida del servicio contratado.
-* **Atributos:**
-    * `id` : UUID - Identificador de la suscripción.
-    * `startDate` : Date - Fecha de inicio del servicio.
-    * `status` : SubscriptionStatus - Estado (Activo, Cancelado, Pendiente).
-    * `price` : Money - Valor del servicio.
-* **Métodos:**
-    * `processRecurringBilling()` : void - Gestiona los cobros automáticos.
+<div align="center">
+  <img src="../assets/c4_diagrams/Diagrama_Devices.png" width ="100%">
+</div>
 
-### Clase: Plan «Value Object»
-**Descripción:** Define el tipo de plan y su costo asociado.
-* **Atributos:**
-    * `planType` : String - Categoría del plan.
-    * `price` : Money - Costo definido.
+**Diccionario de Clases de Dominio:**
+* **Clase `Device` (Aggregate Root):** Representa el hardware IoT instalado en la infraestructura hídrica.
+  * *Atributos:* `- Id : int`, `- OwnerId : int`, `- SerialNumber : string`, `- DeviceType : DeviceType`, `- DeviceStatus : DeviceStatus`, `- LastTelemetrySync : DateTimeOffset`, `- Name : string`, `- Location : string`, `- Unit : string`, `- CurrentValue : double`, `- DestinationId : int?`
+  * *Métodos:* `+ UpdateStatus(newStatus: DeviceStatus) : void`, `+ GoOffline() : void`, `+ AddThreshold(threshold: ThresholdConfiguration) : void`, `+ RecordReading(value: double) : void`
+* **Clase `ThresholdConfiguration`:** Configuración de los límites operativos permitidos para un dispositivo específico.
+  * *Atributos:* `- Id : int`, `- SensorId : int`, `- MinValue : double`, `- MaxValue : double`, `- Unit : string`, `- AlertLevel : AlertLevel`
+  * *Métodos:* `+ Update(maxValue: double) : void`
+* **Enumeraciones:** * `DeviceType`: PH, Turbidity, Pressure, Level, Chlorine, Flow.
+  * `DeviceStatus`: Normal, Warning, Alert, Offline.
+  * `AlertLevel`: Warning, Critical.
 
-### Clase: Payment «Value Object»
-**Descripción:** Información detallada de las transacciones de pago.
-* **Atributos:**
-    * `paymentId` : String - ID de transacción de la pasarela.
-    * `status` : PaymentStatus - Resultado del pago.
-    * `gatewayResponse` : String - Respuesta técnica del proveedor.
+#### 3. Bounded Context: Monitoring
+Este contexto encapsula el motor de alertas tempranas y la generación de órdenes de mantenimiento operativo.
 
----
+<div align="center">
+  <img src="../assets/c4_diagrams/Diagrama_Monitoring.png" width ="100%">
+</div>
 
-## Bounded Context: Resource & Asset Management (Sensors)
+**Diccionario de Clases de Dominio:**
+* **Clase `Alert` (Aggregate Root):** Almacena las anomalías detectadas por los dispositivos.
+  * *Atributos:* `- Id : int`, `- DeviceId : int`, `- DeviceName : string`, `- Location : string`, `- Type : string`, `- Severity : string`, `- Message : string`, `- Timestamp : DateTimeOffset`, `- Status : string`, `- Value : double`, `- Threshold : double`
+  * *Métodos:* `+ Resolve() : void`
+* **Clase `WorkOrder`:** Representa una orden de trabajo para mantenimiento en campo.
+  * *Atributos:* `- WorkOrderId : Guid`, `- AssignedTechnicianId : Guid?`, `- ScheduledDate : DateTimeOffset`, `- Status : WorkOrderStatus`
+  * *Métodos:* `+ AssignTechnician(Guid) : void`, `+ StartMaintenance() : void`, `+ AddFinding(MaintenanceFinding) : void`, `+ FinalizeWorkOrder(ResolutionDetails) : void`
+* **Clase `MaintenanceFinding`:** Hallazgos registrados durante la ejecución de una orden de trabajo.
+  * *Atributos:* `- Id : Guid`, `- Description : string`, `- RequiresFollowUp : bool`
+* **Enumeración:** `WorkOrderStatus` (Generated, Assigned, InProgress, Finalized).
 
-### Clase: Sensor «Aggregate Root»
-**Descripción:** Dispositivo IoT encargado de la recolección de datos en campo.
-* **Atributos:**
-    * `id` : UUID - ID único del dispositivo.
-    * `serialNumber` : String - Número de serie de fábrica.
-    * `deviceType` : String - Tipo de sensor (Flujo, Calidad, etc.).
-    * `currentStatus` : SensorStatus - Estado operativo actual.
-    * `lastTelemetrySync` : DateTime - Última sincronización de datos.
-* **Métodos:**
-    * `captureReadings()` : void - Activa la captura de datos.
-    * `processTelemetry()` : void - Procesa los datos crudos recibidos.
+#### 4. Bounded Context: Dashboard
+Este contexto se enfoca en el análisis detallado de la calidad del agua y la predicción de picos de contaminación.
 
-### Clase: TelemetryReading «Value Object»
-**Descripción:** Representa una lectura individual de telemetría.
-* **Atributos:**
-    * `timestamp` : DateTime - Fecha y hora de la lectura.
-    * `value` : Float - Valor numérico registrado.
-    * `unit` : String - Unidad de medida.
+<div align="center">
+  <img src="../assets/c4_diagrams/Diagrama_Dashboard.png" width ="100%">
+</div>
 
----
+**Diccionario de Clases de Dominio:**
+* **Clase `QualityAnalysis` (Aggregate Root):** Consolida la evaluación analítica de posibles anomalías hídricas.
+  * *Atributos:* `- Id : int`, `- SensorSourceId : int`, `- DetectedParameters : AnomalyType`, `- AnomalyStatus : AnomalyStatus`, `- SeverityScore : double`, `- HasContaminationPeakPrediction : bool`
+  * *Métodos:* `+ EvaluateAnomaly() : void`, `+ ConfirmAnomaly() : void`, `+ DismissAnomaly() : void`, `+ MarkContaminationPeakPrediction() : void`
+* **Enumeraciones:** * `AnomalyStatus`: Detected, Evaluated, Confirmed, Dismissed.
+  * `AnomalyType`: PH, Turbidity, Pressure, Level, Chlorine, Flow, DissolvedOxygen, Temperature.
 
-## Bounded Context: Dashboard & Analytics
+#### 5. Bounded Context: Service Design
+Este contexto administra la logística del agua tratada, trazando lotes (batches) hacia destinos específicos.
 
-### Clase: QualityAnalysis «Aggregate Root»
-**Descripción:** Proceso encargado de analizar los datos para asegurar los estándares de calidad.
-* **Atributos:**
-    * `analysisId` : UUID - Identificador del análisis.
-    * `sensorSourceId` : UUID - Referencia al sensor de origen.
-    * `timestamp` : DateTime - Fecha del análisis.
-* **Métodos:**
-    * `detectAnomaly()` : void - Identifica patrones fuera de lo normal.
-    * `generateAlert()` : void - Dispara alertas si se detectan fallos.
+<div align="center">
+  <img src="../assets/c4_diagrams/Diagrama_ServiceDesign.png" width ="100%">
+</div>
 
-### Clase: Anomaly «Value Object»
-**Descripción:** Registro detallado de una anomalía detectada.
-* **Atributos:**
-    * `detectedParameters` : List - Lista de parámetros afectados.
-    * `severityScore` : Integer - Nivel de severidad técnica.
-    * `anomalyStatus` : String - Estado actual de la anomalía.
-
----
-
-## Bounded Context: Service Execution & Monitoring (Maintenance)
-
-### Clase: WorkOrder «Aggregate Root»
-**Descripción:** Orden de trabajo generada para mantenimiento o inspección.
-* **Atributos:**
-    * `workOrderId` : UUID - ID único de la orden.
-    * `assignedTechnicianId` : UUID - ID del técnico asignado.
-    * `scheduledDate` : DateTime - Fecha programada para la ejecución.
-    * `status` : WorkOrderStatus - Estado de la orden.
-* **Métodos:**
-    * `reportFindings()` : void - Registra los hallazgos técnicos.
-
-### Clase: Technician «Entity»
-**Descripción:** Personal técnico encargado de las operaciones de campo.
-* **Atributos:**
-    * `id` : UUID - ID del técnico.
-    * `name` : String - Nombre completo.
-    * `availability` : Boolean - Disponibilidad para nuevas órdenes.
-
----
-
-## Bounded Context: Service Design & Planning (Distribution)
-
-### Clase: WaterBatch «Aggregate Root»
-**Descripción:** Lote de agua procesada que debe cumplir con normativas de distribución.
-* **Atributos:**
-    * `batchId` : UUID - ID del lote.
-    * `certificationCode` : String - Código de certificación sanitaria.
-    * `destinationSector` : String - Sector de destino de la red.
-    * `volumeLiters` : Float - Volumen total en litros.
-* **Métodos:**
-    * `certifyWaterQuality()` : void - Emite la certificación de calidad.
-    * `validateRegulatoryCompliance()` : void - Valida el cumplimiento de normas.
+**Diccionario de Clases de Dominio:**
+* **Clase `WaterBatch` (Aggregate Root):** Registra volúmenes de agua procesados listos para distribución.
+  * *Atributos:* `- Id : int`, `- DestinationId : int`, `- BatchNumber : string`, `- Volume : decimal`, `- TreatmentDate : DateTime`
+* **Clase `Destination`:** Entidad que define hacia dónde se redirigen los lotes de agua tratada.
+  * *Atributos:* `- Id : int`, `- Name : string`, `- Location : string`, `- Capacity : decimal`
